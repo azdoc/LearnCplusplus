@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+    <color name="green">#008000</color>
+    <color name="red">#FF0000</color>
+    <color name="grey">#DCDCDC</color>
+    <color name="custom_progress_background">#ff3c3a3b</color>
+    <color name="color_less_than_20">#FF3D00</color>
+    <color name="color_less_than_40">#FF9100</color>
+    <color name="color_less_than_60">#FFEA00</color>
+    <color name="color_less_than_80">#64DD17</color>
+    <color name="custom_progress_green_progress">#ff669900</color>
+    <color name="lighter_gray">#ddd</color>
+    <color name="dim_gray">#696969</color>
+    <color name="transparent">#00000000</color>
+    <!-- card colors -->
+    <color name="card_background">#ffffff</color>
+    <color name="card_shadow_1">#d4d4d4</color>
+    <color name="card_shadow_2">#dddddd</color>
+    <color name="card_detailing">#eee</color>
+</resources>

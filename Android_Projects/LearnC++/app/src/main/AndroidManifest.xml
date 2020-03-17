@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cplusplus.learn.trinity.learnc">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activites.HomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".utilities.CommonActivity" />
+        <activity
+            android:name=".activites.TutorialsHomeActivity"
+            android:label="@string/title_activity_tutorials_home"
+            android:parentActivityName=".activites.HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cplusplus.learn.trinity.learnc.activites.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".activites.ProgramsCategoryActivity"
+            android:label="@string/title_activity_programs_category"
+            android:parentActivityName=".activites.HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cplusplus.learn.trinity.learnc.activites.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".activites.QuizHomeActivity"
+            android:label="@string/title_activity_quiz_home"
+            android:parentActivityName=".activites.HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cplusplus.learn.trinity.learnc.activites.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".activites.QuizActivity"
+            android:label="@string/title_activity_quiz_home"
+            android:parentActivityName=".activites.QuizHomeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cplusplus.learn.trinity.learnc.activites.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".activites.FrequentQuestionsActivity"
+            android:label="@string/title_activity_frequent_questions"
+            android:parentActivityName=".activites.HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cplusplus.learn.trinity.learnc.activites.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".activites.InterviewQuestionsActivity"
+            android:label="@string/title_activity_interview_questions"
+            android:parentActivityName=".activites.HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cplusplus.learn.trinity.learnc.activites.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".activites.TutorialDispalyActivity"
+            android:label="@string/title_activity_tutorial_dispaly"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cplusplus.learn.trinity.learnc.activites.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".activites.ProgramListActivity"
+            android:label="@string/title_activity_program_list"
+            android:parentActivityName=".activites.ProgramsCategoryActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cplusplus.learn.trinity.learnc.activites.ProgramsCategoryActivity" />
+        </activity>
+        <activity
+            android:name=".activites.FavouritesActivity"
+            android:label="@string/title_activity_favourites"
+            android:parentActivityName=".activites.HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cplusplus.learn.trinity.learnc.activites.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".activites.SetFontSizeActivity"
+            android:label="@string/title_activity_setFontSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cplusplus.learn.trinity.learnc.activites.HomeActivity" />
+        </activity>
+    </application>
+
+</manifest>

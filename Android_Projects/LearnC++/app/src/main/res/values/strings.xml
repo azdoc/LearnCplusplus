@@ -1,0 +1,4990 @@
+<resources>
+    <string name="app_name">Learn C++</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="note">Note:\nFont size will  change in Tutorials and Programs</string>
+    <string name="title_activity_tutorials_home">Tutorials</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_programs_category">Programs Categories</string>
+    <string name="title_activity_quiz_home">Quiz</string>
+    <string name="title_activity_frequent_questions">FAQs</string>
+    <string name="title_activity_interview_questions">Interview Questions</string>
+    <string name="title_activity_tutorial_dispaly">Tutorial</string>
+
+    <string name="tutorial_basic_what_is_cpp" formatted="false">
+        <![CDATA[
+•	<b>C++</b> is a statically typed, compiled, general-purpose, case-sensitive, free-form programming language that supports procedural, object-oriented, and generic programming.<br><br>
+•	<b>C++</b> is regarded as a middle-level language, as it comprises a combination of both high-level and low-level language features.<br><br>
+•	<b>C++</b> was developed by Bjarne Stroustrup starting in 1979 at Bell Labs in Murray Hill, New Jersey, as an enhancement to the C language and originally named C with Classes but later it was renamed <b>C++</b> in 1983.<br><br>
+•	<b>C++</b> is a superset of C, and that virtually any legal C program is a legal <b>C++</b> program.<br><br>
+•	<b>C++</b> fully supports object-oriented programming, including the four pillars of object-oriented development:<br><br>
+o	Encapsulation<br><br>
+o	Data hiding<br><br>
+o	Inheritance<br><br>
+o	Polymorphism<br><br>
+•	By the help of <b>C++</b> programming language, we can develop different types of secured and robust applications:<br><br>
+o	Window application<br><br>
+o	Client-Server application<br><br>
+o	Device drivers<br><br>
+o	Embedded firmware etc<br><br>
+        ]]>
+    </string>
+    <string name="tutorial_basic_features" formatted="false">
+        <![CDATA[
+<img src="file:///android_asset/images/basic_features.png"  height="300" width="300"/><br><br>
+<b>1) Simple</b><br><br>
+C++ is a simple language in the sense that it provides structured approach (to break the problem into parts), rich set of library functions, data types etc.<br><br>
+<b>2) Machine Independent or Portable</b><br><br>
+Unlike assembly language, c programs can be executed in many machines with little bit or no change. But it is not platform-independent.<br><br>
+<b>3) Mid-level programming language</b><br><br>
+C++ is also used to do low level programming. It is used to develop system applications such as kernel, driver etc. It also supports the feature of high level language. That is why it is known as mid-level language.<br><br>
+<b>4) Structured programming language</b><br><br>
+C++ is a structured programming language in the sense that we can break the program into parts using functions. So, it is easy to understand and modify.<br><br>
+<b>5) Rich Library</b><br><br>
+C++ provides a lot of inbuilt functions that makes the development fast.<br><br>
+<b>6) Memory Management</b><br><br>
+It supports the feature of dynamic memory allocation. In C++ language, we can free the allocated memory at any time by calling the free() function.<br><br>
+<b>7) Speed</b><br><br>
+The compilation and execution time of C++ language is fast.<br><br>
+<b>8) Pointer</b><br><br>
+C++ provides the feature of pointers. We can directly interact with the memory by using the pointers. We can use pointers for memory, structures, functions, array etc.<br><br>
+<b>9) Recursion</b><br><br>
+In C++, we can call the function within the function. It provides code reusability for every function.<br><br>
+<b>10) Extensible</b><br><br>
+C++ language is extensible because it can easily adopt new features.<br><br>
+<b>11) Object Oriented</b><br><br>
+C++ is object oriented programming language. OOPs makes development and maintenance easier where as in Procedure-oriented programming language it is not easy to manage if code grows as project size grows.<br><br>
+<b>12) Compiler based</b><br><br>
+C++ is a compiler based programming language, it means without compilation no C++ program can be executed. First we need to compile our program using compiler and then we can execute our program.<br><br>
+         ]]>
+    </string>
+    <string name="tutorial_basic_why_learn_cpp" formatted="false">
+        <![CDATA[
+•	5 reasons why you should learn <b>C++</b>:<br><br>
+1.	<b>C++</b> is irreplaceable<br><br>
+o	With the use of <b>C++</b> in development of modern games, operating systems, browsers, and much more, it is safe to say that <b>C++</b> is irreplaceable.<br><br>
+o	Many major applications like<br><br>
+	Adobe Products like Photoshop, Illustrator, InDesign<br><br>
+	Amazon - one of the biggest e-commerce sites<br><br>
+	Autodesk products for Computer Aided Design<br><br>
+	Facebook - social networking site are heavy <b>C++</b> centric products.<br><br>
+2.	You learn the internal architecture of a computer<br><br>
+o	Since, <b>C++</b> is a middle level language, you will write code that interacts directly with the internal hardware of the computer.<br><br>
+3.	Over 600,000 <b>C++</b> repositories on Github<br><br>
+o	Github, the leading open source collaboration platform, has over 600,000 repositories for <b>C++</b> alone.<br><br>
+o	This metric itself proves the worth of <b>C++</b> in the open source community as well.<br><br>
+4.	60% StackOverflow Answer rate and active community<br><br>
+o	Likewise, with over 400,000 <b>C++</b> questions asked on StackOverflow, the number one Q&A platform for developers, more than 60% questions have been answered.<br><br>
+5.	<b>C++</b> job opportunities and salary<br><br>
+         ]]>
+    </string>
+    <string name="tutorial_basic_installation" formatted="false">
+        <![CDATA[
+There are many compilers available for <b>C++</b>. You need to download any one. Here, we are going to use Turbo <b>C++</b>. It will work for both C and <b>C++</b>. To install the Turbo <b>C++</b> software, you need to follow following steps.<br></br>
+1.	Download Turbo <b>C++</b><br></br>
+2.	Create turboc directory inside c drive and extract the tc3.zip inside c:\turboc<br></br>
+3.	Double click on install.exe file<br></br>
+4.	Click on the tc application file located inside c:\TC\BIN to write the c program<br></br>
+<br></br>
+         ]]>
+    </string>
+    <string name="tutorial_basic_first_program" formatted="false">
+        <![CDATA[
+Before starting the abcd of C++ language, you need to learn how to write, compile and run the first C++ program.<br></br>
+To write the first C++ program, open the C++ console and write the following code:<br></br>
+#include <iostream.h>  <br></br>
+#include<conio.h>  <br></br>
+void main() {  <br></br>
+clrscr();  <br></br>
+cout << "Welcome to C++ Programming.";   <br></br>
+getch();  <br></br>
+}  <br></br>
+<br></br>
+#include<iostream.h> includes the standard input output library functions. It provides cin and cout methods for reading from input and writing to output respectively.<br></br>
+#include includes the console input output library functions. The getch() function is defined in conio.h file.<br></br>
+void main() The main() function is the entry point of every program in C++ language. The void keyword specifies that it returns no value.<br></br>
+cout << "Welcome to C++ Programming." is used to print the data "Welcome to C++ Programming." on the console.<br></br>
+getch() The getch() function asks for a single character. Until you press any key, it blocks the screen.<br></br>
+There are 2 ways to compile and run the C++ program, by menu and by shortcut.<br></br>
+By menu<br></br>
+Now click on the compile menu then compile sub menu to compile the c++ program.<br></br>
+Then click on the run menu then run sub menu to run the c++ program.<br></br>
+By shortcut<br></br>
+Or, press ctrl+f9 keys compile and run the program directly.<br></br>
+<br></br>
+         ]]>
+    </string>
+    <string name="tutorial_basic_variables" formatted="false">
+        <![CDATA[
+A variable is a name of memory location. It is used to store data. Its value can be changed and it can be reused many times.<br></br>
+It is a way to represent memory location through symbol so that it can be easily identified.<br></br>
+Let\'s see the syntax to declare a variable:<br></br>
+type variable_list; <br></br>
+Each variable while decalration must be given a datatype,on which the memory assigned to the variable depends.<br></br>
+The example of declaring variable is given below:<br></br>
+1.	int x;    <br></br>
+2.	float y;    <br></br>
+3.	char z; <br></br>
+<br></br>
+Here, x, y, z are variables and int, float, char are data types.<br></br>
+We can also provide values while declaring the variables as given below:<br></br>
+1.	int x=5,b=10;  //declaring 2 variable of integer type    <br></br>
+2.	float f=30.8;    <br></br>
+3.	char c=\'A\';   <br></br>
+<br></br>
+         ]]>
+    </string>
+    <string name="tutorial_basic_rules_variables" formatted="false">
+        <![CDATA[ppppppppp
+A variable can have alphabets, digits and underscore.<br></br>
+A variable name can start with alphabet and underscore only. It can\'t start with digit.<br></br>
+No white space is allowed within variable name.<br></br>
+A variable name must not be any reserved word or keyword e.g. char, float etc.<br></br>
+Valid variable names:<br></br>
+<br></br>
+1.	int a;    <br></br>
+2.	int _ab;    <br></br>
+3.	int a30;    <br></br>
+<br></br>
+Invalid variable names:<br></br>
+1.	int 4;    <br></br>
+2.	int x y;    <br></br>
+3.	int double; <br></br>
+<br></br>
+         ]]>
+    </string>
+    <string name="tutorial_basic_declaration" formatted="false">
+        <![CDATA[
+Variable must be declared before they are used. Usually it is preferred to declare them at the starting of the program, but in C++ they can be declared in the middle of program too, but must be done before using them.<br></br>
+Example :<br></br>
+int i;      // declared but not initialised<br></br>
+char c; <br></br>
+int i, j, k;  // Multiple declaration<br></br>
+Initialization means assigning value to an already declared variable,<br></br>
+int i;   // declaration<br></br>
+i = 10;  // initialization<br></br>
+Initialization and declaration can be done in one single step also,<br></br>
+int i=10;         //initialization and declaration in same step<br></br>
+int i=10, j=11;<br></br>
+If a variable is declared and not initialized by default it will hold a garbage value. Also, if a variable is once declared and if try to declare it again, we will get a compile time error.<br></br>
+int i,j;<br></br>
+i=10;<br></br>
+j=20;<br></br>
+int j=i+j;   //compile time error, cannot redeclare a variable in same scope<br></br>
+<br></br>
+         ]]>
+    </string>
+    <string name="tutorial_basic_scope_of_var" formatted="false">
+        <![CDATA[
+All the variables have their area of functioning, and out of that boundary they don\'t hold their value, this boundary is called scope of the variable. For most of the cases its between the curly braces,in which variable is declared that a variable exists, not outside it. We will study the storage classes later, but as of now, we can broadly divide variables into two main types,<br></br>
+•	Global Variables<br></br>
+•	Local variables<br></br>
+<br></br>
+Global variables<br></br>
+Global variables are those, which ar once declared and can be used throughout the lifetime of the program by any class or any function. They must be declared outside the main() function. If only declared, they can be assigned different values at different time in program lifetime. But even if they are declared and initialized at the same time outside the main() function, then also they can be assigned any value at any point in the program.<br></br>
+Example : Only declared, not initialized<br></br>
+include <iostream><br></br>
+using namespace std;<br></br>
+int x;                // Global variable declared<br></br>
+int main()<br></br>
+{<br></br>
+ x=10;                 // Initialized once<br></br>
+ cout <<"first value of x = "<< x;<br></br>
+ x=20;                 // Initialized again<br></br>
+ cout <<"Initialized again with value = "<< x;<br></br>
+}<br></br>
+<br></br>
+Local Variables<br></br>
+Local variables are the variables which exist only between the curly braces, in which its declared. Outside that they are unavailable and leads to compile time error.<br></br>
+Example :<br></br>
+include <iostream><br></br>
+using namespace std;<br></br>
+int main()<br></br>
+{<br></br>
+ int i=10;<br></br>
+ if(i<20)        // if condition scope starts<br></br>
+  {<br></br>
+    int n=100;   // Local variable declared and initialized<br></br>
+  }              // if condition scope ends<br></br>
+ cout << n;      // Compile time error, n not available here<br></br>
+}<br></br>
+________________________________________<br></br>
+Some special types of variable<br></br>
+There are also some special keywords, to impart unique characteristics to the variables in the program. Following two are mostly used, we will discuss them in details later.<br></br>
+1.	Final - Once initialized, its value cannot be changed.<br></br>
+2.	Static - These variables holds their value between function calls.<br></br>
+Example :<br></br>
+#include <iostream.h><br></br>
+using namespace std;<br></br>
+int main()<br></br>
+{<br></br>
+ final int i=10;<br></br>
+ static int y=20;<br></br>
+}<br></br>
+<br></br>
+         ]]>
+    </string>
+    <string name="tutorial_basic_types_datatypes" formatted="false">
+        <![CDATA[
+<img src="file:///android_asset/images/basic_datatypes_1.png"  height="300" width="300"/><br><br>
+There are 4 types of data types in C++ language.<br></br>
+<img src="file:///android_asset/images/basic_datatypes_2.png"  height="300" width="300"/><br><br>
+<h3>Basic Data Types</h3><br></br>
+The basic data types are integer-based and floating-point based. C++ language supports both signed and unsigned literals.<br></br>
+The memory size of basic data types may change according to 32 or 64 bit operating system.<br></br>
+Let\'s see the basic data types. It size is given according to 32 bit OS.<br></br>
+<img src="file:///android_asset/images/basic_datatypes_3.png"  height="300" width="300"/><br><br>
+User defined or Abstract data types<br></br>
+These are the type, that user creates as a class. In C++ these are classes where as in C it was implemented by structures.<br></br>
+Enum as Data type<br></br>
+Enumerated type declares a new type-name and a sequence of value containing identifiers which has values starting from 0 and incrementing by 1 every time.<br></br>
+For Example :<br></br>
+enum day(mon, tues, wed, thurs, fri) d;<br></br>
+Here an enumeration of days is defined with variable d. mon will hold value 0, tue will have 1 and so on. We can also explicitly assign values, like, enum day(mon, tue=7, wed);. Here, mon will be 0, tue is assigned 7, so wed will have value 8.<br></br>
+         ]]>
+    </string>
+    <string name="tutorial_basic_modifiers" formatted="false">
+        <![CDATA[
+Specifiers modify the meanings of the predefined built-in data types and expand them to a much larger set. There are four data type modifiers in C++, they are :<br></br>
+1.	long<br></br>
+2.	short<br></br>
+3.	signed<br></br>
+4.	unsigned<br></br>
+Below mentioned are some important points you must know about the modifiers,<br></br>
+•	long and short modify the maximum and minimum values that a data type will hold.<br></br>
+•	A plain int must have a minimum size of short.<br></br>
+•	Size hierarchy : short int < int < long int<br></br>
+•	Size hierarchy for floating point numbers is : float < double < long double<br></br>
+•	long float is not a legal type and there are no short floating point numbers.<br></br>
+•	Signed types includes both positive and negative numbers and is the default type.<br></br>
+•	Unsigned, numbers are always without any sign, that is always positive.<br></br>
+<br></br>
+         ]]>
+    </string>
+    <string name="tutorial_basic_keywords" formatted="false">
+        <![CDATA[
+A keyword is a reserved word. You cannot use it as a variable name, constant name etc. A list of 32 Keywords in C++ Language which are also available in C language are given below.<br></br>
+<img src="file:///android_asset/images/basic_keyword_1.png"  height="300" width="300"/><br><br>
+A list of 30 Keywords in C++ Language which are not available in C language are given below.<br></br>
+<img src="file:///android_asset/images/basic_keyword_2.png"  height="300" width="300"/><br><br>
+         ]]>
+    </string>
+    <string name="tutorial_basic_operators" formatted="false">
+        <![CDATA[
+        An operator is simply a symbol that is used to perform operations. There can be many types of operations like arithmetic, logical, bitwise etc.<br></br>
+In simple words , Operators are special type of functions, that takes one or more arguments and produces a new value<br></br>
+Operators are used to perform various operations on variables and constants.<br></br>
+There are following types of operators to perform different types of operations in C language.<br></br>
+1.	Assignment Operator<br></br>
+2.	Mathematical Operators<br></br>
+3.	Relational Operators<br></br>
+4.	Logical Operators<br></br>
+5.	Bitwise Operators<br></br>
+6.	Shift Operators<br></br>
+7.	Unary Operators<br></br>
+8.	Ternary Operator<br></br>
+9.	Comma Operator<br></br>
+<br></br>
+         ]]>
+    </string>
+    <string name="tutorial_basic_operators_syntax" formatted="false">
+        <![CDATA[
+Assignment Operator ( = )<br></br>
+Operates \'=\' is used for assignment, it takes the right-hand side (called rvalue) and copy it into the left-hand side (called lvalue). Assignment operator is the only operator which can be overloaded but cannot be inherited.<br></br>
+________________________________________<br></br>
+Mathematical Operators<br></br>
+There are operators used to perform basic mathematical operations. Addition (+) , subtraction (-) , diversion (/) multiplication (*) and modulus (%) are the basic mathematical operators. Modulus operator cannot be used with floating-point numbers.<br></br>
+C++ and C also use a shorthand notation to perform an operation and assignment at same type. Example,<br></br>
+int x=10;<br></br>
+x += 4 // will add 4 to 10, and hence assign 14 to X. <br></br>
+x -= 5 // will subtract 5 from 10 and assign 5 to x.<br></br>
+<br></br>
+Relational Operators<br></br>
+These operators establish a relationship between operands. The relational operators are : less than (<) , grater thatn (>) , less than or equal to (<=), greater than equal to (>=), equivalent (==) and not equivalent (!=).<br></br>
+You must notice that assignment operator is (=) and there is a relational operator, for equivalent (==). These two are different from each other, the assignment operator assigns the value to any variable, whereas equivalent operator is used to compare values, like in if-else conditions, Example<br></br>
+int x = 10;  //assignment operator<br></br>
+x=5;         // again assignment operator <br></br>
+if(x == 5)   // here we have used equivalent relational operator, for comparison<br></br>
+{<br></br>
+ cout <<"Successfully compared";<br></br>
+} <br></br>
+<br></br>
+Logical Operators<br></br>
+The logical operators are AND (&&) and OR (||). They are used to combine two different expressions together.<br></br>
+If two statement are connected using AND operator, the validity of both statements will be considered, but if they are connected using OR operator, then either one of them must be valid. These operators are mostly used in loops (especially while loop) and in Decision making.<br></br>
+________________________________________<br></br>
+Bitwise Operators<br></br>
+There are used to change individual bits into a number. They work with only integral data types like char, int and long and not with floating point values.<br></br>
+•	Bitwise AND operators &<br></br>
+•	Bitwise OR operator |<br></br>
+•	And bitwise XOR operator ^<br></br>
+•	And, bitwise NOT operator ~<br></br>
+They can be used as shorthand notation too, & = , |= , ^= , ~= etc.<br></br>
+________________________________________<br></br>
+Shift Operators<br></br>
+Shift Operators are used to shift Bits of any variable. It is of three types,<br></br>
+1.	Left Shift Operator <<<br></br>
+2.	Right Shift Operator >><br></br>
+3.	Unsigned Right Shift Operator >>><br></br>
+<br></br>
+Unary Operators<br></br>
+These are the operators which work on only one operand. There are many unary operators, but increment ++and decrement -- operators are most used.<br></br>
+Other Unary Operators : address of &, dereference *, new and delete, bitwise not ~, logical not !, unary minus - and unary plus +.<br></br>
+________________________________________<br></br>
+Ternary Operator<br></br>
+The ternary if-else ? : is an operator which has three operands.<br></br>
+int a = 10;<br></br>
+a > 5 ? cout << "true" : cout << "false"<br></br>
+________________________________________<br></br>
+Comma Operator<br></br>
+This is used to separate variable names and to separate expressions. In case of expressions, the value of last expression is produced and used.<br></br>
+Example :<br></br>
+int a,b,c; // variables declaration using comma operator<br></br>
+a=b++, c++; // a = c++ will be done.<br></br>
+<br></br>
+         ]]>
+    </string>
+    <string name="tutorial_basic_sizeof" formatted="false">
+        <![CDATA[
+sizeof operator in C++<br></br>
+sizeOf is also an operator not a function, it is used to get information about the amount of memory allocated for data types & Objects. It can be used to get size of user defined data types too.<br></br>
+sizeOf operator can be used with and without parentheses. If you apply it to a variable you can use it without parentheses.<br></br>
+cout << sizeOf(double);   //Will print size of double<br></br>
+int x = 2;<br></br>
+int i = sizeOf x;<br></br>
+________________________________________<br></br>
+typedef Operator<br></br>
+typedef is a keyword used in C language to assign alternative names to existing types. Its mostly used with user defined data types, when names of data types get slightly complicated. Following is the general syntax for using typedef,<br></br>
+typedef existing_name alias_name<br></br>
+<br></br>
+<br></br>
+Lets take an example and see how typedef actually works.<br></br>
+typedef unsigned long ulong;<br></br>
+The above statement define a term ulong for an unsigned long type. Now this ulong identifier can be used to define unsigned long type variables.<br></br>
+ulong i, j;<br></br>
+________________________________________<br></br>
+typedef and Pointers<br></br>
+typedef can be used to give an alias name to pointers also. Here we have a case in which use of typedef is beneficial during pointer declaration.<br></br>
+In Pointers * binds to the right and not the left.<br></br>
+int* x, y ;<br></br>
+By this declaration statement, we are actually declaring x as a pointer of type int, whereas y will be declared as a plain integer.<br></br>
+typedef int* IntPtr ;<br></br>
+IntPtr x, y, z;<br></br>
+But if we use typedef like in above example, we can declare any number of pointers in a single statement.<br></br>
+<br></br>
+         ]]>
+    </string>
+    <string name="tutorial_basic_if" formatted="false">
+        <![CDATA[
+        Simple if statement<br></br>
+The general form of a simple if statement is,<br></br>
+if( expression )<br></br>
+{<br></br>
+ statement-inside;<br></br>
+}<br></br>
+ statement-outside;<br></br>
+If the expression is true, then \'statement-inside\' it will be executed, otherwise \'statement-inside\' is skipped and only \'statement-outside\' is executed.<br></br>
+Example :<br></br>
+#include< iostream.h><br></br>
+int main( )<br></br>
+{<br></br>
+ int x,y;<br></br>
+ x=15;<br></br>
+ y=13;<br></br>
+ if (x > y )<br></br>
+ {<br></br>
+  cout << "x is greater than y";<br></br>
+ }<br></br>
+}<br></br>
+Output :<br></br>
+x is greater than y<br></br>
+<br></br>
+         ]]>
+    </string>
+    <string name="tutorial_basic_if_else" formatted="false">
+        <![CDATA[
+if...else statement<br></br>
+The general form of a simple if...else statement is,<br></br>
+if( expression )<br></br>
+{<br></br>
+ statement-block1;<br></br>
+}<br></br>
+else<br></br>
+{<br></br>
+ statement-block2;<br></br>
+}<br></br>
+If the \'expression\' is true, the \'statement-block1\' is executed, else \'statement-block1\' is skipped and \'statement-block2\' is executed.<br></br>
+Example :<br></br>
+void main( )<br></br>
+{<br></br>
+ int x,y;<br></br>
+ x=15;<br></br>
+ y=18;<br></br>
+ if (x > y )<br></br>
+ {<br></br>
+  cout << "x is greater than y";<br></br>
+ }<br></br>
+ else<br></br>
+ {<br></br>
+  cout << "y is greater than x";<br></br>
+ }<br></br>
+}<br></br>
+Output :<br></br>
+y is greater than x<br></br>
+________________________________________<br></br>
+<br></br>
+         ]]>
+    </string>
+    <string name="tutorial_basic_nested_if" formatted="false">
+        <![CDATA[
+Nested if....else statement<br></br>
+The general form of a nested if...else statement is,<br></br>
+if( expression )<br></br>
+{<br></br>
+  if( expression1 )<br></br>
+   {<br></br>
+     statement-block1;<br></br>
+   }<br></br>
+  else <br></br>
+   {<br></br>
+     statement-block2;<br></br>
+   }<br></br>
+}<br></br>
+else<br></br>
+{<br></br>
+ statement-block3;<br></br>
+}<br></br>
+if \'expression\' is false the \'statement-block3\' will be executed, otherwise it continues to perform the test for \'expression 1\' . If the \'expression 1\' is true the \'statement-block1\' is executed otherwise \'statement-block2\' is executed.<br></br>
+Example :<br></br>
+void main( )<br></br>
+{<br></br>
+ int a,b,c;<br></br>
+ clrscr();<br></br>
+ cout << "enter 3 number";<br></br>
+ cin >> a >> b >> c;<br></br>
+ if(a > b)<br></br>
+ {<br></br>
+  if( a > c)<br></br>
+  {<br></br>
+    cout << "a is greatest";<br></br>
+  }<br></br>
+  else <br></br>
+  {<br></br>
+    cout << "c is greatest";<br></br>
+  }<br></br>
+ }<br></br>
+ else<br></br>
+ {<br></br>
+  if( b> c)<br></br>
+   {<br></br>
+     cout << "b is greatest";<br></br>
+   }<br></br>
+  else<br></br>
+   {<br></br>
+     printf("c is greatest");<br></br>
+   }<br></br>
+  }<br></br>
+getch();<br></br>
+} <br></br>
+________________________________________<br></br>
+<br></br>
+         ]]>
+    </string>
+    <string name="tutorial_basic_else_if" formatted="false">
+        <![CDATA[
+else-if ladder<br></br>
+The general form of else-if ladder is,<br></br>
+if(expression 1)<br></br>
+{<br></br>
+ statement-block1;<br></br>
+}<br></br>
+else if(expression 2) <br></br>
+{<br></br>
+ statement-block2;<br></br>
+}<br></br>
+else if(expression 3 ) <br></br>
+{<br></br>
+ statement-block3;<br></br>
+}<br></br>
+else <br></br>
+ default-statement;<br></br>
+The expression is tested from the top(of the ladder) downwards. As soon as the true condition is found, the statement associated with it is executed.<br></br>
+Example :<br></br>
+void main( )<br></br>
+{<br></br>
+ int a;<br></br>
+ cout << "enter a number";<br></br>
+ cin >> a;<br></br>
+ if( a%5==0 && a%8==0)<br></br>
+ {<br></br>
+  cout << "divisible by both 5 and 8";<br></br>
+ }  <br></br>
+ else if( a%8==0 )<br></br>
+ {<br></br>
+  cout << "divisible by 8";<br></br>
+ }<br></br>
+ else if(a%5==0)<br></br>
+ {<br></br>
+  cout << "divisible by 5";<br></br>
+ }<br></br>
+ else <br></br>
+ {<br></br>
+  cout << "divisible by none";<br></br>
+ }<br></br>
+getch();<br></br>
+}<br></br>
+________________________________________<br></br>
+Points to Remember<br></br>
+1.	In if statement, a single statement can be included without enclosing it into curly braces { }<br></br>
+2.	int a = 5;<br></br>
+3.	if(a > 4)<br></br>
+4.	  cout << "success";<br></br>
+No curly braces are required in the above case, but if we have more than one statement inside if condition, then we must enclose them inside curly braces.<br></br>
+5.	== must be used for comparison in the expression of if condition, if you use = the expression will always return true, because it performs assignment not comparison.<br></br>
+6.	Other than 0(zero), all other values are considered as true.<br></br>
+7.	if(27)<br></br>
+8.	 cout << "hello";<br></br>
+In above example, hello will be printed.<br></br>
+<br></br>
+         ]]>
+    </string>
+    <string name="tutorial_basic_while_loop" formatted="false">
+        <![CDATA[
+while loop<br></br>
+while loop can be address as an entry control loop. It is completed in 3 steps.<br></br>
+•	Variable initialization.( e.g int x=0; )<br></br>
+•	condition( e.g while( x<=10) )<br></br>
+•	Variable increment or decrement ( x++ or x-- or x=x+2 )<br></br>
+Syntax :<br></br>
+variable initialization ;<br></br>
+while (condition)<br></br>
+{<br></br>
+ statements ;<br></br>
+ variable increment or decrement ; <br></br>
+}<br></br>
+<br></br>
+         ]]>
+    </string>
+    <string name="tutorial_basic_for_loop" formatted="false">
+        <![CDATA[
+for loop<br></br>
+for loop is used to execute a set of statement repeatedly until a particular condition is satisfied. we can say it an open ended loop. General format is,<br></br>
+for(initialization; condition ; increment/decrement)<br></br>
+{<br></br>
+  statement-block;<br></br>
+}<br></br>
+In for loop we have exactly two semicolons, one after initialization and second after condition. In this loop we can have more than one initialization or increment/decrement, separated using comma operator. for loop can have only one condition.<br></br>
+<br></br>
+         ]]>
+    </string>
+    <string name="tutorial_basic_do_while" formatted="false">
+        <![CDATA[
+do while loop<br></br>
+In some situations it is necessary to execute body of the loop before testing the condition. Such situations can be handled with the help of do-while loop. do statement evaluates the body of the loop first and at the end, the condition is checked using while statement. General format of do-while loop is,<br></br>
+do<br></br>
+{<br></br>
+ ....<br></br>
+ .....<br></br>
+}<br></br>
+while(condition);<br></br>
+<br></br>
+         ]]>
+    </string>
+    <string name="tutorial_basic_storage" formatted="false">
+        <![CDATA[
+Storage classes are used to specify the lifetime and scope of variables. How storage is allocated for variables and How variable is treated by complier depends on these storage classes.<br></br>
+These are basically divided into 5 different types :<br></br>
+1.	Global variables<br></br>
+2.	Local variables<br></br>
+3.	Register variables<br></br>
+4.	Static variables<br></br>
+5.	Extern variables<br></br>
+________________________________________<br></br>
+Global Variables<br></br>
+These are defined at the starting , before all function bodies and are available throughout the program.<br></br>
+using namespace std;<br></br>
+int globe;      // Global variable<br></br>
+void func();<br></br>
+int main()<br></br>
+{<br></br>
+ .....<br></br>
+}<br></br>
+________________________________________<br></br>
+Local variables<br></br>
+They are defined and are available within a particular scope. They are also called Automatic variable because they come into being when scope is entered and automatically go away when the scope ends.<br></br>
+The keyword auto is used, but by default all local variables are auto, so we don\'t have to explicitly add keyword auto before variable dedaration. Default value of such variable is garbage.<br></br>
+________________________________________<br></br>
+Register variables<br></br>
+This is also a type of local variable. This keyword is used to tell the compiler to make access to this variable as fast as possible. Variables are stored in registers to increase the access speed.<br></br>
+But you can never use or compute address of register variable and also , a register variable can be declared only within a block, that means, you cannot have global or static register variables.<br></br>
+________________________________________<br></br>
+Static Variables<br></br>
+Static variables are the variables which are initialized & allocated storage only once at the beginning of program execution, no matter how many times they are used and called in the program. A static variable retains its value until the end of program.<br></br>
+void fun()<br></br>
+{<br></br>
+ static int i = 10;<br></br>
+ i++;<br></br>
+ cout << i;<br></br>
+}<br></br>
+int main()<br></br>
+{<br></br>
+ fun();      // Output = 11<br></br>
+ fun();      // Output = 12<br></br>
+ fun();      // Output = 13<br></br>
+}<br></br>
+As, i is static, hence it will retain its value through function calls, and is initialized only once at the beginning.<br></br>
+Static specifiers are also used in classes, but that we will learn later.<br></br>
+________________________________________<br></br>
+Extern Variables<br></br>
+This keyword is used to access variable in a file which is declared & defined in some other file, that is the existence of a global variable in one file is declared using extern keyword in another file.<br></br>
+<img src="file:///android_asset/images/basic_storage.png"  height="300" width="300"/><br><br>
+         ]]>
+    </string>
+    <string name="tutorial_basic_function_syntax" formatted="false">
+        <![CDATA[
+Functions are used to provide modularity to a program. Creating an application using function makes it easier to understand, edit, check errors etc.<br></br>
+________________________________________<br></br>
+Syntax of Function<br></br>
+return-type function-name (parameters)<br></br>
+{<br></br>
+ // function-body<br></br>
+}<br></br>
+•	return-type : suggests what the function will return. It can be int, char, some pointer or even a class object. There can be functions which does not return anything, they are mentioned with void.<br></br>
+•	Function Name : is the name of the function, using the function name it is called.<br></br>
+•	Parameters : are variables to hold values of arguments passed while function is called. A function may or may not contain parameter list.<br></br>
+•	void sum(int x, int y)<br></br>
+•	{<br></br>
+•	 int z;<br></br>
+•	 z = x + y;<br></br>
+•	 cout << z;<br></br>
+•	}<br></br>
+•	<br></br>
+•	int main()<br></br>
+•	{<br></br>
+•	 int a = 10;<br></br>
+•	 int b = 20;<br></br>
+•	 sum (a, b);<br></br>
+•	}<br></br>
+Here, a and b are sent as arguments, and x and y are parameters which will hold values of a and b to perform required operation inside function.<br></br>
+•	Function body : is he part where the code statements are written.<br></br>
+<br></br>
+         ]]>
+    </string>
+    <string name="tutorial_basic_calling_function" formatted="false">
+        <![CDATA[
+Declaring, Defining and Calling Function<br></br>
+Function declaration, is done to tell the compiler about the existence of the function. Function\'s return type, its name & parameter list is mentioned. Function body is written in its definition. Lets understand this with help of an example.<br></br>
+#include < iostream><br></br>
+using namespace std;<br></br>
+int sum (int x, int y);   //declaring function<br></br>
+int main()<br></br>
+{<br></br>
+ int a = 10;<br></br>
+ int b = 20;<br></br>
+ int c = sum (a, b);   //calling function<br></br>
+ cout << c;<br></br>
+}<br></br>
+int sum (int x, int y)   //defining function<br></br>
+{<br></br>
+ return (X + y);<br></br>
+}<br></br>
+Here, initially the function is declared, without body. Then inside main() function it is called, as the function returns sumation of two values, hence z is their to store the value of sum. Then, at last, function is defined, where the body of function is mentioned. We can also, declare & define the function together, but then it should be done before it is called.<br></br>
+________________________________________<br></br>
+Calling a Function<br></br>
+Functions are called by their names. If the function is without argument, it can be called directly using its name. But for functions with arguments, we have two ways to call them,<br></br>
+1.	Call by Value<br></br>
+2.	Call by Reference<br></br>
+________________________________________<br></br>
+Call by Value<br></br>
+In this calling technique we pass the values of arguments which are stored or copied into the formal parameters of functions. Hence, the original values are unchanged only the parameters inside function changes.<br></br>
+void calc(int x);<br></br>
+int main()<br></br>
+{<br></br>
+ int x = 10;<br></br>
+ calc(x);<br></br>
+ printf("%d", x);<br></br>
+}<br></br>
+<br></br>
+void calc(int x)<br></br>
+{<br></br>
+ x = x + 10 ;<br></br>
+}<br></br>
+Output : 10<br></br>
+In this case the actual variable x is not changed, because we pass argument by value, hence a copy of x is passed, which is changed, and that copied value is destroyed as the function ends(goes out of scope). So the variable x inside main() still has a value 10.<br></br>
+But we can change this program to modify the original x, by making the function calc() return a value, and storing that value in x.<br></br>
+int calc(int x);<br></br>
+int main()<br></br>
+{<br></br>
+ int x = 10;<br></br>
+ x = calc(x);<br></br>
+ printf("%d", x);<br></br>
+}<br></br>
+<br></br>
+int calc(int x)<br></br>
+{<br></br>
+ x = x + 10 ;<br></br>
+ return x;<br></br>
+}<br></br>
+Output : 20<br></br>
+________________________________________<br></br>
+Call by Reference<br></br>
+In this we pass the address of the variable as arguments. In this case the formal parameter can be taken as a reference or a pointer, in both the case they will change the values of the original variable.<br></br>
+void calc(int *p);<br></br>
+int main()<br></br>
+{<br></br>
+ int x = 10;<br></br>
+ calc(&x);     // passing address of x as argument<br></br>
+ printf("%d", x);<br></br>
+}<br></br>
+<br></br>
+void calc(int *p)<br></br>
+{<br></br>
+ *p = *p + 10;<br></br>
+}<br></br>
+Output : 20<br></br>
+NOTE : If you do not have a prior knowledge of pointers, do study Pointers first.<br></br>
+<br></br>
+<br></br>
+         ]]>
+    </string>
+    <string name="tutorial_object_concept" formatted="false">
+    <![CDATA[
+    Object Oriented programming is a programming style that is associated with the concept of Class.<br></br>
+Object oriented programming is method of programming where a system is considered as a collection of objects that interact together to accomplish certain tasks<br></br>
+The main purpose of object oriented programming is to simplify the design, programming and most importantly debugging a program. So to modify a particular data, it is easy to identify which function to use. To add additional features it is easy to identify where to add functions and its related data.<br></br>
+<h3>OOPS Concept Definitions</h3><br></br>
+Now, let us discuss some of the main features of Object Oriented Programming which you will be using in C++(technically).<br></br>
+1.	Objects<br></br>
+2.	Classes<br></br>
+3.	Abstraction<br></br>
+4.	Encapsulation<br></br>
+5.	Inheritance<br></br>
+6.	Overloading<br></br>
+7.	Exception Handling<br></br>
+<br></br>
+<b>Objects</b><br></br>
+Objects are the basic unit of OOP. They are instances of class, which have data members and uses various member functions to perform tasks.<br></br>
+________________________________________<br></br>
+<b>Class</b><br></br>
+It is similar to structures in C language. Class can also be defined as user defined data type but it also contains functions in it. So, class is basically a blueprint for object. It declare & defines what data variables the object will have and what operations can be performed on the class\'s object.<br></br>
+________________________________________<br></br>
+<b>Abstraction</b><br></br>
+Abstraction refers to showing only the essential features of the application and hiding the details. In C++, classes provide methods to the outside world to access & use the data variables, but the variables are hidden from direct access. This can be done access specifiers.<br></br>
+________________________________________<br></br>
+<b>Encapsulation</b><br></br>
+It can also be said data binding. Encapsulation is all about binding the data variables and functions together in class.<br></br>
+________________________________________<br></br>
+<b>Inheritance</b><br></br>
+Inheritance is a way to reuse once written code again and again. The class which is inherited is called base calls & the class which inherits is called derived class. So when, a derived class inherits a base class, the derived class can use all the functions which are defined in base class, hence making code reusable.<br></br>
+________________________________________<br></br>
+<b>Polymorphism</b><br></br>
+It is a feature, which lets us create functions with same name but different arguments, which will perform differently. That is function with same name, functioning in different way. Or, it also allows us to redefine a function to provide its new definition. You will learn how to do this in details soon in coming lessons.<br></br>
+________________________________________<br></br>
+<b>Exception Handling</b><br></br>
+Exception handling is a feature of OOP, to handle unresolved exceptions or errors produced at runtime.<br></br>
+<br></br>
+     ]]>
+</string>
+    <string name="tutorial_object_classes" formatted="false">
+    <![CDATA[
+    The classes are the most important feature of C++ that leads to Object Oriented programming. Class is a user defined data type, which holds its own data members and member functions, which can be accessed and used by creating instance of that class.<br></br>
+The variables inside class definition are called as data members and the functions are called member functions.<br></br>
+For example : Class of birds, all birds can fly and they all have wings and beaks. So here flying is a behavior and wings and beaks are part of their characteristics. And there are many different birds in this class with different names but they all posses this behavior and characteristics.<br></br>
+Similarly, class is just a blue print, which declares and defines characteristics and behavior, namely data members and member functions respectively. And all objects of this class will share these characteristics and behavior.<br></br>
+________________________________________<br></br>
+<b>More about Classes</b><br></br>
+1.	Class name must start with an uppercase letter. If class name is made of more than one word, then first letter of each word must be in uppercase. Example,<br></br>
+class Study, class StudyTonight etc<br></br>
+2.	Classes contain, data members and member functions, and the access of these data members and variable depends on the access specifiers (discussed in next section).<br></br>
+3.	Class\'s member functions can be defined inside the class definition or outside the class definition.<br></br>
+4.	Class in C++ are similar to structures in C, the only difference being, class defaults to private access control, where as structure defaults to public.<br></br>
+5.	All the features of OOPS, revolve around classes in C++. Inheritance, Encapsulation, Abstraction etc.<br></br>
+6.	Objects of class holds separate copies of data members. We can create as many objects of a class as we need.<br></br>
+7.	Classes do posses more characteristics, like we can create abstract classes, immutable classes, all this we will study later.<br></br>
+________________________________________<br></br>
+<br></br>
+     ]]>
+</string>
+    <string name="tutorial_object_objects" formatted="false">
+    <![CDATA[
+Class is mere a blueprint or a template. No storage is assigned when we define a class. Objects are instances of class, which holds the data variables declared in class and the member functions work on these class objects.<br></br>
+Each object has different data variables. Objects are initialised using special class functions called Constructors. We will study about constructors later.<br></br>
+And whenever the object is out of its scope, another special class member function called Destructor is called, to release the memory reserved by the object. C++ doesn\'t have Automatic Garbage Collector like in JAVA, in C++ Destructor performs this task.<br></br>
+class Abc<br></br>
+{<br></br>
+ int x;<br></br>
+ void display(){} //empty function<br></br>
+};<br></br>
+<br></br>
+in main()<br></br>
+{<br></br>
+ Abc obj;   // Object of class Abc created<br></br>
+}
+     ]]>
+</string>
+    <string name="tutorial_object_access_control" formatted="false">
+    <![CDATA[
+Now before studying how to define class and its objects, lets first quickly learn what are access specifiers.<br></br>
+Access specifiers in C++ class defines the access control rules. C++ has 3 new keywords introduced, namely,<br></br>
+1.	public<br></br>
+2.	private<br></br>
+3.	protected<br></br>
+These access specifiers are used to set boundaries for availability of members of class be it data members or member functions<br></br>
+Access specifiers in the program, are followed by a colon. You can use either one, two or all 3 specifiers in the same class to set different boundaries for different class members. They change the boundary for all the declarations that follow them.<br></br>
+________________________________________<br></br>
+<b>Public</b><br></br>
+Public, means all the class members declared under public will be available to everyone. The data members and member functions declared public can be accessed by other classes too. Hence there are chances that they might change them. So the key members must not be declared public.<br></br>
+class PublicAccess<br></br>
+{<br></br>
+ public:   // public access specifier<br></br>
+ int x;            // Data Member Declaration <br></br>
+ void display();   // Member Function decaration<br></br>
+}<br></br>
+________________________________________<br></br>
+<b>Private</b><br></br>
+Private keyword, means that no one can access the class members declared private outside that class. If someone tries to access the private member, they will get a compile time error. By default class variables and member functions are private.<br></br>
+class PrivateAccess<br></br>
+{<br></br>
+ private:   // private access specifier<br></br>
+ int x;            // Data Member Declaration <br></br>
+ void display();   // Member Function decaration<br></br>
+}<br></br>
+________________________________________<br></br>
+<b>Protected</b><br></br>
+Protected, is the last access specifier, and it is similar to private, it makes class member inaccessible outside the class. But they can be accessed by any subclass of that class. (If class A is inherited by class B, then class B is subclass of class A. We will learn this later.)<br></br>
+class ProtectedAccess<br></br>
+{<br></br>
+ protected:   // protected access specifier<br></br>
+ int x;            // Data Member Declaration <br></br>
+ void display();   // Member Function decaration<br></br>
+}<br></br>
+<br></br>
+     ]]>
+</string>
+    <string name="tutorial_object_declaring_class" formatted="false">
+    <![CDATA[
+    When we define any class, we are not defining any data, we just define a structure or a blueprint, as to what the object of that class type will contain and what operations can be performed on that object.<br><br>
+Below is the syntax of class definition,<br><br>
+class ClassName<br><br>
+{<br><br>
+ Access specifier: <br><br>
+ Data members;<br><br>
+ Member Functions(){}<br><br>
+};<br><br>
+<br><br>
+<br><br>
+Here is an example, we have made a simple class named Student with appropriate members,<br><br>
+class Student<br><br>
+{<br><br>
+ public:<br><br>
+ int rollno;<br><br>
+ string name;<br><br>
+};<br><br>
+<br><br>
+<br><br>
+So its clear from the syntax and example, class definition starts with the keyword "class" followed by the class name. Then inside the curly braces comes the class body, that is data members and member functions, whose access is bounded by access specifier. A class definition ends with a semicolon, or with a list of object declarations.<br><br>
+Example :<br><br>
+class Student<br><br>
+{<br><br>
+public:<br><br>
+int rollno;<br><br>
+string name;<br><br>
+}A,B;<br><br>
+<br><br>
+Here A and B are the objects of class Student, declared with the class definition. We can also declare objects separately, like we declare variable of primitive data types. In this case the data type is the class name, and variable is the object.<br><br>
+int main()<br><br>
+{<br><br>
+ Student A;<br><br>
+ Student B;<br><br>
+}<br><br>
+Both A and B will have their own copies of data members.<br><br>
+<br><br>
+     ]]>
+</string>
+    <string name="tutorial_object_data_members" formatted="false">
+    <![CDATA[
+    Accessing a data member depends solely on the access control of that data member. If its public, then the data member can be easily accessed using the direct member access (.) operator with the object of that class.<br><br>
+If, the data member is defined as private or protected, then we cannot access the data variables directly. Then we will have to create special public member functions to access, use or initialize the private and protected data members. These member functions are also called Accessors and Mutator methods or getter and setter functions.<br><br>
+________________________________________<br><br>
+Accessing Public Data Members<br><br>
+Following is an example to show you how to initialize and use the public data members using the dot (.) operator and the respective object of class.<br><br>
+class Student<br><br>
+{<br><br>
+ public:<br><br>
+ int rollno;<br><br>
+ string name;<br><br>
+};<br><br>
+<br><br>
+int main()<br><br>
+{<br><br>
+ Student A;<br><br>
+ Student B;<br><br>
+ A.rollno=1;<br><br>
+ A.name="Adam";<br><br>
+<br><br>
+ B.rollno=2;<br><br>
+ B.name="Bella";<br><br>
+<br><br>
+ cout <<"Name and Roll no of A is :"<< A.name << A.rollno;<br><br>
+ cout <<"Name and Roll no of B is :"<< B.name << B.rollno;<br><br>
+}<br><br>
+________________________________________<br><br>
+Accessing Private Data Members<br><br>
+To access, use and initialize the private data member you need to create getter and setter functions, to get and set the value of the data member.<br><br>
+The setter function will set the value passed as argument to the private data member, and the getter function will return the value of the private data member to be used. Both getter and setter function must be defined public.<br><br>
+Example :<br><br>
+class Student<br><br>
+{<br><br>
+ private:    // private data member<br><br>
+ int rollno;<br><br>
+<br><br>
+ public:     // public accessor and mutator functions<br><br>
+ int getRollno()<br><br>
+ {<br><br>
+  return rollno;<br><br>
+ }<br><br>
+<br><br>
+ void setRollno(int i)<br><br>
+ {<br><br>
+  rollno=i;<br><br>
+ }<br><br>
+<br><br>
+};<br><br>
+<br><br>
+int main()<br><br>
+{<br><br>
+ Student A;<br><br>
+ A.rollono=1;  //Compile time error<br><br>
+ cout<< A.rollno; //Compile time error<br><br>
+<br><br>
+ A.setRollno(1);  //Rollno initialized to 1<br><br>
+ cout<< A.getRollno(); //Output will be 1<br><br>
+}<br><br>
+So this is how we access and use the private data members of any class using the getter and setter methods. We will discuss this in more details later.<br><br>
+________________________________________<br><br>
+Accessing Protected Data Members<br><br>
+Protected data members, can be accessed directly using dot (.) operator inside the subclass of the current class, for non-subclass we will have to follow the steps same as to access private data member.<br><br>
+<br><br>
+     ]]>
+</string>
+    <string name="tutorial_object_member_functions" formatted="false">
+    <![CDATA[
+    Member functions are the functions, which have their declaration inside the class definition and works on the data members of the class. The definition of member functions can be inside or outside the definition of class.<br><br>
+If the member function is defined inside the class definition it can be defined directly, but if its defined outside the class, then we have to use the scope resolution :: operator along with class name alng with function name.<br><br>
+Example :<br><br>
+class Cube<br><br>
+{<br><br>
+ public:<br><br>
+ int side;<br><br>
+ int getVolume();     // Declaring function getVolume with no argument and return type int.<br><br>
+};<br><br>
+<br><br>
+<br><br>
+If we define the function inside class then we don\'t not need to declare it first, we can directly define the function.<br><br>
+class Cube<br><br>
+{<br><br>
+ public:<br><br>
+ int side;<br><br>
+ int getVolume()<br><br>
+ {<br><br>
+  return side*side*side;       //returns volume of cube<br><br>
+ }<br><br>
+};<br><br>
+<br><br>
+<br><br>
+But if we plan to define the member function outside the class definition then we must declare the function inside class definition and then define it outside.<br><br>
+class Cube<br><br>
+{<br><br>
+ public:<br><br>
+ int side;<br><br>
+ int getVolume();<br><br>
+}<br><br>
+<br><br>
+int Cube :: getVolume()     // defined outside class definition<br><br>
+{<br><br>
+ return side*side*side;<br><br>
+}<br><br>
+<br><br>
+<br><br>
+The maine function for both the function definition will be same. Inside main() we will create object of class, and will call the member function using dot . operator.<br><br>
+int main()<br><br>
+{<br><br>
+ Cube C1;<br><br>
+ C1.side=4;   // setting side value<br><br>
+ cout<< "Volume of cube C1 ="<< C1.getVolume();<br><br>
+}<br><br>
+Similarly we can define the getter and setter functions to access private data members, inside or outside the class definition.<br><br>
+<br><br>
+     ]]>
+</string>
+    <string name="tutorial_object_types_members_function" formatted="false">
+    <![CDATA[
+    We already know what member functions are and what they do. Now lets study some special member functins present in the class. Following are different types of Member functions,<br><br>
+1.	Simple functions<br><br>
+2.	Static functions<br><br>
+3.	Const functions<br><br>
+4.	Inline functions<br><br>
+5.	Friend functions<br><br>
+________________________________________<br><br>
+Simple Member functions<br><br>
+These are the basic member function, which dont have any special keyword like static etc as prefix. All the general member functions, which are of below given form, are termed as simple and basic member functions.<br><br>
+return_type functionName(parameter_list)<br><br>
+{<br><br>
+function body;<br><br>
+}<br><br>
+________________________________________<br><br>
+Static Member functions<br><br>
+Static is something that holds its position. Static is a keyword which can be used with data members as well as the member functions. We will discuss this in details later. As of now we will discuss its usage with member functions only.<br><br>
+A function is made static by using static keyword with function name. These functions work for the class as whole rather than for a particular object of a class.<br><br>
+It can be called using the object and the direct member access . operator. But, its more typical to call a static member function by itself, using class name and scope resolution :: operator.<br><br>
+Example :<br><br>
+class X<br><br>
+{<br><br>
+ public:<br><br>
+ static void f(){};<br><br>
+};<br><br>
+<br><br>
+int main()<br><br>
+{<br><br>
+ X::f();   // calling member function directly with class name<br><br>
+}<br><br>
+These functions cannot access ordinary data members and member functions, but only static data members and static member functions.<br><br>
+It doesn\'t have any "this" keyword which is the reason it cannot access ordinary members. We will study about "this" keyword later.<br><br>
+________________________________________<br><br>
+Const Member functions<br><br>
+We will study Const keyword in detail later, but as an introduction, Const keyword makes variables constant, that means once defined, there values can\'t be changed.<br><br>
+When used with member function, such member functions can never modify the object or its related data members.<br><br>
+//Basic Syntax of const Member Function<br><br>
+<br><br>
+void fun() const {}<br><br>
+________________________________________<br><br>
+Inline functions<br><br>
+All the member functions defined inside the class definition are by default declared as Inline. We will study Inline Functions in details in the next topic.<br><br>
+________________________________________<br><br>
+Friend functions<br><br>
+Friend functions are actually not class member function. Friend functions are made to give private access to non-class functions. You can declare a global function as friend, or a member function of other class as friend.<br><br>
+Example :<br><br>
+class WithFriend<br><br>
+{<br><br>
+ int i;<br><br>
+ public:<br><br>
+ friend void fun(); // Global function as friend<br><br>
+};<br><br>
+<br><br>
+void fun()<br><br>
+{<br><br>
+ WithFriend wf;<br><br>
+ wf.i=10;  // Access to private data member<br><br>
+ cout << wf.i;<br><br>
+}<br><br>
+<br><br>
+int main()<br><br>
+{<br><br>
+fun(); //Can be called directly<br><br>
+}<br><br>
+<br><br>
+<br><br>
+Hence, friend functions can access private data members by creating object of the class. Similarly we can also make function of other class as friend, or we can also make an entire class as friend class.<br><br>
+<br><br>
+<br><br>
+class Other<br><br>
+{<br><br>
+ void fun();<br><br>
+};<br><br>
+<br><br>
+class WithFriend<br><br>
+{<br><br>
+ private:<br><br>
+ int i;<br><br>
+ public:<br><br>
+ void getdata();  // Member function of class WithFriend<br><br>
+ friend void Other::fun();   // making function of class Other as friend here<br><br>
+ friend class Other;  // making the complete class as friend<br><br>
+};<br><br>
+<br><br>
+<br><br>
+When we make a class as friend, all its member functions automatically become friend functions.<br><br>
+Friend Functions is a reason, why C++ is not called as a pure Object Oriented language. Because it violates the concept of Encapsulation.<br><br>
+<br><br>
+     ]]>
+</string>
+    <string name="tutorial_object_inline_functions" formatted="false">
+    <![CDATA[
+    Inline functions are actual functions, which are copied everywhere during compilation, like preprocessor macro, so the overhead of function calling is reduced. All the functions defined inside class definition are by default inline, but you can also make any non-class function inline by using keyword inline with them.<br><br>
+For an inline function, declaration and definition must be done together. For example,<br><br>
+inline void fun(int a) <br><br>
+{ <br><br>
+  return a++; <br><br>
+}<br><br>
+<br><br>
+<br><br>
+Some Important points about Inline Functions<br><br>
+1.	We must keep inline functions small, small inline functions have better efficiency.<br><br>
+2.	Inline functions do increase efficiency, but we should not make all the functions inline. Because if we make large functions inline, it may lead to code bloat, and might affect the speed too.<br><br>
+3.	Hence, it is adviced to define large functions outside the class definition using scope resolution ::operator, because if we define such functions inside class definition, then they become inline automatically.<br><br>
+4.	Inline functions are kept in the Symbol Table by the compiler, and all the call for such functions is taken care at compile time.<br><br>
+________________________________________<br><br>
+Access Functions<br><br>
+We have already studied this in topic Accessing Private Data variables inside class. We use access functions, which are inline to do so.<br><br>
+class Auto<br><br>
+{<br><br>
+ int i;<br><br>
+ public:<br><br>
+ int getdata()<br><br>
+  {<br><br>
+   return i;<br><br>
+  }<br><br>
+ void setdata(int x)<br><br>
+ {<br><br>
+  i=x;<br><br>
+ }<br><br>
+};<br><br>
+Here getdata() and setdata() are inline functions, and are made to access the private data members of the class Auto. getdata(), in this case is called Accessor function and setdata() is a Mutator function.<br><br>
+There can be overlaoded Accessor and Mutator functions too. We will study overloading functions in next topic.<br><br>
+________________________________________<br><br>
+<br><br>
+     ]]>
+</string>
+    <string name="tutorial_object_limitation_inline" formatted="false">
+    <![CDATA[
+    1.	Large Inline functions cause Cache misses and affect performance negatively.<br><br>
+2.	Compilation overhead of copying the function body everywhere in the code on compilation, which is negligible for small programs, but it makes a difference in large code bases.<br><br>
+3.	Also, if we require address of the function in program, compiler cannot perform inlining on such functions. Because for providing address to a function, compiler will have to allocate storage to it. But inline functions doesn\'t get storage, they are kept in Symbol table.<br><br>
+________________________________________<br><br>
+Forward References<br><br>
+All the inline functions are evaluated by the compiler, at the end of class declaration.<br><br>
+class ForwardReference<br><br>
+{<br><br>
+ int i;<br><br>
+ public:<br><br>
+ int f() {return g()+10;}  // call to undeclared function<br><br>
+ int g() {return i;}<br><br>
+};<br><br>
+<br><br>
+int main()<br><br>
+{<br><br>
+ ForwardReference fr;<br><br>
+ fr.f();<br><br>
+}<br><br>
+You must be thinking that this will lead to compile time error,but in this case it will work, because no inline function in a class is evaluated until the closing braces of class declaration.<br><br>
+<br><br>
+     ]]>
+</string>
+    <string name="tutorial_object_fun_overloading" formatted="false">
+    <![CDATA[
+    If any class have multiple functions with same names but different parameters then they are said to be overloaded. Function overloading allows you to use the same name for different functions, to perform, either same or different functions in the same class.<br><br>
+Function overloading is usually used to enhance the readability of the program. If you have to perform one single operation but with different number or types of arguments, then you can simply overload the function.<br><br>
+________________________________________<br><br>
+Ways to overload a function<br><br>
+1.	By changing number of Arguments.<br><br>
+2.	By having different types of argument.<br><br>
+________________________________________<br><br>
+Number of Arguments different<br><br>
+In this type of function overloading we define two functions with same names but different number of parameters of the same type. For example, in the below mentioned program we have made two sum() functions to return sum of two and three integers.<br><br>
+int sum (int x, int y)<br><br>
+{<br><br>
+ cout << x+y;<br><br>
+}<br><br>
+<br><br>
+int sum(int x, int y, int z)<br><br>
+{<br><br>
+ cout << x+y+z;<br><br>
+}<br><br>
+Here sum() function is overloaded, to have two and three arguments. Which sum() function will be called, depends on the number of arguments.<br><br>
+int main()<br><br>
+{<br><br>
+sum (10,20);  // sum() with 2 parameter will be called<br><br>
+<br><br>
+sum(10,20,30);  //sum() with 3 parameter will be called<br><br>
+}<br><br>
+________________________________________<br><br>
+Different Datatype of Arguments<br><br>
+In this type of overloading we define two or more functions with same name and same number of parameters, but the type of parameter is different. For example in this program, we have two sum() function, first one gets two integer arguments and second one gets two double arguments.<br><br>
+int sum(int x,int y)<br><br>
+{<br><br>
+ cout<< x+y;<br><br>
+}<br><br>
+<br><br>
+double sum(double x,double y)<br><br>
+{<br><br>
+ cout << x+y;<br><br>
+}<br><br>
+<br><br>
+int main()<br><br>
+{<br><br>
+ sum (10,20);<br><br>
+ sum(10.5,20.5);<br><br>
+}<br><br>
+________________________________________<br><br>
+Default Arguments<br><br>
+When we mention a default value for a parameter while declaring the function, it is said to be as default argument. In this case, even if we make a call to the function without passing any value for that parameter, the function will take the default value specified.<br><br>
+sum(int x,int y=0)<br><br>
+{<br><br>
+ cout << x+y;<br><br>
+}<br><br>
+Here we have provided a default value for y, during function definition.<br><br>
+int main()<br><br>
+{<br><br>
+ sum(10);<br><br>
+ sum(10,0);<br><br>
+ sum(10,10);<br><br>
+}<br><br>
+Output :<br><br>
+10 10 20<br><br>
+First two function calls will produce the exact same value.<br><br>
+for the third function call, y will take 10 as value and output will become 20.<br><br>
+By setting default argument, we are also overloading the function. Default arguments also allow you to use the same function in different situations just like function overloading.<br><br>
+________________________________________<br><br>
+Rules for using Default Arguments<br><br>
+1.	Only the last argument must be given default value. You cannot have a default argument followed by non-default argument.<br><br>
+2.	sum (int x,int y);    <br><br>
+3.	sum (int x,int y=0);  <br><br>
+4.	sum (int x=0,int y);  // This is Incorrect<br><br>
+5.	If you default an argument, then you will have to default all the subsequent arguments after that.<br><br>
+6.	sum (int x,int y=0);<br><br>
+7.	sum (int x,int y=0,int z);  // This is incorrect<br><br>
+8.	sum (int x,int y=10,int z=10);  // Correct<br><br>
+9.	You can give any value a default value to argument, compatible with its datatype.<br><br>
+________________________________________<br><br>
+Placeholder Arguments<br><br>
+When arguments in a function are declared without any identifier they are called placeholder arguments.<br><br>
+void sum (int,int);<br><br>
+Such arguments can also be used with default arguments.<br><br>
+void sum (int, int=0);<br><br>
+<br><br>
+     ]]>
+</string>
+    <string name="tutorial_object_fun_overriding" formatted="false">
+    <![CDATA[
+    Function Overriding<br><br>
+If we inherit a class into the derived class and provide a definition for one of the base class\'s function again inside the derived class, then that function is said to be overridden, and this mechanism is called Function Overriding<br><br>
+________________________________________<br><br>
+Requirements for Overriding<br><br>
+1.	Inheritance should be there. Function overriding cannot be done within a class. For this we require a derived class and a base class.<br><br>
+2.	Function that is redefined must have exactly the same declaration in both base and derived class, that means same name, same return type and same parameter list.<br><br>
+________________________________________<br><br>
+Example of Function Overriding<br><br>
+class Base<br><br>
+{<br><br>
+ public:<br><br>
+ void show()<br><br>
+ {<br><br>
+  cout << "Base class";<br><br>
+ }<br><br>
+};<br><br>
+class Derived:public Base<br><br>
+{<br><br>
+ public:<br><br>
+ void show()<br><br>
+ {<br><br>
+  cout << "Derived Class";<br><br>
+ }<br><br>
+}<br><br>
+In this example, function show() is overridden in the derived class. Now let us study how these overridden functions are called in main() function.<br><br>
+________________________________________<br><br>
+Function Call Binding with class Objects<br><br>
+Connecting the function call to the function body is called Binding. When it is done before the program is run, its called Early Binding or Static Binding or Compile-time Binding.<br><br>
+class Base<br><br>
+{<br><br>
+ public:<br><br>
+ void shaow()<br><br>
+ {<br><br>
+  cout << "Base class\t";<br><br>
+ }<br><br>
+};<br><br>
+class Derived:public Base<br><br>
+{<br><br>
+ public:<br><br>
+ void show()<br><br>
+ {<br><br>
+  cout << "Derived Class";<br><br>
+ }<br><br>
+}<br><br>
+<br><br>
+int main()<br><br>
+{<br><br>
+ Base b;       //Base class object<br><br>
+ Derived d;     //Derived class object<br><br>
+ b.show();     //Early Binding Ocuurs<br><br>
+ d.show();   <br><br>
+}<br><br>
+Output : Base class    Derived class<br><br>
+In the above example, we are calling the overrided function using Base class and Derived class object. Base class object will call base version of the function and derived class\'s object will call the derived version of the function.<br><br>
+________________________________________<br><br>
+Function Call Binding using Base class Pointer<br><br>
+But when we use a Base class\'s pointer or reference to hold Derived class\'s object, then Function call Binding gives some unexpected results.<br><br>
+class Base<br><br>
+{<br><br>
+ public:<br><br>
+ void show()<br><br>
+ {<br><br>
+  cout << "Base class";<br><br>
+ }<br><br>
+};<br><br>
+class Derived:public Base<br><br>
+{<br><br>
+ public:<br><br>
+ void show()<br><br>
+ {<br><br>
+  cout << "Derived Class";<br><br>
+ }<br><br>
+}<br><br>
+<br><br>
+int main()<br><br>
+{<br><br>
+ Base* b;       //Base class pointer<br><br>
+ Derived d;     //Derived class object<br><br>
+ b = &d;<br><br>
+ b->show();     //Early Binding Occurs<br><br>
+}<br><br>
+Output : Base class<br><br>
+In the above example, although, the object is of Derived class, still Base class\'s method is called. This happens due to Early Binding.<br><br>
+Compiler on seeing Base class\'s pointer, set call to Base class\'s show() function, without knowing the actual object type.<br><br>
+<br><br>
+     ]]>
+</string>
+    <string name="tutorial_object_constructors" formatted="false">
+    <![CDATA[
+    Constructors are special class functions which performs initialization of every object. The Compiler calls the Constructor whenever an object is created. Constructors iitialize values to object members after storage is allocated to the object.<br><br>
+class A<br><br>
+{<br><br>
+ int x;<br><br>
+ public:<br><br>
+ A();  //Constructor<br><br>
+};<br><br>
+While defining a contructor you must remeber that the name of constructor will be same as the name of the class, and contructors never have return type.<br><br>
+Constructors can be defined either inside the class definition or outside class definition using class name and scope resolution :: operator.<br><br>
+class A<br><br>
+{<br><br>
+ int i;<br><br>
+ public:<br><br>
+ A(); //Constructor declared<br><br>
+};<br><br>
+<br><br>
+A::A()   // Constructor definition<br><br>
+{<br><br>
+ i=1;<br><br>
+}<br><br>
+________________________________________<br><br>
+<br><br>
+     ]]>
+</string>
+    <string name="tutorial_object_types_constructors" formatted="false">
+    <![CDATA[
+    Types of Constructors<br><br>
+Constructors are of three types :<br><br>
+1.	Default Constructor<br><br>
+2.	Parametrized Constructor<br><br>
+3.	Copy COnstructor<br><br>
+________________________________________<br><br>
+Default Constructor<br><br>
+Default constructor is the constructor which doesn\'t take any argument. It has no parameter.<br><br>
+Syntax :<br><br>
+class_name () <br><br>
+{ Constructor Definition }<br><br>
+Example :<br><br>
+class Cube<br><br>
+{<br><br>
+int side;<br><br>
+public:<br><br>
+Cube()<br><br>
+ {  <br><br>
+  side=10;<br><br>
+ }<br><br>
+};<br><br>
+<br><br>
+int main()<br><br>
+{<br><br>
+Cube c;<br><br>
+cout << c.side;<br><br>
+}<br><br>
+Output : 10<br><br>
+In this case, as soon as the object is created the constructor is called which initializes its data members.<br><br>
+A default constructor is so important for initialization of object members, that even if we do not define a constructor explicitly, the compiler will provide a default constructor implicitly.<br><br>
+class Cube<br><br>
+{<br><br>
+ int side;<br><br>
+};<br><br>
+<br><br>
+int main()<br><br>
+{<br><br>
+ Cube c;<br><br>
+ cout << c.side;<br><br>
+}<br><br>
+Output : 0<br><br>
+In this case, default constructor provided by the compiler will be called which will initialize the object data members to default value, that will be 0 in this case.<br><br>
+________________________________________<br><br>
+Parameterized Constructor<br><br>
+These are the constructors with parameter. Using this Constructor you can provide different values to data members of different objects, by passing the appropriate values as argument.<br><br>
+Example :<br><br>
+class Cube<br><br>
+{<br><br>
+ int side;<br><br>
+ public:<br><br>
+ Cube(int x)<br><br>
+  {  <br><br>
+   side=x;<br><br>
+  }<br><br>
+};<br><br>
+<br><br>
+int main()<br><br>
+{<br><br>
+ Cube c1(10);<br><br>
+ Cube c2(20);<br><br>
+ Cube c3(30);<br><br>
+ cout << c1.side;<br><br>
+ cout << c2.side;<br><br>
+ cout << c3.side;<br><br>
+}<br><br>
+OUTPUT : 10 20 30<br><br>
+By using parameterized construcor in above case, we have initialized 3 objects with user defined values. We can have any number of parameters in a constructor.<br><br>
+________________________________________<br><br>
+Copy Constructor<br><br>
+These are special type of Constructors which takes an object as argument, and is used to copy values of data members of one object into other object. We will study copy constructors in detail later.<br><br>
+________________________________________<br><br>
+<br><br>
+     ]]>
+</string>
+    <string name="tutorial_object_constructors_overloading" formatted="false">
+    <![CDATA[
+    Just like other member functions, constructors can also be overloaded. Infact when you have both default and parameterized constructors defined in your class you are having Overloaded Constructors, one with no parameter and other with parameter.<br><br>
+You can have any number of Constructors in a class that differ in parameter list.<br><br>
+class Student<br><br>
+{<br><br>
+ int rollno;<br><br>
+ string name;<br><br>
+ public:<br><br>
+ Student(int x)<br><br>
+ {<br><br>
+  rollno=x;<br><br>
+  name="None";<br><br>
+ }<br><br>
+ Student(int x, string str)<br><br>
+ {<br><br>
+  rollno=x ;<br><br>
+  name=str ;<br><br>
+ }<br><br>
+};<br><br>
+<br><br>
+int main()<br><br>
+{<br><br>
+ Student A(10);<br><br>
+ Student B(11,"Ram");<br><br>
+}<br><br>
+In above case we have defined two constructors with different parameters, hence overloading the constructors.<br><br>
+One more important thing, if you define any constructor explicitly, then the compiler will not provide default constructor and you will have to define it yourself.<br><br>
+In the above case if we write Student S; in main(), it will lead to a compile time error, because we haven\'t defined default constructor, and compiler will not provide its default constructor because we have defined other parameterized constructors.<br><br>
+________________________________________<br><br>
+<br><br>
+     ]]>
+</string>
+    <string name="tutorial_object_desctructors" formatted="false">
+    <![CDATA[
+    Destructor is a special class function which destroys the object as soon as the scope of object ends. The destructor is called automatically by the compiler when the object goes out of scope.<br><br>
+The syntax for destructor is same as that for the constructor, the class name is used for the name of destructor, with a tilde ~ sign as prefix to it.<br><br>
+class A<br><br>
+{<br><br>
+ public:<br><br>
+ ~A();<br><br>
+};<br><br>
+Destructors will never have any arguments.<br><br>
+________________________________________<br><br>
+Example to see how Constructor and Destructor is called<br><br>
+class A<br><br>
+{<br><br>
+A()<br><br>
+ {<br><br>
+  cout << "Constructor called";<br><br>
+ }<br><br>
+<br><br>
+~A()<br><br>
+ {<br><br>
+  cout << "Destructor called";<br><br>
+ }<br><br>
+};<br><br>
+<br><br>
+int main()<br><br>
+{<br><br>
+ A obj1;   // Constructor Called<br><br>
+ int x=1<br><br>
+ if(x)<br><br>
+  {<br><br>
+   A obj2;  // Constructor Called<br><br>
+  }   // Destructor Called for obj2<br><br>
+} //  Destructor called for obj1<br><br>
+<br><br>
+________________________________________<br><br>
+Single Definition for both Default and Parameterized Constructor<br><br>
+In this example we will use default argument to have a single definition for both defualt and parameterized constructor.<br><br>
+class Dual<br><br>
+{<br><br>
+ int a;<br><br>
+ public:<br><br>
+ Dual(int x=0)<br><br>
+  {<br><br>
+   a=x;<br><br>
+  }<br><br>
+};<br><br>
+<br><br>
+int main()<br><br>
+{<br><br>
+ Dual obj1;<br><br>
+ Dual obj2(10);<br><br>
+}<br><br>
+Here, in this program, a single Constructor definition will take care for both these object initializations. We don\'t need separate default and parameterized constructors.<br><br>
+<br><br>
+     ]]>
+</string>
+    <string name="tutorial_object_namespace" formatted="false">
+    <![CDATA[
+    Namespace is a container for identifiers. It puts the names of its members in a distinct space so that they don\'t conflict with the names in other namespaces or global namespace.<br><br>
+________________________________________<br><br>
+Creating a Namespace<br><br>
+Creating a namespace is similar to creation of a class.<br><br>
+namespace MySpace<br><br>
+{<br><br>
+ // Declarations<br><br>
+}<br><br>
+<br><br>
+int main() {}<br><br>
+This will create a namespace called MySpace, inside which we can put our member declarations.<br><br>
+________________________________________<br><br>
+Rules to create Namespace<br><br>
+1.	The namespace definition must be done at global scope, or nested inside another namespace.<br><br>
+2.	Namespace definition doesn\'t terminates with a semicolon like in class definition.<br><br>
+3.	You can use an alias name for your namespace name, for ease of use. Example for Alias :<br><br>
+4.	namespace StudyTonightDotCom<br><br>
+5.	{<br><br>
+6.	 void study();<br><br>
+7.	 class Learn {  };<br><br>
+8.	}<br><br>
+9.	<br><br>
+10.	namespace St = StudyTonightDotCom;     // St is now alias for StudyTonightDotCom<br><br>
+11.	You cannot create instance of namespace.<br><br>
+12.	There can be unnamed namespaces too. Unnamed namespace is unique for each translation unit. They act exactly like named namespaces. Example for Unnamed namespace :<br><br>
+13.	namespace<br><br>
+14.	{<br><br>
+15.	 class Head { };<br><br>
+16.	 class Tail { };<br><br>
+17.	 int i,j,k;<br><br>
+18.	}<br><br>
+19.	<br><br>
+20.	int main() { }<br><br>
+21.	A namespace definition can be continued and extended over multiple files, they are not redefined or overriden. Example :<br><br>
+22.	 Header1.h<br><br>
+23.	<br><br>
+24.	namespace MySpace<br><br>
+25.	{<br><br>
+26.	 int x;<br><br>
+27.	 void f();<br><br>
+28.	}<br><br>
+29.	<br><br>
+30.	 Header2.h<br><br>
+31.	<br><br>
+32.	#include "Header1.h";<br><br>
+33.	namespace MySpace<br><br>
+34.	{<br><br>
+35.	 int y;<br><br>
+36.	 void g();<br><br>
+37.	}<br><br>
+________________________________________<br><br>
+Using a Namespace<br><br>
+There are three ways to use a namespace in program,<br><br>
+1.	Scope Resolution<br><br>
+2.	The using directive<br><br>
+3.	The using declaration<br><br>
+________________________________________<br><br>
+With Scope Resolution<br><br>
+Any name (identifier) declared in a namespace can be explicitly specified using the namespace\'s name and the scope resolution :: operator with the identifier.<br><br>
+namespace MySpace<br><br>
+{<br><br>
+ class A<br><br>
+ { <br><br>
+  static int i;<br><br>
+  public:<br><br>
+  void f();<br><br>
+ };<br><br>
+ class B;       // class name declaration<br><br>
+ void func();   //gobal function declaration<br><br>
+}<br><br>
+<br><br>
+int MySpace::A::i=9;      // Initializing static class variable<br><br>
+<br><br>
+class MySpace::B<br><br>
+{<br><br>
+ int x;<br><br>
+ public:<br><br>
+ int getdata()<br><br>
+ {<br><br>
+  cout << x;<br><br>
+ }<br><br>
+ B();   // Constructor declaration<br><br>
+}<br><br>
+<br><br>
+MySpace::B::B()   // Constructor definition<br><br>
+{<br><br>
+ x=0;<br><br>
+}<br><br>
+________________________________________<br><br>
+The using directive<br><br>
+using keyword allows you to import an entire namespace into your program with a global scope. It can be used to import a namespace into another namespace or any program.<br><br>
+ Namespace1.h<br><br>
+<br><br>
+namespace X<br><br>
+{<br><br>
+ int x;<br><br>
+ class Check<br><br>
+ {<br><br>
+  int i; <br><br>
+ };<br><br>
+}<br><br>
+<br><br>
+ Namespace2.h<br><br>
+<br><br>
+include "Namespace1.h";<br><br>
+namespace Y<br><br>
+{<br><br>
+ using namespace X;<br><br>
+ Check obj;<br><br>
+ int y;<br><br>
+}<br><br>
+We imported the namespace X into namespace Y, hence class Check is available in namespace Y.<br><br>
+<br><br>
+<br><br>
+ Program.cpp<br><br>
+<br><br>
+#include "Namespace2.h";<br><br>
+void test()<br><br>
+{<br><br>
+ using Namespace Y;<br><br>
+ Check obj2;<br><br>
+}<br><br>
+Hence, the using directive makes it a lot easier to use namespace, wherever you want.<br><br>
+________________________________________<br><br>
+The using declaration<br><br>
+When we use using directive, we import all the names in the namespace and they are available throughout the program, that is they have global scope.<br><br>
+But with using declaration, we import one specific name at a time which is available only inside the current scope.<br><br>
+NOTE : Name imported with using declaration can override the name imported with using directive<br><br>
+ Namespace.h<br><br>
+<br><br>
+namespace X<br><br>
+{<br><br>
+ void f() {}<br><br>
+ void g() {}<br><br>
+}<br><br>
+<br><br>
+namespace Y<br><br>
+{<br><br>
+ void f() {}<br><br>
+ void g() {}<br><br>
+}<br><br>
+<br><br>
+ Program.cpp<br><br>
+<br><br>
+#include "Namespace.h";<br><br>
+void h()<br><br>
+{<br><br>
+ using namespace X;             // using directive     <br><br>
+ using Y::f;      // using declaration<br><br>
+ f();     // calls f() of Y namespace<br><br>
+ X::f();  // class f() of X namespace<br><br>
+} <br><br>
+<br><br>
+<br><br>
+In using declaration, we never mention the argument list of a function while importing it, hence if a namespace has overloaded function, it will lead to ambiguity.<br><br>
+<br><br>
+     ]]>
+</string>
+    <string name="tutorial_object_static" formatted="false">
+    <![CDATA[
+    Static is a keyword in C++ used to give special characteristics to an element. Static elements are allocated storage only once in a program lifetime in static storage area. And they have a scope till the program lifetime. Static Keyword can be used with following,<br><br>
+1.	Static variable in functions<br><br>
+2.	Static Class Objects<br><br>
+3.	Static member Variable in class<br><br>
+4.	Static Methods in class<br><br>
+________________________________________<br><br>
+Static variables inside Functions<br><br>
+Static variables when used inside function are initialized only once, and then they hold there value even through function calls.<br><br>
+These static variables are stored on static storage area , not in stack.<br><br>
+void counter()<br><br>
+{<br><br>
+ static int count=0;<br><br>
+ cout << count++;<br><br>
+}<br><br>
+<br><br>
+int main(0<br><br>
+{<br><br>
+ for(int i=0;i<5;i++)<br><br>
+ {<br><br>
+   counter();<br><br>
+ }<br><br>
+}<br><br>
+Output :<br><br>
+0 1 2 3 4<br><br>
+Let\'s se the same program\'s output without using static variable.<br><br>
+void counter()<br><br>
+{<br><br>
+ int count=0;<br><br>
+ cout << count++;<br><br>
+}<br><br>
+<br><br>
+int main(0<br><br>
+{<br><br>
+ for(int i=0;i<5;i++)<br><br>
+ {<br><br>
+   counter();<br><br>
+ }<br><br>
+}<br><br>
+Output :<br><br>
+0 0 0 0 0<br><br>
+If we do not use static keyword, the variable count, is reinitialized every time when counter() function is called, and gets destroyed each time when counter() functions ends. But, if we make it static, once initialized count will have a scope till the end of main() function and it will carry its value through function calls too.<br><br>
+If you don\'t initialize a static variable, they are by default initialized to zero.<br><br>
+________________________________________<br><br>
+Static class Objects<br><br>
+Static keyword works in the same way for class objects too. Objects declared static are allocated storage in static storage area, and have scope till the end of program.<br><br>
+Static objects are also initialized using constructors like other normal objects. Assignment to zero, on using static keyword is only for primitive datatypes, not for user defined datatypes.<br><br>
+class Abc<br><br>
+{<br><br>
+ int i;<br><br>
+ public:<br><br>
+ Abc()<br><br>
+ {<br><br>
+  i=0;<br><br>
+  cout << "constructor";<br><br>
+ }<br><br>
+ ~Abc()<br><br>
+ {<br><br>
+   cout << "destructor";<br><br>
+ }<br><br>
+};<br><br>
+<br><br>
+void f()<br><br>
+{<br><br>
+ static Abc obj;<br><br>
+}<br><br>
+<br><br>
+int main()<br><br>
+{<br><br>
+ int x=0;<br><br>
+ if(x==0)<br><br>
+ {<br><br>
+  f();<br><br>
+ }<br><br>
+ cout << "END";<br><br>
+}<br><br>
+Output :<br><br>
+constructor END destructor<br><br>
+You must be thinking, why was destructor not called upon the end of the scope of if condition. This is because object was static, which has scope till the program lifetime, hence destructor for this object was called when main() exits.<br><br>
+________________________________________<br><br>
+Static data member in class<br><br>
+Static data members of class are those members which are shared by all the objects. Static data member has a single piece of storage, and is not available as separate copy with each object, like other non-static data members.<br><br>
+Static member variables (data members) are not initialied using constructor, because these are not dependent on object initialization.<br><br>
+Also, it must be initialized explicitly, always outside the class. If not initialized, Linker will give error.<br><br>
+class X<br><br>
+{<br><br>
+ static int i;<br><br>
+ public:<br><br>
+ X(){};<br><br>
+};<br><br>
+<br><br>
+int X::i=1;<br><br>
+<br><br>
+int main()<br><br>
+{<br><br>
+ X obj;<br><br>
+ cout << obj.i;   // prints value of i<br><br>
+}<br><br>
+<br><br>
+Once the definition for static data member is made, user cannot redefine it. Though, arithmetic operations can be performed on it.<br><br>
+________________________________________<br><br>
+Static Member Functions<br><br>
+These functions work for the class as whole rather than for a particular object of a class.<br><br>
+It can be called using an object and the direct member access . operator. But, its more typical to call a static member function by itself, using class name and scope resolution :: operator.<br><br>
+Example :<br><br>
+class X<br><br>
+{<br><br>
+ public:<br><br>
+ static void f(){};<br><br>
+};<br><br>
+<br><br>
+int main()<br><br>
+{<br><br>
+ X::f();   // calling member function directly with class name<br><br>
+}<br><br>
+These functions cannot access ordinary data members and member functions, but only static data members and static member functions.<br><br>
+It doesn\'t have any "this" keyword which is the reason it cannot access ordinary members. We will study about "this" keyword later.<br><br>
+<br><br>
+<br><br>
+     ]]>
+</string>
+    <string name="tutorial_object_conts" formatted="false">
+    <![CDATA[
+    Constant is something that doesn\'t change. In C and C++ we use the keyword const to make program elements constant. Const keyword can be used in many context in a C++ program. Const keyword can be used with:<br><br>
+1.	Variables<br><br>
+2.	Pointers<br><br>
+3.	Function arguments and return types<br><br>
+4.	Class Data members<br><br>
+5.	Class Member functions<br><br>
+6.	Objects<br><br>
+________________________________________<br><br>
+1) Constant Variables<br><br>
+If you make any variable as constant, using const keyword, you cannot change its value. Also, the constant variables must be initialized while declared.<br><br>
+int main<br><br>
+{<br><br>
+ const int i = 10;<br><br>
+ const int j = i+10;  // Works fine<br><br>
+ i++;    // This leads to Compile time error   <br><br>
+}<br><br>
+In this program we have made i as constant, hence if we try to change its value, compile time error is given. Though we can use it for substitution.<br><br>
+________________________________________<br><br>
+2) Pointers with Const<br><br>
+Pointers can be made const too. When we use const with pointers, we can do it in two ways, either we can apply const to what the pointer is pointing to, or we can make the pointer itself a const.<br><br>
+<br><br>
+<br><br>
+Pointer to Const<br><br>
+This means that the pointer is pointing to a const variable.<br><br>
+const int* u;<br><br>
+Here, u is a pointer that points to a const int. We can also write it like,<br><br>
+int const* v;<br><br>
+still it has the same meaning. In this case also, v is a pointer to an int which is const.<br><br>
+<br><br>
+<br><br>
+Const pointer<br><br>
+To make the pointer const, we have to put the const keyword to the right of the *.<br><br>
+int x = 1;<br><br>
+int* const w = &x;<br><br>
+Here, w is a pointer, which is const, that points to an int. Now we can\'t change the pointer but can change the value that it points to.<br><br>
+NOTE : We can also have a const pointer pointing to a const variable.<br><br>
+const int* const x;<br><br>
+________________________________________<br><br>
+3) Const Function Arguments and Return types<br><br>
+We can make the return type or arguments of a function as const. Then we cannot change any of them.<br><br>
+void f(const int i)<br><br>
+{<br><br>
+ i++;    // Error<br><br>
+}<br><br>
+<br><br>
+const int g()<br><br>
+{<br><br>
+ return 1;<br><br>
+}<br><br>
+<br><br>
+<br><br>
+Some Important points to remember<br><br>
+1.	For built in types, returning a const or non-const, doesn\'t make any difference.<br><br>
+2.	const int h()<br><br>
+3.	{<br><br>
+4.	 return 1;<br><br>
+5.	}<br><br>
+6.	it main()<br><br>
+7.	{<br><br>
+8.	 const int j = h();<br><br>
+9.	 int k = h();<br><br>
+10.	}<br><br>
+Both j and k will be assigned 1. No error will occur.<br><br>
+11.	For user defined data types, returning const, will prevent its modification.<br><br>
+12.	Temporary objects created while program execution are always of const type.<br><br>
+13.	If a function has a non-const parameter, it cannot be passed a const argument while making a call.<br><br>
+void t(int*) { }<br><br>
+If we pass a const int* argument, it will give error.<br><br>
+14.	But, a function which has a const type parameter, can be passed a const type argument as well as a non-const argument.<br><br>
+void g(const int*) {}<br><br>
+This function can have a int* as well as const int* type argument.<br><br>
+________________________________________<br><br>
+4) Const class Data members<br><br>
+These are data variables in class which are made const. They are not initialized during declaration. Their initialization occur in the constructor.<br><br>
+class Test<br><br>
+{<br><br>
+ const int i;<br><br>
+ public:<br><br>
+ Test (int x)<br><br>
+ {<br><br>
+   i=x;<br><br>
+ }<br><br>
+};<br><br>
+<br><br>
+int main()<br><br>
+{<br><br>
+ Test t(10);<br><br>
+ Test s(20);<br><br>
+}<br><br>
+In this program, i is a const data member, in every object its independent copy is present, hence it is initialized with each object using constructor. Once initialized, it cannot be changed.<br><br>
+________________________________________<br><br>
+5) Const class Object<br><br>
+When an object is declared or created with const, its data members can never be changed, during object\'s lifetime.<br><br>
+Syntax :<br><br>
+const class_name object;<br><br>
+________________________________________<br><br>
+Const class Member function<br><br>
+A const member function never modifies data members in an object.<br><br>
+Syntax :<br><br>
+return_type function_name() const;<br><br>
+________________________________________<br><br>
+Example for const Object and const Member function<br><br>
+class X<br><br>
+{<br><br>
+ int i;<br><br>
+ public:<br><br>
+ X(int x)   // Constructor<br><br>
+ { i=x; }<br><br>
+<br><br>
+ int f() const    // Constant function<br><br>
+ { i++; }<br><br>
+<br><br>
+ int g()<br><br>
+ { i++; }<br><br>
+};<br><br>
+<br><br>
+int main()<br><br>
+{<br><br>
+X obj1(10);          // Non const Object<br><br>
+const X obj2(20);   // Const Object<br><br>
+<br><br>
+obj1.f();   // No error<br><br>
+obj2.f();   // No error<br><br>
+<br><br>
+cout << obj1.i << obj2.i ;<br><br>
+<br><br>
+obj1.g();   // No error<br><br>
+obj2.g();   // Compile time error<br><br>
+}<br><br>
+Output :<br><br>
+10 20<br><br>
+Here, we can see, that const member function never changes data members of class, and it can be used with both const and non-const object. But a const object can\'t be used with a member function which tries to change its data members.<br><br>
+________________________________________<br><br>
+<br><br>
+     ]]>
+</string>
+    <string name="tutorial_object_mutuable" formatted="false">
+    <![CDATA[
+    Mutable keyword is used with member variables of class, which we want to change even if the object is of const type. Hence, mutable data members of a const objects can be modified.<br><br>
+class Z<br><br>
+{<br><br>
+ int i;<br><br>
+ mutable int j;<br><br>
+ public:<br><br>
+ Z()<br><br>
+ {i=0; j=0;}<br><br>
+ void f() const<br><br>
+ { i++;  // Error<br><br>
+   j++;  // Works, because j is Mutable<br><br>
+ }<br><br>
+};<br><br>
+<br><br>
+int main(0<br><br>
+{<br><br>
+ const Z obj;<br><br>
+ obj.f();<br><br>
+}<br><br>
+<br><br>
+<br><br>
+     ]]>
+</string>
+    <string name="tutorial_object_copy" formatted="false">
+    <![CDATA[
+    Copy Constructor is a type of constructor which is used to create a copy of an already existing object of a class type. It is usually of the form X (X&), where X is the class name.he compiler provides a default Copy Constructor to all the classes.<br><br>
+________________________________________<br><br>
+Syntax of Copy Constructor<br><br>
+class-name (class-name &)<br><br>
+{<br><br>
+ . . . . <br><br>
+}<br><br>
+As it is used to create an object, hence it is called a constructor. And, it creates a new object, which is exact copy of the existing copy, hence it is called copy constructor.<br><br>
+<img src="file:///android_asset/images/object_copy_constructor.png"  height="300" width="300"/><br><br>
+     ]]>
+</string>
+    <string name="tutorial_object_inheritance_basic" formatted="false">
+    <![CDATA[
+Inherit Definition - Derive quality and characteristics from parents or ancestors. Like you inherit features of your parents.<br><br>
+Example: "She had inherited the beauty of her mother"<br><br>
+Inheritance in Object Oriented Programming can be described as a process of creating new classes from existing classes.<br><br>
+New classes inherit some of the properties and behavior of the existing classes. An existing class that is "parent" of a new class is called a base class. New class that inherits properties of the base class is called a derived class.<br><br>
+Inheritance is a technique of code reuse. It also provides possibility to extend existing classes by creating derived classes.<br><br>
+Inheritance Syntax<br><br>
+The basic syntax of inheritance is:<br><br>
+class DerivedClass : accessSpecifier BaseClass<br><br>
+Access specifier can be public, protected and private. The default access specifier is private. Access specifiers affect accessibility of data members of base class from the derived class. In addition, it determines the accessibility of data members of base class outside the derived class.<br><br>
+Inheritance Access Specifiers<br><br>
+Public Inheritance<br><br>
+This inheritance mode is used mostly. In this the protected member of Base class becomes protected members of Derived class and public becomes public.<br><br>
+class DerivedClass : public BaseClass<br><br>
+<img src="file:///android_asset/images/object_inheritance_1.png"  height="300" width="300"/><br><br>
+Derived class of Derived Classes: If we are inheriting a derived class using a public inheritance as shown below<br><br>
+class B : public A<br><br>
+class C : public B<br><br>
+then public and protected members of class A will be accessible in class C as public and protected respectively.<br><br>
+Protected Inheritance<br><br>
+In protected mode, the public and protected members of Base class becomes protected members of Derived class.<br><br>
+class DerivedClass : protected BaseClass<br><br>
+<img src="file:///android_asset/images/object_inheritance_2.png"  height="300" width="300"/><br><br>
+Derived class of Derived Classes: If we are inheriting a derived class using a public inheritance as shown below<br><br>
+class B : protected A<br><br>
+class C : protected B<br><br>
+then public and protected members of class A will be accessible in class C as protected<br><br>
+Private Inheritance<br><br>
+In private mode the public and protected members of Base class become private members of Derived class.<br><br>
+class DerivedClass : private BaseClass<br><br>
+class DerivedClass : BaseClass   // By default inheritance is private<br><br>
+<img src="file:///android_asset/images/object_inheritance_3.png"  height="300" width="300"/><br><br>
+Derived class of Derived Classes: If we are inheriting a derived class using a public inheritance as shown below<br><br>
+class B : private A<br><br>
+class C : private B<br><br>
+then public and protected members of class A will not be accessible in class C<br><br>
+<br><br>
+     ]]>
+</string>
+    <string name="tutorial_object_types_inheritance" formatted="false">
+    <![CDATA[
+In C++, we have 5 different types of Inheritance. Namely,<br><br>
+1.	Single Inheritance<br><br>
+2.	Multiple Inheritance<br><br>
+3.	Hierarchical Inheritance<br><br>
+4.	Multilevel Inheritance<br><br>
+5.	Hybrid Inheritance (also known as Virtual Inheritance)<br><br>
+________________________________________<br><br>
+<b>Single Inheritance</b><br><br>
+In this type of inheritance one derived class inherits from only one base class. It is the most simplest form of Inheritance.<br><br>
+<img src="file:///android_asset/images/object_inheritance_types_1.png"  height="300" width="300"/><br><br>
+<b>Multiple Inheritance</b><br><br>
+In this type of inheritance a single derived class may inherit from two or more than two base classes.<br><br>
+<img src="file:///android_asset/images/object_inheritance_types_2.png"  height="300" width="300"/><br><br>
+<b>Hierarchical Inheritance</b><br><br>
+In this type of inheritance, multiple derived classes inherits from a single base class.<br><br>
+<img src="file:///android_asset/images/object_inheritance_types_3.png"  height="300" width="300"/><br><br>
+<b>Multilevel Inheritance</b><br><br>
+In this type of inheritance the derived class inherits from a class, which in turn inherits from some other class. The Super class for one, is sub class for the other.<br><br>
+<img src="file:///android_asset/images/object_inheritance_types_4.png"  height="300" width="300"/><br><br>
+<b>Hybrid (Virtual) Inheritance</b><br><br>
+Hybrid Inheritance is combination of Hierarchical and Mutilevel Inheritance.<br><br>
+<img src="file:///android_asset/images/object_inheritance_types_5.png"  height="300" width="300"/><br><br>
+     ]]>
+</string>
+    <string name="tutorial_advance_pointers" formatted="false">
+    <![CDATA[
+    C++ pointers are easy and fun to learn. Some C++ tasks are performed more easily with pointers, and other C++ tasks, such as dynamic memory allocation, cannot be performed without them.<br><br>
+As you know every variable is a memory location and every memory location has its address defined which can be accessed using ampersand (&) operator which denotes an address in memory. Consider the following which will print the address of the variables defined −<br><br>
+#include <iostream><br><br>
+<br><br>
+using namespace std;<br><br>
+int main () {<br><br>
+   int  var1;<br><br>
+   char var2[10];<br><br>
+<br><br>
+   cout << "Address of var1 variable: ";<br><br>
+   cout << &var1 << endl;<br><br>
+<br><br>
+   cout << "Address of var2 variable: ";<br><br>
+   cout << &var2 << endl;<br><br>
+<br><br>
+   return 0;<br><br>
+}<br><br>
+When the above code is compiled and executed, it produces the following result −<br><br>
+Address of var1 variable: 0xbfebd5c0<br><br>
+Address of var2 variable: 0xbfebd5b6<br><br>
+What are Pointers?<br><br>
+A pointer is a variable whose value is the address of another variable. Like any variable or constant, you must declare a pointer before you can work with it. The general form of a pointer variable declaration is −<br><br>
+type *var-name;<br><br>
+Here, type is the pointer\'s base type; it must be a valid C++ type and var-name is the name of the pointer variable. The asterisk you used to declare a pointer is the same asterisk that you use for multiplication. However, in this statement the asterisk is being used to designate a variable as a pointer. Following are the valid pointer declaration −<br><br>
+int    *ip;    // pointer to an integer<br><br>
+double *dp;    // pointer to a double<br><br>
+float  *fp;    // pointer to a float<br><br>
+char   *ch     // pointer to character<br><br>
+The actual data type of the value of all pointers, whether integer, float, character, or otherwise, is the same, a long hexadecimal number that represents a memory address. The only difference between pointers of different data types is the data type of the variable or constant that the pointer points to.<br><br>
+<br><br>
+Pointers to class members<br><br>
+Just like pointers to normal variables and functions, we can have pointers to class member functions and member variables.<br><br>
+Defining a pointer of class type<br><br>
+We can define pointer of class type, which can be used to point to class objects.<br><br>
+class Simple<br><br>
+{<br><br>
+ public:<br><br>
+ int a;<br><br>
+};<br><br>
+<br><br>
+int main()<br><br>
+{<br><br>
+ Simple obj;<br><br>
+ Simple* ptr;   // Pointer of class type<br><br>
+ ptr = &obj;<br><br>
+ <br><br>
+ cout << obj.a;<br><br>
+ cout << ptr->a;  // Accessing member with pointer<br><br>
+}<br><br>
+Here you can see that we have declared a pointer of class type which points to class\'s object. We can access data members and member functions using pointer name with arrow -> symbol.<br><br>
+________________________________________<br><br>
+Pointer to Data Members of class<br><br>
+We can use pointer to point to class\'s data members (Member variables).<br><br>
+Syntax for Declaration :<br><br>
+datatype class_name :: *pointer_name ;<br><br>
+<br><br>
+<br><br>
+Syntax for Assignment :<br><br>
+pointer_name = &class_name :: datamember_name ;<br><br>
+<br><br>
+<br><br>
+Both declaration and assignment can be done in a single statement too.<br><br>
+datatype class_name::*pointer_name = &class_name::datamember_name ;<br><br>
+<br><br>
+<br><br>
+Using with Objects<br><br>
+For accessing normal data members we use the dot . operator with object and -> qith pointer to object. But when we have a pointer to data member, we have to dereference that pointer to get what its pointing to, hence it becomes,<br><br>
+Object.*pointerToMember<br><br>
+and with pointer to object, it can be accessed by writing,<br><br>
+ObjectPointer->*pointerToMember<br><br>
+Lets take an example, to understand the complete concept.<br><br>
+class Data<br><br>
+{<br><br>
+ public:<br><br>
+ int a;<br><br>
+ void print() { cout << "a is "<< a; }<br><br>
+};<br><br>
+<br><br>
+int main()<br><br>
+{<br><br>
+ Data d, *dp;<br><br>
+ dp = &d;     // pointer to object<br><br>
+ <br><br>
+ int Data::*ptr=&Data::a;   // pointer to data member \'a\'<br><br>
+<br><br>
+ d.*ptr=10;<br><br>
+ d.print();<br><br>
+<br><br>
+ dp->*ptr=20;<br><br>
+ dp->print();<br><br>
+}<br><br>
+Output :<br><br>
+a is 10 a is 20<br><br>
+The syntax is very tough, hence they are only used under special circumstances.<br><br>
+________________________________________<br><br>
+Pointer to Member Functions<br><br>
+Pointers can be used to point to class\'s Member functions.<br><br>
+Syntax :<br><br>
+return_type (class_name::*ptr_name) (argument_type) = &class_name::function_name ;<br><br>
+Below is an example to show how we use ppointer to member functions.<br><br>
+class Data<br><br>
+{ public:<br><br>
+  int f (float) { return 1; }<br><br>
+};<br><br>
+<br><br>
+int (Data::*fp1) (float) = &Data::f;   // Declaration and assignment<br><br>
+int (Data::*fp2) (float);        // Only Declaration<br><br>
+<br><br>
+int main(0<br><br>
+{<br><br>
+ fp2 = &Data::f;   // Assignment inside main()<br><br>
+}<br><br>
+________________________________________<br><br>
+Some Points to remember<br><br>
+1.	You can change the value and behaviour of these pointers on runtime. That means, you can point it to other member function or member variable.<br><br>
+<br><br>
+2.	To have pointer to data member and member functions you need to make them public.<br><br>
+<br><br>
+________________________________________<br><br>
+<br><br>
+     ]]>
+</string>
+    <string name="tutorial_advance_references" formatted="false">
+    <![CDATA[
+    References are like constant pointers that are automatically dereferenced. It is a new name given to an existing storage. So when you are accessing the reference, you are actually accessing that storage.<br><br>
+int main()<br><br>
+{ int y=10;<br><br>
+  int &r = y;  // r is a reference to int y<br><br>
+  cout << r;<br><br>
+}<br><br>
+Output :<br><br>
+10<br><br>
+There is no need to use the * to dereference a reference variable.<br><br>
+________________________________________<br><br>
+References in Funtions<br><br>
+References are generally used for function argument lists and function return values, just like pointers.<br><br>
+Rules for using Reference in Functions<br><br>
+1.	When we use reference in argument list, we must keep in mind that any change to the reference inside the function will cause change to the original argument outside th function.<br><br>
+<br><br>
+2.	When we return a reference from a function, you should see that whatever the reference is connected to shouldn\'t go out of scope when fnction ends. Either make that global or static<br><br>
+________________________________________<br><br>
+Example to explain use of References<br><br>
+<br><br>
+<br><br>
+int* first (int* x)<br><br>
+{ (*x++);<br><br>
+  return x;   // SAFE, x is outside this scope<br><br>
+}<br><br>
+<br><br>
+int& second (int& x)<br><br>
+{ x++;<br><br>
+  return x;   // SAFE, x is outside this scope<br><br>
+}<br><br>
+<br><br>
+int& third ()<br><br>
+{ int q;<br><br>
+  return q;   // ERROR, scope of q ends here<br><br>
+}<br><br>
+<br><br>
+int& fourth ()<br><br>
+{ static int x;<br><br>
+  return x;   // SAFE, x is static, hence lives till the end.<br><br>
+}<br><br>
+<br><br>
+int main()<br><br>
+{<br><br>
+ int a=0;<br><br>
+ first(&a);   // UGLY and explicit<br><br>
+ second(a);   // CLEAN and hidden<br><br>
+}<br><br>
+We have four different functions in the above program.<br><br>
+•	first() takes a pointer as argument and returns a pointer, it will work fine. The returning pointer points to variable declared outside first(), hence it will be valid even after the first() ends.<br><br>
+<br><br>
+•	Similarly, second() will also work fine. The returning reference is connected to valid storage, that is int ain this case.<br><br>
+<br><br>
+•	But in case of third(), we declare a variable q inside the function and try to return a reference connected to it. But as soon as function third() ends, the local variable q is destroyed, hence nothing is returned.<br><br>
+<br><br>
+•	To remedify above problem, we make x as static in function fourth(), giving it a lifetime till main() ends, hence now a reference connected to x will be valid when returned.<br><br>
+________________________________________<br><br>
+Const Reference<br><br>
+Const reference is used in function arguments to prevent the function from changing the argument.<br><br>
+void g(const int& x)<br><br>
+{ x++; }   // ERROR<br><br>
+<br><br>
+int main()<br><br>
+{<br><br>
+ int i=10;<br><br>
+ g(i);<br><br>
+}<br><br>
+We cannot change the argument in the function because it is passed as const reference.<br><br>
+________________________________________<br><br>
+Argument Passing Guidelines<br><br>
+Usually call by value is used during funtcion call just to save our object or variable from being changed or modified, but whenever we pass an argument by value, its new copy is created. If we pass an object as argument then a copy of that object is created (constructor and destructors called), which affects efficiency.<br><br>
+Hence, we must use const reference type arguments. When we use, const reference, only an address is passed on stack, which is used inside the function and the function cannot change our argument because it is of const type.<br><br>
+So using const reference type argument reduces overhead and also saves our argument from being changed.<br><br>
+<br><br>
+     ]]>
+</string>
+    <string name="tutorial_advance_exception" formatted="false">
+    <![CDATA[
+    Exception Handling in C++ is a process to handle runtime errors. We perform exception handling so the normal flow of the application can be maintained even after runtime errors.<br><br>
+In C++, exception is an event or object which is thrown at runtime. All exceptions are derived from std::exception class. It is a runtime error which can be handled. If we don\'t handle the exception, it prints exception message and terminates the program.<br><br>
+It maintains the normal flow of the application. In such case, rest of the code is executed even after exception.<br><br>
+In C++ standard exceptions are defined in <exception> class that we can use inside our programs. The arrangement of parent-child class hierarchy is shown below:<br><br>
+<img src="file:///android_asset/images/object_exception_1.png"  height="300" width="300"/><br><br>
+All the exception classes in C++ are derived from std::exception class. Let\'s see the list of C++ common exception classes.<br><br>
+<img src="file:///android_asset/images/object_exception_2.png"  height="300" width="300"/><br><br>
+C++ Exception Handling Keywords<br><br>
+In C++, we use 3 keywords to perform exception handling:<br><br>
+o	try<br><br>
+o	catch, and<br><br>
+o	throw<br><br>
+Moreover, we can create user-defined exception which we will learn in next chapters.<br><br>
+<br><br>
+C++ try/catch<br><br>
+In C++ programming, exception handling is performed using try/catch statement. The C++ try block is used to place the code that may occur exception. The catch block is used to handle the exception.<br><br>
+________________________________________<br><br>
+C++ example without try/catch<br><br>
+1.	#include <iostream>  <br><br>
+2.	using namespace std;  <br><br>
+3.	float division(int x, int y) {  <br><br>
+4.	   return (x/y);  <br><br>
+5.	}  <br><br>
+6.	int main () {  <br><br>
+7.	   int i = 50;  <br><br>
+8.	   int j = 0;  <br><br>
+9.	   float k = 0;  <br><br>
+10.	      k = division(i, j);  <br><br>
+11.	      cout << k << endl;  <br><br>
+12.	   return 0;  <br><br>
+13.	}  <br><br>
+Output:<br><br>
+Floating point exception (core dumped)  <br><br>
+<br><br>
+<br><br>
+C++ try/catch example<br><br>
+1.	#include <iostream>  <br><br>
+2.	using namespace std;  <br><br>
+3.	float division(int x, int y) {  <br><br>
+4.	   if( y == 0 ) {  <br><br>
+5.	      throw "Attempted to divide by zero!";  <br><br>
+6.	   }  <br><br>
+7.	   return (x/y);  <br><br>
+8.	}  <br><br>
+9.	int main () {  <br><br>
+10.	   int i = 25;  <br><br>
+11.	   int j = 0;  <br><br>
+12.	   float k = 0;  <br><br>
+13.	   try {  <br><br>
+14.	      k = division(i, j);  <br><br>
+15.	      cout << k << endl;  <br><br>
+16.	   }catch (const char* e) {  <br><br>
+17.	      cerr << e << endl;  <br><br>
+18.	   }  <br><br>
+19.	   return 0;  <br><br>
+20.	}  <br><br>
+Output:<br><br>
+Attempted to divide by zero!<br><br>
+<br><br>
+C++ User-Defined Exceptions<br><br>
+The new exception can be defined by overriding and inheriting exception class functionality.<br><br>
+C++ user-defined exception example<br><br>
+Let\'s see the simple example of user-defined exception in which std::exception class is used to define the exception.<br><br>
+1.	#include <iostream>  <br><br>
+2.	#include <exception>  <br><br>
+3.	using namespace std;  <br><br>
+4.	class MyException : public exception{  <br><br>
+5.	    public:  <br><br>
+6.	        const char * what() const throw()  <br><br>
+7.	        {  <br><br>
+8.	            return "Attempted to divide by zero!\n";  <br><br>
+9.	        }  <br><br>
+10.	};  <br><br>
+11.	int main()  <br><br>
+12.	{  <br><br>
+13.	    try  <br><br>
+14.	    {  <br><br>
+15.	        int x, y;  <br><br>
+16.	        cout << "Enter the two numbers : \n";  <br><br>
+17.	        cin >> x >> y;  <br><br>
+18.	        if (y == 0)  <br><br>
+19.	        {  <br><br>
+20.	            MyException z;  <br><br>
+21.	            throw z;  <br><br>
+22.	        }  <br><br>
+23.	        else  <br><br>
+24.	        {  <br><br>
+25.	            cout << "x / y = " << x/y << endl;  <br><br>
+26.	        }  <br><br>
+27.	    }  <br><br>
+28.	    catch(exception& e)  <br><br>
+29.	    {  <br><br>
+30.	        cout << e.what();  <br><br>
+31.	    }  <br><br>
+32.	}  <br><br>
+Output:<br><br>
+Enter the two numbers :<br><br>
+10<br><br>
+2<br><br>
+x / y = 5  <br><br>
+Output:<br><br>
+Enter the two numbers :<br><br>
+10<br><br>
+0<br><br>
+Attempted to divide by zero!<br><br>
+--><br><br>
+Note: In above example what() is a public method provided by the exception class. It is used to return the cause of an exception.<br><br>
+<br><br>
+     ]]>
+</string>
+    <string name="tutorial_advance_file" formatted="false">
+    <![CDATA[
+    In C++ programming we are using the iostream standard library, it provides cin and cout methods for reading from input and writing to output respectively.<br><br>
+To read and write from a file we are using the standard C++ library called fstream. Let us see the data types define in fstream library is:<br><br>
+<img src="file:///android_asset/images/object_files_1.png"  height="300" width="300"/><br><br>
+<br><br>
+     ]]>
+</string>
+    <string name="tutorial_advance_virtual" formatted="false">
+    <![CDATA[
+    Virtual Function is a function in base class, which is overrided in the derived class, and which tells the compiler to perform Late Binding on this function.<br><br>
+Virtual Keyword is used to make a member function of the base class Virtual.<br><br>
+________________________________________<br><br>
+Late Binding<br><br>
+In Late Binding function call is resolved at runtime. Hence, now compiler determines the type of object at runtime, and then binds the function call. Late Binding is also called Dynamic Binding or Runtime Binding.<br><br>
+________________________________________<br><br>
+Problem without Virtual Keyword<br><br>
+class Base<br><br>
+{<br><br>
+ public:<br><br>
+ void show()<br><br>
+ {<br><br>
+  cout << "Base class";<br><br>
+ }<br><br>
+};<br><br>
+class Derived:public Base<br><br>
+{<br><br>
+ public:<br><br>
+ void show()<br><br>
+ {<br><br>
+  cout << "Derived Class";<br><br>
+ }<br><br>
+}<br><br>
+<br><br>
+int main()<br><br>
+{<br><br>
+ Base* b;       //Base class pointer<br><br>
+ Derived d;     //Derived class object<br><br>
+ b = &d;<br><br>
+ b->show();     //Early Binding Ocuurs<br><br>
+}<br><br>
+Output : Base class<br><br>
+When we use Base class\'s pointer to hold Derived class\'s object, base class pointer or reference will always call the base version of the function<br><br>
+________________________________________<br><br>
+Using Virtual Keyword<br><br>
+We can make base class\'s methods virtual by using virtual keyword while declaring them. Virtual keyword will lead to Late Binding of that method.<br><br>
+class Base<br><br>
+{<br><br>
+ public:<br><br>
+ virtual void show()<br><br>
+ {<br><br>
+  cout << "Base class";<br><br>
+ }<br><br>
+};<br><br>
+class Derived:public Base<br><br>
+{<br><br>
+ public:<br><br>
+ void show()<br><br>
+ {<br><br>
+  cout << "Derived Class";<br><br>
+ }<br><br>
+}<br><br>
+<br><br>
+int main()<br><br>
+{<br><br>
+ Base* b;       //Base class pointer<br><br>
+ Derived d;     //Derived class object<br><br>
+ b = &d;<br><br>
+ b->show();     //Late Binding Ocuurs<br><br>
+}<br><br>
+Output : Derived class<br><br>
+On using Virtual keyword with Base class\'s function, Late Binding takes place and the derived version of function will be called, because base class pointer pointes to Derived class object.<br><br>
+________________________________________<br><br>
+Using Virtual Keyword and Accessing Private Method of Derived class<br><br>
+We can call private function of derived class from the base class pointer with the help of virtual keyword. Compiler checks for access specifier only at compile time. So at run time when late binding occurs it does not check whether we are calling the private function or public function.<br><br>
+#include <br><br>
+using namespace std;<br><br>
+<br><br>
+class A<br><br>
+{<br><br>
+    public:<br><br>
+    virtual void show()<br><br>
+    {<br><br>
+        cout << "Base class\n";<br><br>
+    }<br><br>
+};<br><br>
+<br><br>
+class B: public A<br><br>
+{<br><br>
+private:<br><br>
+    virtual void show()<br><br>
+    {<br><br>
+        cout << "Derived class\n";<br><br>
+    }<br><br>
+};<br><br>
+<br><br>
+int main()<br><br>
+{<br><br>
+    A *a;<br><br>
+    B b;<br><br>
+    a = &b;<br><br>
+    a -> show(); <br><br>
+}<br><br>
+Output : Derived class<br><br>
+________________________________________<br><br>
+Mechanism of Late Binding<br><br>
+<img src="file:///android_asset/images/object_virual.png"  height="300" width="300"/><br><br>
+To accomplich late binding, Compiler creates VTABLEs, for each class with virtual function. The address of virtual functions is inserted into these tables. Whenever an object of such class is created the compiler secretly inserts a pointer called vpointer, pointing to VTABLE for that object. Hence when function is called, compiler is able to resovle the call by binding the correct function using the vpointer.<br><br>
+________________________________________<br><br>
+Important Points to Remember<br><br>
+1.	Only the Base class Method\'s declaration needs the Virtual Keyword, not the definition.<br><br>
+2.	If a function is declared as virtual in the base class, it will be virtual in all its derived classes.<br><br>
+3.	The address of the virtual Function is placed in the VTABLE and the copiler uses VPTR(vpointer) to point to the Virtual Function.<br><br>
+<br><br>
+     ]]>
+</string>
+    <string name="tutorial_advance_abstract_class" formatted="false">
+    <![CDATA[
+    Abstract Class is a class which contains atleast one Pure Virtual function in it. Abstract classes are used to provide an Interface for its sub classes. Classes inheriting an Abstract Class must provide definition to the pure virtual function, otherwise they will also become abstract class.<br><br>
+________________________________________<br><br>
+Characteristics of Abstract Class<br><br>
+1.	Abstract class cannot be instantiated, but pointers and refrences of Abstract class type can be created.<br><br>
+2.	Abstract class can have normal functions and variables along with a pure virtual function.<br><br>
+3.	Abstract classes are mainly used for Upcasting, so that its derived classes can use its interface.<br><br>
+4.	Classes inheriting an Abstract Class must implement all pure virtual functions, or else they will become Abstract too.<br><br>
+________________________________________<br><br>
+Pure Virtual Functions<br><br>
+Pure virtual Functions are virtual functions with no definition. They start with virtual keyword and ends with = 0. Here is the syntax for a pure virtual function,<br><br>
+virtual void f() = 0;<br><br>
+________________________________________<br><br>
+Example of Abstract Class<br><br>
+class Base          //Abstract base class<br><br>
+{<br><br>
+ public:<br><br>
+ virtual void show() = 0;            //Pure Virtual Function<br><br>
+};<br><br>
+<br><br>
+class Derived:public Base<br><br>
+{<br><br>
+ public:<br><br>
+ void show()<br><br>
+ { cout << "Implementation of Virtual Function in Derived class"; }<br><br>
+};<br><br>
+<br><br>
+int main()<br><br>
+{<br><br>
+ Base obj;       //Compile Time Error<br><br>
+ Base *b;<br><br>
+ Derived d;<br><br>
+ b = &d;<br><br>
+ b->show();<br><br>
+}<br><br>
+Output :<br><br>
+Implementation of Virtual Function in Derived class<br><br>
+In the above example Base class is abstract, with pure virtual show() function, hence we cannot create object of base class.<br><br>
+________________________________________<br><br>
+Why can\'t we create Object of Abstract Class ?<br><br>
+When we create a pure virtual function in Abstract class, we reserve a slot for a function in the VTABLE(studied in last topic), but doesn\'t put any address in that slot. Hence the VTABLE will be incomplete.<br><br>
+As the VTABLE for Abstract class is incomplete, hence the compiler will not let the creation of object for such class and will display an errror message whenever you try to do so.<br><br>
+________________________________________<br><br>
+Pure Virtual definitions<br><br>
+•	Pure Virtual functions can be given a small definition in the Abstract class, which you want all the derived classes to have. Still you cannot create object of Abstract class.<br><br>
+•	Also, the Pure Virtual function must be defined outside the class definition. If you will define it inside the class definition, complier will give an error. Inline pure virtual definition is Illegal.<br><br>
+class Base          //Abstract base class<br><br>
+{<br><br>
+ public:<br><br>
+ virtual void show() = 0;            //Pure Virtual Function<br><br>
+};<br><br>
+<br><br>
+void Base :: show()         //Pure Virtual definition<br><br>
+{<br><br>
+ cout << "Pure Virtual definition\n";<br><br>
+}<br><br>
+<br><br>
+class Derived:public Base<br><br>
+{<br><br>
+ public:<br><br>
+ void show()<br><br>
+ { cout << "Implementation of Virtual Function in Derived class"; }<br><br>
+};<br><br>
+<br><br>
+int main()<br><br>
+{<br><br>
+ Base *b;<br><br>
+ Derived d;<br><br>
+ b = &d;<br><br>
+ b->show();<br><br>
+}<br><br>
+Output :<br><br>
+Pure Virtual definition<br><br>
+Implementation of Virtual Function in Derived class<br><br>
+
+     ]]>
+</string>
+    <string name="tutorial_advance_virtual_desc" formatted="false">
+    <![CDATA[
+    Destructors in the Base class can be Virtual. Whenever Upcasting is done, Destructors of the Base class must be made virtual for proper destrucstion of the object when the program exits.<br><br>
+NOTE : Constructors are never Virtual, only Destructors can be Virtual.<br><br>
+________________________________________<br><br>
+Upcasting without Virtual Destructor<br><br>
+Lets first see what happens when we do not have a virtual Base class destructor.<br><br>
+class Base<br><br>
+{<br><br>
+ public:<br><br>
+ ~Base() {cout << "Base Destructor\t"; }<br><br>
+};<br><br>
+<br><br>
+class Derived:public Base<br><br>
+{<br><br>
+ public:<br><br>
+ ~Derived() { cout<< "Derived Destructor"; }<br><br>
+}; <br><br>
+<br><br>
+int main()<br><br>
+{<br><br>
+ Base* b = new Derived;     //Upcasting<br><br>
+ delete b;<br><br>
+}<br><br>
+Output :<br><br>
+Base Destructor<br><br>
+In the above example, delete b will only call the Base class destructor, which is undesirable because, then the object of Derived class remains undestructed, because its destructor is never called. Which results in memory leak.<br><br>
+________________________________________<br><br>
+Upcasting with Virtual Destructor<br><br>
+Now lets see. what happens when we have Virtual destructor in the base class.<br><br>
+class Base<br><br>
+{<br><br>
+ public:<br><br>
+ virtual ~Base() {cout << "Base Destructor\t"; }<br><br>
+};<br><br>
+<br><br>
+class Derived:public Base<br><br>
+{<br><br>
+ public:<br><br>
+ ~Derived() { cout<< "Derived Destructor"; }<br><br>
+}; <br><br>
+<br><br>
+int main()<br><br>
+{<br><br>
+ Base* b = new Derived;     //Upcasting<br><br>
+ delete b;<br><br>
+}<br><br>
+Output :<br><br>
+Derived Destructor<br><br>
+Base Destructor<br><br>
+When we have Virtual destructor inside the base class, then first Derived class\'s destructor is called and then Base class\'s destructor is called, which is the desired behaviour.<br><br>
+________________________________________<br><br>
+Pure Virtual Destructors<br><br>
+•	Pure Virtual Destructors are legal in C++. Also, pure virtual Destructors must be defined, which is against the pure virtual behaviour.<br><br>
+•	The only difference between Virtual and Pure Virtual Destructor is, that pure virtual destructor will make its Base class Abstract, hence you cannot create object of that class.<br><br>
+•	There is no requirement of implementing pure virtual destructors in the derived classes.<br><br>
+class Base<br><br>
+{<br><br>
+ public:<br><br>
+ virtual ~Base() = 0;     //Pure Virtual Destructor<br><br>
+};<br><br>
+<br><br>
+Base::~Base() { cout << "Base Destructor"; } //Definition of Pure Virtual Destructor<br><br>
+<br><br>
+class Derived:public Base<br><br>
+{<br><br>
+ public:<br><br>
+ ~Derived() { cout<< "Derived Destructor"; }<br><br>
+}; <br><br>
+<br><br>
+<br><br>
+<br><br>
+     ]]>
+</string>
+    <string name="tutorial_advance_upcasting" formatted="false">
+    <![CDATA[
+    Upcasting is using the Super class\'s reference or pointer to refer to a Sub class\'s object. Or we can say that, the act of converting a Sub class\'s reference or pointer into its Super class\'s reference or pointer is called Upcasting.<br><br>
+class Super<br><br>
+{ int x;<br><br>
+  public:<br><br>
+  void funBase() { cout << "Super function"; }<br><br>
+};<br><br>
+<br><br>
+class Sub : public Super<br><br>
+{ int y;<br><br>
+};<br><br>
+<br><br>
+int main()<br><br>
+{<br><br>
+ Super* ptr;    // Super class pointer<br><br>
+ Sub obj;<br><br>
+ ptr = &obj;<br><br>
+ <br><br>
+ Super &ref;    // Super class\'s reference    <br><br>
+ ref=obj;<br><br>
+}<br><br>
+The opposite of Upcasting is Downcasting, in which we convert Super class\'s reference or pointer into derived class\'s reference or pointer. We will study more about Downcasting later<br><br>
+________________________________________<br><br>
+Functions that are never Inherited<br><br>
+•	Constructors and Destructors are never inherited and hence never overrided.<br><br>
+•	Also, assignment operator = is never inherited. It can be overloaded but can\'t be inherited by sub class.<br><br>
+________________________________________<br><br>
+Inheritance and Static Functions<br><br>
+1.	They are inherited into the derived class.<br><br>
+2.	If you redefine a static member function in derived class, all the other overloaded functions in base class are hidden.<br><br>
+3.	Static Member functions can never be virtual. We will study about Virtual in coming topics.<br><br>
+________________________________________<br><br>
+Hybrid Inheritance and Virtual Class<br><br>
+In Multiple Inheritance, the derived class inherits from more than one base class. Hence, in Multiple Inheritance there are a lot chances of ambiguity.<br><br>
+class A<br><br>
+{ void show(); };<br><br>
+<br><br>
+class B:public A {};<br><br>
+<br><br>
+class C:public A {};<br><br>
+<br><br>
+class D:public B, public C {};<br><br>
+<br><br>
+int main()<br><br>
+{<br><br>
+ D obj;<br><br>
+ obj.show();<br><br>
+}<br><br>
+In this case both class B and C inherits function show() from class A. Hence class D has two inherited copies of function show(). In main() function when we call function show(), then ambiguity arises, because compiler doesn\'t know which show() function to call. Hence we use Virtual keyword while inheriting class.<br><br>
+class B : virtual public A {};<br><br>
+<br><br>
+class C : virtual public A {};<br><br>
+<br><br>
+class D : public B, public C {};<br><br>
+Now by adding virtual keyword, we tell compiler to call any one out of the two show() funtions.<br><br>
+________________________________________<br><br>
+Hybrid Inheritance and Constructor call<br><br>
+As we all know that whenever a derived class object is instantiated, the base class constructor is always called. But in case of Hybrid Inheritance, as discussed in above example, if we create an instance of class D, then following constructors will be called :<br><br>
+•	before class D\'s constructor, constructors of its super classes will be called, hence constructors of class B, class C and class A will be called.<br><br>
+•	when constructors of class B and class C are called, they will again make a call to their super class\'s constructor.<br><br>
+This will result in multiple calls to the constructor of class A, which is undesirable. As there is a single instance of virtual base class which is shared by multiple classes that inherit from it, hence the constructor of the base class is only called once by the constructor of concrete class, which in our case is class D.<br><br>
+If there is any call for initializing the constructor of class A in class B or class C, while creating object of class D, all such calls will be skipped.<br><br>
+
+     ]]>
+</string>
+    <string name="tutorial_advance_multithreadding" formatted="false">
+    <![CDATA[
+    Multithreading is a specialized form of multitasking and a multitasking is the feature that allows your computer to run two or more programs concurrently. In general, there are two types of multitasking: process-based and thread-based.<br><br>
+Process-based multitasking handles the concurrent execution of programs. Thread-based multitasking deals with the concurrent execution of pieces of the same program.<br><br>
+A multithreaded program contains two or more parts that can run concurrently. Each part of such a program is called a thread, and each thread defines a separate path of execution.<br><br>
+C++ does not contain any built-in support for multithreaded applications. Instead, it relies entirely upon the operating system to provide this feature.<br><br>
+This tutorial assumes that you are working on Linux OS and we are going to write multi-threaded C++ program using POSIX. POSIX Threads, or Pthreads provides API which are available on many Unix-like POSIX systems such as FreeBSD, NetBSD, GNU/Linux, Mac OS X and Solaris.<br><br>
+<br><br>
+Creating Threads<br><br>
+There is following routine which we use to create a POSIX thread:<br><br>
+#include <pthread.h><br><br>
+pthread_create (thread, attr, start_routine, arg) <br><br>
+Here, pthread_create creates a new thread and makes it executable. This routine can be called any number of times from anywhere within your code. Here is the description of the parameters:<br><br>
+<img src="file:///android_asset/images/object_multi_1.png"  height="300" width="300"/><br><br>
+The maximum number of threads that may be created by a process is implementation dependent. Once created, threads are peers, and may create other threads. There is no implied hierarchy or dependency between threads.<br><br>
+<br><br>
+Terminating Threads<br><br>
+There is following routine which we use to terminate a POSIX thread:<br><br>
+#include <pthread.h><br><br>
+pthread_exit (status) <br><br>
+Here pthread_exit is used to explicitly exit a thread. Typically, the pthread_exit() routine is called after a thread has completed its work and is no longer required to exist.<br><br>
+If main() finishes before the threads it has created, and exits with pthread_exit(), the other threads will continue to execute. Otherwise, they will be automatically terminated when main() finishes.<br><br>
+<br><br>
+     ]]>
+</string>
+    <string name="tutorial_advance_dynamic_memory" formatted="false">
+    <![CDATA[
+    A good understanding of how dynamic memory really works in C++ is essential to becoming a good C++ programmer. Memory in your C++ program is divided into two parts:<br><br>
+•	The stack: All variables declared inside the function will take up memory from the stack.<br><br>
+•	The heap: This is unused memory of the program and can be used to allocate the memory dynamically when program runs.<br><br>
+Many times, you are not aware in advance how much memory you will need to store particular information in a defined variable and the size of required memory can be determined at run time.<br><br>
+You can allocate memory at run time within the heap for the variable of a given type using a special operator in C++ which returns the address of the space allocated. This operator is called new operator.<br><br>
+If you are not in need of dynamically allocated memory anymore, you can use delete operator, which de-allocates memory previously allocated by new operator.<br><br>
+The new and delete operators<br><br>
+There is following generic syntax to use new operator to allocate memory dynamically for any data-type.<br><br>
+new data-type;<br><br>
+Here, data-type could be any built-in data type including an array or any user defined data types include class or structure. Let us start with built-in data types. For example we can define a pointer to type double and then request that the memory be allocated at execution time. We can do this using the new operator with the following statements:<br><br>
+double* pvalue  = NULL; // Pointer initialized with null<br><br>
+pvalue  = new double;   // Request memory for the variable<br><br>
+The memory may not have been allocated successfully, if the free store had been used up. So it is good practice to check if new operator is returning NULL pointer and take appropriate action as below:<br><br>
+double* pvalue  = NULL;<br><br>
+if( !(pvalue  = new double )) {<br><br>
+   cout << "Error: out of memory." <<endl;<br><br>
+   exit(1);<br><br>
+<br><br>
+}<br><br>
+The malloc() function from C, still exists in C++, but it is recommended to avoid using malloc() function. The main advantage of new over malloc() is that new doesn\'t just allocate memory, it constructs objects which is prime purpose of C++.<br><br>
+At any point, when you feel a variable that has been dynamically allocated is not anymore required, you can free up the memory that it occupies in the free store with the delete operator as follows:<br><br>
+delete pvalue;        // Release memory pointed to by pvalue<br><br>
+Let us put above concepts and form the following example to show how new and delete work:<br><br>
+#include <iostream><br><br>
+using namespace std;<br><br>
+<br><br>
+int main () {<br><br>
+   double* pvalue  = NULL; // Pointer initialized with null<br><br>
+   pvalue  = new double;   // Request memory for the variable<br><br>
+ <br><br>
+   *pvalue = 29494.99;     // Store value at allocated address<br><br>
+   cout << "Value of pvalue : " << *pvalue << endl;<br><br>
+<br><br>
+   delete pvalue;         // free up the memory.<br><br>
+<br><br>
+   return 0;<br><br>
+}<br><br>
+If we compile and run above code, this would produce the following result:<br><br>
+Value of pvalue : 29495<br><br>
+Dynamic Memory Allocation for Arrays<br><br>
+Consider you want to allocate memory for an array of characters, i.e., string of 20 characters. Using the same syntax what we have used above we can allocate memory dynamically as shown below.<br><br>
+char* pvalue  = NULL;   // Pointer initialized with null<br><br>
+pvalue  = new char[20]; // Request memory for the variable<br><br>
+To remove the array that we have just created the statement would look like this:<br><br>
+delete [] pvalue;        // Delete array pointed to by pvalue<br><br>
+Following is the syntax of new operator for a multi-dimensional array as follows:<br><br>
+int ROW = 2;<br><br>
+int COL = 3;<br><br>
+double **pvalue  = new double* [ROW]; // Allocate memory for rows<br><br>
+<br><br>
+// Now allocate memory for columns<br><br>
+for(int i = 0; i < ROW; i++) {<br><br>
+    pvalue[i] = new double[COL];<br><br>
+}<br><br>
+The syntax to release the memory for multi-dimensional will be as follows:<br><br>
+for(int i = 0; i < ROW; i++) {<br><br>
+   delete[] pvalue[i];<br><br>
+}<br><br>
+delete [] pvalue; <br><br>
+Dynamic Memory Allocation for Objects<br><br>
+Objects are no different from simple data types. For example, consider the following code where we are going to use an array of objects to clarify the concept:<br><br>
+#include <iostream><br><br>
+using namespace std;<br><br>
+<br><br>
+class Box {<br><br>
+   public:<br><br>
+      Box() { <br><br>
+         cout << "Constructor called!" <<endl; <br><br>
+      }<br><br>
+		<br><br>
+      ~Box() { <br><br>
+         cout << "Destructor called!" <<endl; <br><br>
+      }<br><br>
+};<br><br>
+<br><br>
+int main( ) {<br><br>
+   Box* myBoxArray = new Box[4];<br><br>
+<br><br>
+   delete [] myBoxArray; // Delete array<br><br>
+<br><br>
+   return 0;<br><br>
+}<br><br>
+If you were to allocate an array of four Box objects, the Simple constructor would be called four times and similarly while deleting these objects, destructor will also be called same number of times.<br><br>
+If we compile and run above code, this would produce the following result:<br><br>
+Constructor called!<br><br>
+Constructor called!<br><br>
+Constructor called!<br><br>
+Constructor called!<br><br>
+Destructor called!<br><br>
+Destructor called!<br><br>
+Destructor called!<br><br>
+Destructor called!<br><br>
+     ]]>
+</string>
+    <string name="title_activity_program_list">Programs</string>
+
+
+    <!--programs-->
+    <!--basics-->
+    <string name="basic_Hello_World" formatted="false">
+    <![CDATA[
+#include &#60;iostream&#62;
+using namespace std;
+
+int main()
+{
+    cout &#60;&#60; "Hello, World!";
+    return 0;
+}
+    ]]>
+    </string>
+    <string name="basic_Hello_World_op" formatted="false">
+    <![CDATA[
+Hello, World!
+    ]]>
+    </string>
+    <string name="basic_Print_Number_Entered_by_User" formatted="false">
+    <![CDATA[
+#include &#60;iostream&#62;
+using namespace std;
+
+int main()
+{
+    int number;
+
+    cout &#60;&#60; "Enter an integer: ";
+    cin &#62;&#62; number;
+
+    cout &#60;&#60; "You entered " &#60;&#60; number;
+    return 0;
+}
+    ]]>
+    </string>
+    <string name="basic_Print_Number_Entered_by_User_op" formatted="false">
+    <![CDATA[
+Enter an integer: 23
+You entered 23
+    ]]>
+    </string>
+    <string name="basic_Add_Two_Numbers" formatted="false">
+    <![CDATA[
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int firstNumber, secondNumber, sumOfTwoNumbers;
+
+    cout << "Enter two integers: ";
+    cin >> firstNumber >> secondNumber;
+
+    // sum of two numbers in stored in variable sumOfTwoNumbers
+    sumOfTwoNumbers = firstNumber + secondNumber;
+
+    // Prints sum
+    cout << firstNumber << " + " <<  secondNumber << " = " << sumOfTwoNumbers;
+
+    return 0;
+}
+    ]]>
+    </string>
+    <string name="basic_Add_Two_Numbers_op" formatted="false">
+    <![CDATA[
+Enter two integers: 4
+5
+4 + 5 = 9
+    ]]>
+    </string>
+    <string name="basic_Find_Quotient_and_Remainder" formatted="false">
+    <![CDATA[
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int divisor, dividend, quotient, remainder;
+
+    cout << "Enter dividend: ";
+    cin >> dividend;
+
+    cout << "Enter divisor: ";
+    cin >> divisor;
+
+    quotient = dividend / divisor;
+    remainder = dividend % divisor;
+
+    cout << "Quotient = " << quotient << endl;
+    cout << "Remainder = " << remainder;
+
+    return 0;
+}
+    ]]>
+    </string>
+    <string name="basic_Find_Quotient_and_Remainder_op" formatted="false">
+    <![CDATA[
+Enter dividend: 13
+Enter divisor: 4
+Quotient = 3
+Remainder = 1
+    ]]>
+    </string>
+    <string name="basic_Find_Size_of_int_float_double_and_char_in_Your_System" formatted="false">
+    <![CDATA[
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "Size of char: " << sizeof(char) << " byte" << endl;
+    cout << "Size of int: " << sizeof(int) << " bytes" << endl;
+    cout << "Size of float: " << sizeof(float) << " bytes" << endl;
+    cout << "Size of double: " << sizeof(double) << " bytes" << endl;
+
+    return 0;
+}
+    ]]>
+    </string>
+    <string name="basic_Find_Size_of_int_float_double_and_char_in_Your_System_op" formatted="false">
+    <![CDATA[
+Size of char: 1 byte
+Size of int: 4 bytes
+Size of float: 4 bytes
+Size of double: 8 bytes
+    ]]>
+    </string>
+    <string name="basic_Swap_Two_Numbers" formatted="false">
+    <![CDATA[
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a = 5, b = 10, temp;
+
+    cout << "Before swapping." << endl;
+    cout << "a = " << a << ", b = " << b << endl;
+
+    temp = a;
+    a = b;
+    b = temp;
+
+    cout << "\nAfter swapping." << endl;
+    cout << "a = " << a << ", b = " << b << endl;
+
+    return 0;
+}
+    ]]>
+    </string>
+    <string name="basic_Swap_Two_Numbers_op" formatted="false">
+    <![CDATA[
+Before swapping.
+a = 5, b = 10
+
+After swapping.
+a = 10, b = 5
+    ]]>
+    </string>
+    <string name="basic_Check_Whether_Number_is_Even_or_Odd" formatted="false">
+    <![CDATA[
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+
+    cout << "Enter an integer: ";
+    cin >> n;
+
+    if ( n % 2 == 0)
+        cout << n << " is even.";
+    else
+        cout << n << " is odd.";
+
+    return 0;
+}
+    ]]>
+    </string>
+    <string name="basic_Check_Whether_Number_is_Even_or_Odd_op" formatted="false">
+    <![CDATA[
+Enter an integer: 23
+23 is odd.
+    ]]>
+    </string>
+    <string name="basic_Check_Whether_a_character_is_Vowel_or_Consonant" formatted="false">
+    <![CDATA[
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    char c;
+    int isLowercaseVowel, isUppercaseVowel;
+
+    cout << "Enter an alphabet: ";
+    cin >> c;
+
+    // evaluates to 1 (true) if c is a lowercase vowel
+    isLowercaseVowel = (c == \'a\' || c == \'e\' || c == \'i\' || c == \'o\' || c == \'u\');
+
+    // evaluates to 1 (true) if c is an uppercase vowel
+    isUppercaseVowel = (c == \'A\' || c == \'E\' || c == \'I\' || c == \'O\' || c == \'U\');
+
+    // evaluates to 1 (true) if either isLowercaseVowel or isUppercaseVowel is true
+    if (isLowercaseVowel || isUppercaseVowel)
+        cout << c << " is a vowel.";
+    else
+        cout << c << " is a consonant.";
+
+    return 0;
+}
+    ]]>
+    </string>
+    <string name="basic_Check_Whether_a_character_is_Vowel_or_Consonant_op" formatted="false">
+    <![CDATA[
+Enter an alphabet: u
+u is a vowel.
+    ]]>
+    </string>
+    <string name="basic_Find_Largest_Number_Among_Three_Numbers" formatted="false">
+    <![CDATA[
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float n1, n2, n3;
+
+    cout << "Enter three numbers: ";
+    cin >> n1 >> n2 >> n3;
+
+    if(n1 >= n2 && n1 >= n3)
+    {
+        cout << "Largest number: " << n1;
+    }
+
+    if(n2 >= n1 && n2 >= n3)
+    {
+        cout << "Largest number: " << n2;
+    }
+
+    if(n3 >= n1 && n3 >= n2) {
+        cout << "Largest number: " << n3;
+    }
+
+    return 0;
+}
+    ]]>
+    </string>
+    <string name="basic_Find_Largest_Number_Among_Three_Numbers_op" formatted="false">
+    <![CDATA[
+Enter three numbers: 2.3
+8.3
+-4.2
+Largest number: 8.3
+    ]]>
+    </string>
+    <string name="basic_Find_All_Roots_of_a_Quadratic_Equation" formatted="false">
+    <![CDATA[
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+
+    float a, b, c, x1, x2, discriminant, realPart, imaginaryPart;
+    cout << "Enter coefficients a, b and c: ";
+    cin >> a >> b >> c;
+    discriminant = b*b - 4*a*c;
+
+    if (discriminant > 0) {
+        x1 = (-b + sqrt(discriminant)) / (2*a);
+        x2 = (-b - sqrt(discriminant)) / (2*a);
+        cout << "Roots are real and different." << endl;
+        cout << "x1 = " << x1 << endl;
+        cout << "x2 = " << x2 << endl;
+    }
+
+    else if (discriminant == 0) {
+        cout << "Roots are real and same." << endl;
+        x1 = (-b + sqrt(discriminant)) / (2*a);
+        cout << "x1 = x2 =" << x1 << endl;
+    }
+
+    else {
+        realPart = -b/(2*a);
+        imaginaryPart =sqrt(-discriminant)/(2*a);
+        cout << "Roots are complex and different."  << endl;
+        cout << "x1 = " << realPart << "+" << imaginaryPart << "i" << endl;
+        cout << "x2 = " << realPart << "-" << imaginaryPart << "i" << endl;
+    }
+
+    return 0;
+}
+    ]]>
+    </string>
+    <string name="basic_Find_All_Roots_of_a_Quadratic_Equation_op" formatted="false">
+    <![CDATA[
+Enter coefficients a, b and c: 4
+5
+1
+Roots are real and different.
+x1 = -0.25
+x2 = -1
+    ]]>
+    </string>
+    <string name="basic_Calculate_Sum_of_Natural_Numbers" formatted="false">
+    <![CDATA[
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n, sum = 0;
+
+    cout << "Enter a positive integer: ";
+    cin >> n;
+
+    for (int i = 1; i <= n; ++i) {
+        sum += i;
+    }
+
+    cout << "Sum = " << sum;
+    return 0;
+}
+    ]]>
+    </string>
+    <string name="basic_Calculate_Sum_of_Natural_Numbers_op" formatted="false">
+    <![CDATA[
+Enter a positive integer: 50
+Sum = 1275
+    ]]>
+    </string>
+    <string name="basic_Check_Leap_Year" formatted="false">
+    <![CDATA[
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int year;
+
+    cout << "Enter a year: ";
+    cin >> year;
+
+    if (year % 4 == 0)
+    {
+        if (year % 100 == 0)
+        {
+            if (year % 400 == 0)
+                cout << year << " is a leap year.";
+            else
+                cout << year << " is not a leap year.";
+        }
+        else
+            cout << year << " is a leap year.";
+    }
+    else
+        cout << year << " is not a leap year.";
+
+    return 0;
+}
+    ]]>
+    </string>
+    <string name="basic_Check_Leap_Year_op" formatted="false">
+    <![CDATA[
+Enter a year: 2014
+2014 is not a leap year.
+    ]]>
+    </string>
+    <string name="basic_Find_Factorial" formatted="false">
+    <![CDATA[
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    unsigned int n;
+    unsigned long long factorial = 1;
+
+    cout << "Enter a positive integer: ";
+    cin >> n;
+
+    for(int i = 1; i <=n; ++i)
+    {
+        factorial *= i;
+    }
+
+    cout << "Factorial of " << n << " = " << factorial;
+    return 0;
+}
+    ]]>
+    </string>
+    <string name="basic_Find_Factorial_op" formatted="false">
+    <![CDATA[
+Enter a positive integer: 12
+Factorial of 12 = 479001600
+    ]]>
+    </string>
+    <string name="basic_Generate_Multiplication_Table" formatted="false">
+    <![CDATA[
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+
+    cout << "Enter a positive integer: ";
+    cin >> n;
+
+    for (int i = 1; i <= 10; ++i) {
+        cout << n << " * " << i << " = " << n * i << endl;
+    }
+
+    return 0;
+}
+    ]]>
+    </string>
+    <string name="basic_Generate_Multiplication_Table_op" formatted="false">
+    <![CDATA[
+Enter an integer: 5
+5 * 1 = 5
+5 * 2 = 10
+5 * 3 = 15
+5 * 4 = 20
+5 * 5 = 25
+5 * 6 = 30
+5 * 7 = 35
+5 * 8 = 40
+5 * 9 = 45
+5 * 10 = 50
+    ]]>
+    </string>
+    <string name="basic_Display_Fibonacci_Series" formatted="false">
+    <![CDATA[
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n, t1 = 0, t2 = 1, nextTerm = 0;
+
+    cout << "Enter the number of terms: ";
+    cin >> n;
+
+    cout << "Fibonacci Series: ";
+
+    for (int i = 1; i <= n; ++i)
+    {
+        // Prints the first two terms.
+        if(i == 1)
+        {
+            cout << " " << t1;
+            continue;
+        }
+        if(i == 2)
+        {
+            cout << t2 << " ";
+            continue;
+        }
+        nextTerm = t1 + t2;
+        t1 = t2;
+        t2 = nextTerm;
+
+        cout << nextTerm << " ";
+    }
+    return 0;
+}
+    ]]>
+    </string>
+    <string name="basic_Display_Fibonacci_Series_op" formatted="false">
+    <![CDATA[
+Enter the number of terms: 10
+Fibonacci Series: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34,
+    ]]>
+    </string>
+    <string name="basic_Find_GCD" formatted="false">
+    <![CDATA[
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n1, n2;
+
+    cout << "Enter two numbers: ";
+    cin >> n1 >> n2;
+
+    while(n1 != n2)
+    {
+        if(n1 > n2)
+            n1 -= n2;
+        else
+            n2 -= n1;
+    }
+
+    cout << "HCF = " << n1;
+    return 0;
+}
+    ]]>
+    </string>
+    <string name="basic_Find_GCD_op" formatted="false">
+    <![CDATA[
+Enter two numbers: 78
+52
+HCF = 26
+    ]]>
+    </string>
+    <string name="basic_Find_LCM" formatted="false">
+    <![CDATA[
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n1, n2, max;
+
+    cout << "Enter two numbers: ";
+    cin >> n1 >> n2;
+
+    // maximum value between n1 and n2 is stored in max
+    max = (n1 > n2) ? n1 : n2;
+
+    do
+    {
+        if (max % n1 == 0 && max % n2 == 0)
+        {
+            cout << "LCM = " << max;
+            break;
+        }
+        else
+            ++max;
+    } while (true);
+
+    return 0;
+}
+    ]]>
+    </string>
+    <string name="basic_Find_LCM_op" formatted="false">
+    <![CDATA[
+Enter two numbers: 12
+18
+LCM = 36
+    ]]>
+    </string>
+    <string name="basic_Reverse_a_Number" formatted="false">
+    <![CDATA[
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n, reversedNumber = 0, remainder;
+
+    cout << "Enter an integer: ";
+    cin >> n;
+
+    while(n != 0)
+    {
+        remainder = n%10;
+        reversedNumber = reversedNumber*10 + remainder;
+        n /= 10;
+    }
+
+    cout << "Reversed Number = " << reversedNumber;
+
+    return 0;
+}
+    ]]>
+    </string>
+    <string name="basic_Reverse_a_Number_op" formatted="false">
+    <![CDATA[
+Enter an integer: 12345
+Reversed number = 54321
+    ]]>
+    </string>
+    <string name="basic_Calculate_Power_of_a_Number" formatted="false">
+    <![CDATA[
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int exponent;
+    float base, result = 1;
+
+    cout << "Enter base and exponent respectively:  ";
+    cin >> base >> exponent;
+
+    cout << base << "^" << exponent << " = ";
+
+    while (exponent != 0) {
+        result *= base;
+        --exponent;
+    }
+
+    cout << result;
+
+    return 0;
+}
+    ]]>
+    </string>
+    <string name="basic_Calculate_Power_of_a_Number_op" formatted="false">
+    <![CDATA[
+Enter base and exponent respectively:  3.4
+5
+3.4^5 = 454.354
+    ]]>
+    </string>
+    <string name="basic_Find_ASCII_Value_of_a_Character" formatted="false">
+    <![CDATA[
+#include <iostream>
+using namespace std;
+
+int main()
+{
+ char c;
+ cout << "Enter a character: ";
+ cin >> c;
+ cout << "ASCII Value of " << c << " is " << int(c);
+ return 0;
+}
+    ]]>
+    </string>
+    <string name="basic_Find_ASCII_Value_of_a_Character_op" formatted="false">
+    <![CDATA[
+Enter a character: p
+ASCII Value of p is 112
+    ]]>
+    </string>
+    <string name="basic_Multiply_two_Numbers" formatted="false">
+    <![CDATA[
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    double firstNumber, secondNumber, productOfTwoNumbers;
+    cout << "Enter two numbers: ";
+
+    // Stores two floating point numbers in variable firstNumber and secondNumber respectively
+    cin >> firstNumber >> secondNumber;
+
+    // Performs multiplication and stores the result in variable productOfTwoNumbers
+    productOfTwoNumbers = firstNumber * secondNumber;
+
+    cout << "Product = " << productOfTwoNumbers;
+
+    return 0;
+}
+    ]]>
+    </string>
+    <string name="basic_Multiply_two_Numbers_op" formatted="false">
+    <![CDATA[
+Enter two numbers: 3.4
+5.5
+Product = 18.7
+    ]]>
+    </string>
+    <string name="basic_Check_Whether_a_Number_is_Palindrome_or_Not" formatted="false">
+    <![CDATA[
+#include <iostream>
+using namespace std;
+
+int main()
+{
+     int n, num, digit, rev = 0;
+
+     cout << "Enter a positive number: ";
+     cin >> num;
+
+     n = num;
+
+     do
+     {
+         digit = num % 10;
+         rev = (rev * 10) + digit;
+         num = num / 10;
+     } while (num != 0);
+
+     cout << " The reverse of the number is: " << rev << endl;
+
+     if (n == rev)
+         cout << " The number is a palindrome";
+     else
+         cout << " The number is not a palindrome";
+
+    return 0;
+}
+    ]]>
+    </string>
+    <string name="basic_Check_Whether_a_Number_is_Palindrome_or_Not_op" formatted="false">
+    <![CDATA[
+Enter a positive number: 12321
+The reverse of the number is: 12321
+The number is a palindrome
+    ]]>
+    </string>
+    <string name="basic_Check_Whether_a_Number_is_Prime_or_Not" formatted="false">
+    <![CDATA[
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  int n, i;
+  bool isPrime = true;
+
+  cout << "Enter a positive integer: ";
+  cin >> n;
+
+  for(i = 2; i <= n / 2; ++i)
+  {
+      if(n % i == 0)
+      {
+          isPrime = false;
+          break;
+      }
+  }
+  if (isPrime)
+      cout << "This is a prime number";
+  else
+      cout << "This is not a prime number";
+
+  return 0;
+}
+    ]]>
+    </string>
+    <string name="basic_Check_Whether_a_Number_is_Prime_or_Not_op" formatted="false">
+    <![CDATA[
+Enter a positive integer: 29
+This is a prime number.
+    ]]>
+    </string>
+    <string name="basic_Prime_Numbers_Between_Two_Intervals" formatted="false">
+    <![CDATA[
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int low, high, i, flag;
+
+    cout << "Enter two numbers(intervals): ";
+    cin >> low >> high;
+
+    cout << "Prime numbers between " << low << " and " << high << " are: ";
+
+    while (low < high)
+    {
+        flag = 0;
+
+        for(i = 2; i <= low/2; ++i)
+        {
+            if(low % i == 0)
+            {
+                flag = 1;
+                break;
+            }
+        }
+
+        if (flag == 0)
+            cout << low << " ";
+
+        ++low;
+    }
+
+    return 0;
+}
+    ]]>
+    </string>
+    <string name="basic_Prime_Numbers_Between_Two_Intervals_op" formatted="false">
+    <![CDATA[
+Enter two numbers(intervals): 20 50 Prime numbers between 20 and 50 are: 23 29 31 37 41 43 47
+    ]]>
+    </string>
+    <string name="basic_Check_Armstrong_Number" formatted="false">
+    <![CDATA[
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  int origNum, num, rem, sum = 0;
+  cout << "Enter a positive  integer: ";
+  cin >> origNum;
+
+  num = origNum;
+
+  while(num != 0)
+  {
+      digit = num % 10;
+      sum += digit * digit * digit;
+      num /= 10;
+  }
+
+  if(sum == origNum)
+    cout << origNum << " is an Armstrong number.";
+  else
+    cout << origNum << " is not an Armstrong number.";
+
+  return 0;
+}
+    ]]>
+    </string>
+    <string name="basic_Check_Armstrong_Number_op" formatted="false">
+    <![CDATA[
+Enter a positive integer: 371
+371 is an Armstrong number.
+    ]]>
+    </string>
+    <string name="basic_Display_Armstrong_Number_Between_Two_Intervals" formatted="false">
+    <![CDATA[
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  int num1, num2, i, num, digit, sum;
+
+  cout << "Enter first number: ";
+  cin >> num1;
+
+  cout << "Enter second number: ";
+  cin >> num2;
+
+  cout << "Armstrong numbers between " << num1 << " and " << num2 << " are: " << endl;
+  for(i = num1; i <= num2; i++)
+  {
+        sum = 0;
+        num = i;
+
+        for(; num > 0; num /= 10)
+        {
+            digit = num % 10;
+            sum = sum + digit * digit * digit;
+        }
+
+        if(sum == i)
+        {
+            cout << i << endl;
+        }
+  }
+
+  return 0;
+}
+    ]]>
+    </string>
+    <string name="basic_Display_Armstrong_Number_Between_Two_Intervals_op" formatted="false">
+    <![CDATA[
+Enter first number: 100
+Enter second number: 400
+Armstrong numbers between 100 and 400 are:
+153
+370
+371
+    ]]>
+    </string>
+    <string name="basic_Factors_of_a_Number" formatted="false">
+    <![CDATA[
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n, i;
+
+    cout << "Enter a positive integer: ";
+    cin >> n;
+
+    cout << "Factors of " << n << " are: " << endl;
+    for(i = 1; i <= n; ++i)
+    {
+        if(n % i == 0)
+            cout << i << endl;
+    }
+
+    return 0;
+}
+    ]]>
+    </string>
+    <string name="basic_Factors_of_a_Number_op" formatted="false">
+    <![CDATA[
+Enter a positive integer: 60
+Factors of 60 are: 1 2 3 4 5 6 12 15 20 30 60
+    ]]>
+    </string>
+    <string name="basic_Count_number_of_digits_of_an_integer" formatted="false">
+    <![CDATA[
+#include\<iostream.h\>
+#include<conio.h>
+
+void main()
+{
+int no,a=0;
+clrscr();
+cout<<"Enter any num : ";
+cin>>no;
+while(no>0)
+{
+no=no/10;
+a++;
+}
+cout<<"\n no. of digits in given number is: "<<a;
+getch();
+}
+    ]]>
+    </string>
+    <string name="basic_Count_number_of_digits_of_an_integer_op" formatted="false">
+    <![CDATA[
+Enter any num : 650
+no. of digits in given number is : 3
+    ]]>
+    </string>
+
+    <!--strings-->
+    <string name="strings_Find_length_of_String" formatted="false">
+    <![CDATA[
+#include&#60;stdio.h&#62;<br>
+#include&#60;iostream.h&#62;<br>
+#include&#60;conio.h&#62;<br>
+<br>
+ void main()<br>
+  {<br>
+   int i,count=0;<br>
+   char ch[20];<br>
+   clrscr();<br>
+   cout&#60;&#60;"Enter any string: ";<br>
+   gets(ch);<br>
+   for(i=0;ch[i]!=\'\0\';i++)<br>
+   {<br>
+   count++;<br>
+   }<br>
+   cout&#60;&#60;"String Length: "&#60;&#60;count;<br>
+   getch();<br>
+  }<br>
+    ]]>
+    </string>
+    <string name="strings_Find_length_of_String_op" formatted="false">
+    <![CDATA[
+Enter any String: hitesh<br>
+String Length: 6<br>
+    ]]>
+    </string>
+    <string name="strings_Compare_Two_Strings" formatted="false">
+    <![CDATA[
+#include&#60;iostream.h&#62;<br>
+#include&#60;stdio.h&#62;<br>
+#include&#60;conio.h&#62;<br>
+<br>
+void main()<br>
+ {<br>
+ char str1[20],str2[20],i,j,flag=0;<br>
+ clrscr();<br>
+ cout&#60;&#60;"Enter first string: ";<br>
+ gets(str1);<br>
+ cout&#60;&#60;"Enter Second string: ";<br>
+ gets(str2);<br>
+ i=0;<br>
+ j=0;<br>
+  while(str1[i]!=\'\0\')<br>
+  {<br>
+   i++;<br>
+  }<br>
+  while(str2[j]!=\'\0\')<br>
+  {<br>
+   j++;<br>
+  }<br>
+ if(i!=j)<br>
+ {<br>
+ flag=0;<br>
+ }<br>
+ else<br>
+ {<br>
+ for(i=0,j=0;str1[i]!=\'\0\',str2[j]!=\'\0\';i++,j++)<br>
+ {<br>
+ if(str1[i]==str2[j])<br>
+ {<br>
+ flag=1;<br>
+ }<br>
+ }<br>
+ }<br>
+ if(flag==0)<br>
+ {<br>
+ cout&#60;&#60;"Strings are not equal";<br>
+ }<br>
+ else<br>
+ {<br>
+ cout&#60;&#60;"Strings are equal";<br>
+ }<br>
+ getch();<br>
+}<br>
+    ]]>
+    </string>
+    <string name="strings_Compare_Two_Strings_op" formatted="false">
+    <![CDATA[
+Enter First String : rajess<br>
+Enter Second String : rajesh<br>
+Strings are not equal<br>
+    ]]>
+    </string>
+    <string name="strings_Reverse_of_String" formatted="false">
+    <![CDATA[
+#include&#60;iostream.h&#62;<br>
+#include&#60;stdio.h&#62;<br>
+#include&#60;conio.h&#62;<br>
+#include&#60;string.h&#62;<br>
+<br>
+void main()<br>
+{<br>
+ char str[100],temp;<br>
+ int i,j=0;<br>
+ clrscr();<br>
+ cout&#60;&#60;"Enter any the string :";<br>
+ gets(str);  //  gets function for input string<br>
+ i=0;<br>
+ j=strlen(str)-1;<br>
+  while(i&#60;j)<br>
+   {<br>
+   temp=str[i];<br>
+   str[i]=str[j];<br>
+   str[j]=temp;<br>
+   i++;<br>
+   j--;<br>
+   }<br>
+ cout&#60;&#60;"Reverse string is: "&#60;&#60;str;<br>
+ getch();<br>
+}<br>
+    ]]>
+    </string>
+    <string name="strings_Reverse_of_String_op" formatted="false">
+    <![CDATA[
+Enter any the string  : hitesh<br>
+Reverse string is : hsetih<br>
+    ]]>
+    </string>
+    <string name="strings_Count_Freq_of_Char" formatted="false">
+    <![CDATA[
+#include&#60;iostream.h&#62;<br>
+#include&#60;stdio.h&#62;<br>
+#include&#60;conio.h&#62;<br>
+<br>
+ void main()<br>
+ {<br>
+   int i,count=0;<br>
+   char ch[20],c;<br>
+   clrscr();<br>
+   cout&#60;&#60;"Enter Any String: ";<br>
+   gets(ch);<br>
+   cout&#60;&#60;"Enter any Character form string: ";<br>
+   cin&#62;&#62;c;<br>
+   for(i=0;ch[i]!=\'\0\';i++)<br>
+   {<br>
+   if(ch[i]==c)<br>
+   count++;<br>
+   }<br>
+   if(count==0)<br>
+   {<br>
+   cout&#60;&#60;"Given character not found";<br>
+   }<br>
+   else<br>
+   {<br>
+   cout&#60;&#60;"Repetition of " &#60;&#60;c&#60;&#60;" "&#60;&#60;count&#60;&#60;" times";<br>
+   }<br>
+   getch();<br>
+ }<br>
+    ]]>
+    </string>
+    <string name="strings_Count_Freq_of_Char_op" formatted="false">
+    <![CDATA[
+Enter any String: india<br>
+Enter any Character form string<br>
+Repetition of i 2 times<br>
+    ]]>
+    </string>
+    <string name="strings_Combined_Two_String" formatted="false">
+    <![CDATA[
+#include&#60;iostream.h&#62;<br>
+#include&#60;conio.h&#62;<br>
+#include&#60;string.h&#62;<br>
+<br>
+void main()<br>
+{<br>
+char *ch1="john";<br>
+char *ch2="porter";<br>
+char *ptr;<br>
+clrscr();<br>
+cout&#60;&#60;"1 st String: "&#60;&#60;ch1;<br>
+cout&#60;&#60;"\n 2 nd String: "&#60;&#60;ch2;<br>
+strcat(ch1,ch2);<br>
+cout&#60;&#60;"\nCombined string is: "&#60;&#60;ch1;<br>
+getch();<br>
+}<br>
+    ]]>
+    </string>
+    <string name="strings_Combined_Two_String_op" formatted="false">
+    <![CDATA[
+1 st String: john<br>
+2 nd String: porter<br>
+Combined string is: johnporter<br>
+    ]]>
+    </string>
+    <string name="strings_Copy_String" formatted="false">
+    <![CDATA[
+#include&#60;iostream.h&#62;<br>
+#include&#60;conio.h&#62;<br>
+#include&#60;string.h&#62;<br>
+<br>
+void main()<br>
+{<br>
+  char s1[10], s2[10];<br>
+  clrscr();<br>
+  cout&#60;&#60;"Enter string s1: ";<br>
+  cin&#62;&#62;s1;<br>
+  strcpy(s2, s1);<br>
+  cout&#60;&#60;"String s2: "&#60;&#60;s2;<br>
+getch();<br>
+}<br>
+    ]]>
+    </string>
+    <string name="strings_Copy_String_op" formatted="false">
+    <![CDATA[
+Enter string s1: Kumar<br>
+String s2: Kumar<br>
+    ]]>
+    </string>
+    <string name="strings_Count_Vowels_in_String" formatted="false">
+    <![CDATA[
+#include&#60;stdio.h&#62;<br>
+#include&#60;iostream.h&#62;<br>
+#include&#60;conio.h&#62;<br>
+<br>
+int main()<br>
+{<br>
+    char line[150];<br>
+    int i,v,c,ch,d,s,o;<br>
+    o=v=c=ch=d=s=0;<br>
+    clrscr();<br>
+    cout&#60;&#60;"Enter a line of string:\n";<br>
+    gets(line);<br>
+    for(i=0;line[i]!=\'\0\';++i)<br>
+    {<br>
+        if(line[i]==\'a\' || line[i]==\'e\' || line[i]==\'i\' || line[i]==\'o\' || line[i]==\'u\' || line[i]==\'A\' || line[i]==\'E\' || line[i]==\'I\' || line[i]==\'O\' || line[i]==\'U\')<br>
+            ++v;<br>
+        else if((line[i]&#62;=\'a\'&& line[i]&#60;=\'z\') || (line[i]&#62;=\'A\'&& line[i]&#60;=\'Z\'))<br>
+            ++c;<br>
+        else if(line[i]&#62;=\'0\'&& line[i]&#60;=\'9\')<br>
+            ++d;<br>
+        else if (line[i]==\' \')<br>
+            ++s;<br>
+    }<br>
+    cout&#60;&#60;"Vowels: "&#60;&#60;v;<br>
+    cout&#60;&#60;"\nConsonants: "&#60;&#60;c;<br>
+    cout&#60;&#60;"\nDigits: "&#60;&#60;d;<br>
+    cout&#60;&#60;"\nWhite spaces: "&#60;&#60;s;<br>
+    getch();<br>
+}<br>
+    ]]>
+    </string>
+    <string name="strings_Count_Vowels_in_String_op" formatted="false">
+    <![CDATA[
+Enter a line of string: This is 5 C program<br>
+vowels: 4<br>
+Consonants: 9<br>
+Digits: 1<br>
+White spaces: 4<br>
+    ]]>
+    </string>
+    <string name="strings_Find_the_Number_of_Vowels_in_a_String" formatted="false">
+    <![CDATA[
+#include &#60;iostream&#62;<br>
+using namespace std;<br>
+<br>
+int main()<br>
+{<br>
+    char line[150];<br>
+    int vowels, consonants, digits, spaces;<br>
+<br>
+    vowels =  consonants = digits = spaces = 0;<br>
+<br>
+    cout &#60;&#60; "Enter a line of string: ";<br>
+    cin.getline(line, 150);<br>
+    for(int i = 0; line[i]!=\'\0\'; ++i)<br>
+    {<br>
+        if(line[i]==\'a\' || line[i]==\'e\' || line[i]==\'i\' ||<br>
+           line[i]==\'o\' || line[i]==\'u\' || line[i]==\'A\' ||<br>
+           line[i]==\'E\' || line[i]==\'I\' || line[i]==\'O\' ||<br>
+           line[i]==\'U\')<br>
+        {<br>
+            ++vowels;<br>
+        }<br>
+        else if((line[i]&#62;=\'a\'&& line[i]&#60;=\'z\') || (line[i]&#62;=\'A\'&& line[i]&#60;=\'Z\'))<br>
+        {<br>
+            ++consonants;<br>
+        }<br>
+        else if(line[i]&#62;=\'0\' && line[i]&#60;=\'9\')<br>
+        {<br>
+            ++digits;<br>
+        }<br>
+        else if (line[i]==\' \')<br>
+        {<br>
+            ++spaces;<br>
+        }<br>
+    }<br>
+<br>
+    cout &#60;&#60; "Vowels: " &#60;&#60; vowels &#60;&#60; endl;<br>
+    cout &#60;&#60; "Consonants: " &#60;&#60; consonants &#60;&#60; endl;<br>
+    cout &#60;&#60; "Digits: " &#60;&#60; digits &#60;&#60; endl;<br>
+    cout &#60;&#60; "White spaces: " &#60;&#60; spaces &#60;&#60; endl;<br>
+<br>
+    return 0;<br>
+}<br>
+    ]]>
+    </string>
+    <string name="strings_Find_the_Number_of_Vowels_in_a_String_op" formatted="false">
+    <![CDATA[
+Enter a line of string: This is 1 hell of a book.<br>
+Vowels: 7<br>
+Consonants: 10<br>
+Digits: 1<br>
+White spaces: 6<br>
+    ]]>
+    </string>
+    <string name="strings_Remove_all_Characters_in_a_String_Except_Alphabets" formatted="false">
+    <![CDATA[
+#include &#60;iostream&#62;<br>
+using namespace std;<br>
+<br>
+int main() {<br>
+    string line;<br>
+    cout &#60;&#60; "Enter a string: ";<br>
+    getline(cin, line);<br>
+<br>
+    for(int i = 0; i &#60; line.size(); ++i)<br>
+    {<br>
+        if (!((line[i] &#62;= \'a\' && line[i]&#60;=\'z\') || (line[i] &#62;= \'A\' && line[i]&#60;=\'Z\')))<br>
+        {<br>
+            line[i] = \'\0\';<br>
+        }<br>
+    }<br>
+    cout &#60;&#60; "Output String: " &#60;&#60; line;    <br>
+    return 0;<br>
+}<br>
+    ]]>
+    </string>
+    <string name="strings_Remove_all_Characters_in_a_String_Except_Alphabets_op" formatted="false">
+    <![CDATA[
+Enter a string: p2\'r"o@gram84iz./<br>
+Output String: programiz<br>
+    ]]>
+    </string>
+    <string name="strings_Sort_Elements_in_Lexicographical_Order" formatted="false">
+    <![CDATA[
+#include &#60;iostream&#62;<br>
+using namespace std;<br>
+<br>
+int main()<br>
+{<br>
+    string str[10], temp;<br>
+<br>
+    cout &#60;&#60; "Enter 10 words: " &#60;&#60; endl;<br>
+    for(int i = 0; i &#60; 10; ++i)<br>
+    {<br>
+      getline(cin, str[i]);<br>
+    }<br>
+<br>
+    for(int i = 0; i &#60; 9; ++i)<br>
+       for( int j = i+1; j &#60; 10; ++j)<br>
+       {<br>
+          if(str[i] &#62; str[j])<br>
+          {<br>
+            temp = str[i];<br>
+            str[i] = str[j];<br>
+            str[j] = temp;<br>
+          }<br>
+    }<br>
+<br>
+    cout &#60;&#60; "In lexicographical order: " &#60;&#60; endl;<br>
+<br>
+    for(int i = 0; i &#60; 10; ++i)<br>
+    {<br>
+       cout &#60;&#60; str[i] &#60;&#60; endl;<br>
+    }<br>
+    return 0;<br>
+}<br>
+    ]]>
+    </string>
+    <string name="strings_Sort_Elements_in_Lexicographical_Order_op" formatted="false">
+    <![CDATA[
+Enter 10 words: <br>
+C <br>
+C++<br>
+Java<br>
+Python<br>
+Perl<br>
+R<br>
+Matlab<br>
+Ruby<br>
+JavaScript<br>
+PHP<br>
+In lexicographical order: <br>
+C<br>
+C++<br>
+Java<br>
+JavaScript<br>
+Matlab<br>
+PHP<br>
+Perl<br>
+Python<br>
+R<br>
+Ruby<br>
+    ]]>
+    </string>
+    <!--Conversions-->
+    <string name="conversions_Decimal_to_Binary_Conversion" formatted="false">
+    <![CDATA[
+#include&#60;iostream.h&#62;<br>
+#include&#60;conio.h&#62;<br>
+<br>
+void main()<br>
+{<br>
+int no,rem[20],i=0,j;<br>
+clrscr();<br>
+cout&#60;&#60;"Enter any num : ";<br>
+cin&#62;&#62;no;<br>
+while(no&#62;0)<br>
+{<br>
+rem[i]=no%2;<br>
+i++;<br>
+no=no/2;<br>
+}<br>
+cout&#60;&#60;"Binary Number is :";<br>
+for(j=i-1;j&#62;=0;j--)<br>
+{<br>
+cout&#60;&#60;rem[j];<br>
+}<br>
+getch();<br>
+}
+    ]]>
+    </string>
+    <string name="conversions_Decimal_to_Binary_Conversion_op" formatted="false">
+    <![CDATA[
+Enter any number : 7<br>
+Binary number is : 111<br>
+    ]]>
+    </string>
+    <string name="conversions_Decimal_to_Octal" formatted="false">
+    <![CDATA[
+#include&#60;iostream.h&#62;<br>
+#include&#60;conio.h&#62;<br>
+<br>
+void main()<br>
+{<br>
+int no,rem[20],i=0,j;<br>
+clrscr();<br>
+cout&#60;&#60;"Enter any num : ";<br>
+cin&#62;&#62;no;<br>
+while(no&#62;0)<br>
+{<br>
+rem[i]=no%8;<br>
+i++;<br>
+no=no/8;<br>
+}<br>
+cout&#60;&#60;"Binary Number is :";<br>
+for(j = i - 1; j &#62; = 0 ; j--)<br>
+{<br>
+cout&#60;&#60;rem[j];<br>
+}<br>
+getch();<br>
+}<br>
+    ]]>
+    </string>
+    <string name="conversions_Decimal_to_Octal_op" formatted="false">
+    <![CDATA[
+Enter any number : 23<br>
+Binary number is : 27<br>
+    ]]>
+    </string>
+    <string name="conversions_Decimal_to_Hexadecimal" formatted="false">
+    <![CDATA[
+#include&#60;iostream.h&#62;<br>
+#include&#60;conio.h&#62;<br>
+<br>
+void main()<br>
+{<br>
+int num,rem[20],hex=0,i=0,j;<br>
+clrscr();<br>
+cout&#60;&#60;"Enter any Number: ";<br>
+cin&#62;&#62;num;<br>
+while(num&#62;0)<br>
+  {<br>
+    rem[i] = num % 16;<br>
+    num = num / 16;<br>
+    i++;<br>
+  }<br>
+cout&#60;&#60;"Hexadecimal number : ";<br>
+for(j = i - 1 ; j &#62; = 0 ; j--)<br>
+  {<br>
+    switch(rem[j])<br>
+    {<br>
+      case 10:<br>
+	  cout&#60;&#60;"A";<br>
+	  break;<br>
+      case 11:<br>
+	  cout&#60;&#60;"B";<br>
+	  break;<br>
+      case 12:<br>
+	  cout&#60;&#60;"C";<br>
+	  break;<br>
+      case 13:<br>
+	  cout&#60;&#60;"D";<br>
+	  break;<br>
+      case 14:<br>
+	  cout&#60;&#60;"E";<br>
+	  break;<br>
+      case 15:<br>
+	  cout&#60;&#60;"F";<br>
+	  break;<br>
+      default :<br>
+	 cout&#60;&#60;rem[j];<br>
+    }<br>
+  }<br>
+getch();<br>
+}<<br/>
+    ]]>
+    </string>
+    <string name="conversions_Decimal_to_Hexadecimal_op" formatted="false">
+    <![CDATA[
+Enter any number : 231<br>
+Hexadecimal number : E7<br>
+    ]]>
+    </string>
+    <string name="conversions_Celsius_to_Fahrenheit" formatted="false">
+    <![CDATA[
+#include&#60;iostream.h&#62;<br>
+#include&#60;conio.h&#62;<br>
+<br>
+void main()<br>
+{<br>
+ float cel, far;<br>
+  clrscr();<br>
+  cout&#60;&#60;"Enter temp. in Celsius: ";<br>
+  cin&#62;&#62;cel;<br>
+   far = cel * 9/5 + 32;<br>
+  cout&#60;&#60;"Temp. in Fahrenheit: "&#60;&#60;far;<br>
+ getch();<br>
+}<br>
+    ]]>
+    </string>
+    <string name="conversions_Celsius_to_Fahrenheit_op" formatted="false">
+    <![CDATA[
+Enter temp. in Celsius: 36<br>
+Temp. in Fahrenheit: 96.000<br>
+    ]]>
+    </string>
+    <string name="conversions_Fahrenheit_to_Celsius" formatted="false">
+    <![CDATA[
+#include&#60;iostream.h&#62;<br>
+#include&#60;conio.h&#62;<br>
+<br>
+void main()<br>
+{<br>
+ float cel, far;<br>
+  clrscr();<br>
+  cout&#60;&#60;"Enter temp. in Fahrenheit: ";<br>
+  cin&#62;&#62;far;<br>
+  cel = (far - 32) * 5/9;<br>
+  cout&#60;&#60;"Temp. in Celsius: "&#60;&#60;cel;<br>
+ getch();<br>
+}<br>
+    ]]>
+    </string>
+    <string name="conversions_Fahrenheit_to_Celsius_op" formatted="false">
+    <![CDATA[
+Enter temp. in Fahrenheit: 98<br>
+Temp. in Celsius: 36.666668<br>
+    ]]>
+    </string>
+
+    <!--Arrays-->
+
+    <string name="arrays_Sort_Array_Element" formatted="false">
+    <![CDATA[
+#include&#60;iostream.h&#62;<br>
+#include&#60;conio.h&#62;<br>
+<br>
+ void main()<br>
+ {<br>
+ int i,a[10],temp,j;<br>
+ clrscr();<br>
+ cout&#60;&#60;"Enter any 10 num in array: \n";<br>
+ for(i=0;i&#60;=10;i++)<br>
+ {<br>
+ cin&#62;&#62;a[i];<br>
+ }<br>
+ cout&#60;&#60;"\nData before sorting: ";<br>
+ for(j=0;j&#60;10;j++)<br>
+ {<br>
+ cout&#60;&#60;a[j];<br>
+ }<br>
+ for(i=0;i&#60;=10;i++)<br>
+ {<br>
+ for(j=0;j&#60;=10-i;j++)<br>
+ {<br>
+ if(a[j]&#62;a[j+1])<br>
+ {<br>
+ temp=a[j];<br>
+ a[j]=a[j+1];<br>
+ a[j+1]=temp;<br>
+ }<br>
+ }<br>
+ }<br>
+ cout&#60;&#60;"\nData after sorting: ";<br>
+ for(j=0;j&#60;10;j++)<br>
+ {<br>
+ cout&#60;&#60;a[j];<br>
+ }<br>
+ getch();<br>
+ }<br>
+    ]]>
+    </string>
+    <string name="arrays_Sort_Array_Element_op" formatted="false">
+    <![CDATA[
+Enter any 10 num in array:<br>
+2 5 1 7 5 3 8 9 11 4<br>
+Data After Sorting: 1 2 3 4 5 7 8 9 11<br>
+    ]]>
+    </string>
+    <string name="arrays_Addition_of_Two_Matrix" formatted="false">
+    <![CDATA[
+#include&#60;iostream.h&#62;<br>
+#include&#60;conio.h&#62;<br>
+<br>
+void main()<br>
+{<br>
+int x[3][3],y[3][3],z[3][3],i,j;<br>
+clrscr();<br>
+cout&#60;&#60;"ENTER ELEMENTS OF 1st MATRIX\n";<br>
+for(i=0;i&#60;3;i++)<br>
+{<br>
+for(j=0;j&#60;3;j++)<br>
+cin&#62;&#62;x[i][j];<br>
+}<br>
+cout&#60;&#60;"ENTER ELEMENTS OF 2nd MATRIX\n";<br>
+for(i=0;i&#60;3;i++)<br>
+{<br>
+for(j=0;j&#60;3;j++)<br>
+cin&#62;&#62;y[i][j];<br>
+}<br>
+cout&#60;&#60;"MATRIX [X]";<br>
+for(i=0;i&#60;3;i++)<br>
+{<br>
+cout&#60;&#60;"\n\n";<br>
+for(j=0;j&#60;3;j++)<br>
+cout&#60;&#60;x[i][j];<br>
+}<br>
+cout&#60;&#60;"\nMATRIX [Y]";<br>
+for(i=0;i&#60;3;i++)<br>
+{<br>
+cout&#60;&#60;"\n\n";<br>
+for(j=0;j&#60;3;j++)<br>
+cout&#60;&#60;y[i][j];<br>
+}<br>
+for(i=0;i&#60;3;i++)<br>
+{<br>
+for(j=0;j&#60;3;j++)<br>
+z[i][j]=x[i][j]+y[i][j];<br>
+}<br>
+cout&#60;&#60;"\nMATRIX [Z]";<br>
+for(i=0;i&#60;3;i++)<br>
+{<br>
+cout&#60;&#60;"\n\n";<br>
+for(j=0;j&#60;3;j++)<br>
+cout&#60;&#60;z[i][j];<br>
+}<br>
+getch();<br>
+}<br>
+    ]]>
+    </string>
+    <string name="arrays_Addition_of_Two_Matrix_op" formatted="false">
+    <![CDATA[
+	https://www.sitesbay.com/cpp-program/images/array/cpp-matrix-output.png<br>
+    ]]>
+    </string>
+    <string name="arrays_Pass_Array_In_Function" formatted="false">
+    <![CDATA[
+#include&#60;iostream.h&#62;<br>
+#include&#60;conio.h&#62;<br>
+<br>
+void pass(int[],int);<br>
+void main()<br>
+{<br>
+int a[]={1,2,3,4,5};<br>
+clrscr();<br>
+pass(a,5);<br>
+getch();<br>
+}<br>
+void pass(int b[],int n)<br>
+{<br>
+int i;<br>
+for(i=0;i&#60;n;i++)<br>
+{<br>
+cout&#60;&#60;"/n"&#60;&#60;b[i];<br>
+}<br>
+}<br>
+    ]]>
+    </string>
+    <string name="arrays_Pass_Array_In_Function_op" formatted="false">
+    <![CDATA[
+1<br>
+2<br>
+3<br>
+4<br>
+5<br>
+    ]]>
+    </string>
+    <string name="arrays_Merge_Any_Array" formatted="false">
+    <![CDATA[
+#include&#60;iostream.h&#62;<br>
+#include&#60;conio.h&#62;<br>
+<br>
+void main()<br>
+ {<br>
+   int a[10],b[10],c[20],i;<br>
+   clrscr();<br>
+   cout&#60;&#60;"Enter Elements in 1st Array: ";<br>
+   for(i=0;i&#60;10;i++)<br>
+   {<br>
+   cin&#62;&#62;a[i];<br>
+   }<br>
+   cout&#60;&#60;"Enter Elements in 2nd Array: ";<br>
+   for(i=0;i&#60;10;i++)<br>
+   {<br>
+   cin&#62;&#62;b[i];<br>
+   }<br>
+   cout&#60;&#60;"\nElements of Array After Merge: ";<br>
+   for(i=0;i&#60;10;i++)<br>
+   {<br>
+    c[i]=a[i];<br>
+    c[i+10]=b[i];<br>
+   }<br>
+   for(i=0;i&#60;20;i++)<br>
+   {<br>
+   cout&#60;&#60;c[i];<br>
+   }<br>
+  getch();<br>
+ }<br>
+    ]]>
+    </string>
+    <string name="arrays_Merge_Any_Array_op" formatted="false">
+    <![CDATA[
+ https://www.sitesbay.com/cpp-program/images/array/merge-two-array-output.png<br>
+    ]]>
+    </string>
+    <string name="arrays_Insert_Element_in_Array" formatted="false">
+    <![CDATA[
+#include&#60;iostream.h&#62;<br>
+#include&#60;conio.h&#62;<br>
+<br>
+ void main()<br>
+  {<br>
+  int i,a[5],no,pos;<br>
+  clrscr();<br>
+  cout&#60;&#60;"Enter data in Array: ";<br>
+  for(i=0;i&#60;5;i++)<br>
+  {<br>
+  cin&#62;&#62;a[i];<br>
+  }<br>
+  cout&#60;&#60;"\n\nStored Data in Array: ";<br>
+  for(i=0;i&#60;5;i++)<br>
+  {<br>
+  cout&#60;&#60;a[i];<br>
+  }<br>
+  cout&#60;&#60;"\n\nEnter position to insert number: ";<br>
+  cin&#62;&#62;pos;<br>
+  if(pos&#62;5)<br>
+  {<br>
+  cout&#60;&#60;"\n\nThis is out of range";<br>
+  }<br>
+  else<br>
+  {<br>
+  cout&#60;&#60;"\n\nEnter new number: ";<br>
+  cin&#62;&#62;no;<br>
+  --pos;<br>
+  for(i=5;i&#62;=pos;i--)<br>
+  {<br>
+  a[i+1]=a[i];<br>
+  }<br>
+  a[pos]=no;<br>
+  cout&#60;&#60;"\n\nNew data in Array: ";<br>
+  for(i=0;i&#60;6;i++)<br>
+  {<br>
+  cout&#60;&#60;a[i];<br>
+  }<br>
+  }<br>
+  getch();<br>
+  }<br>
+    ]]>
+    </string>
+    <string name="arrays_Insert_Element_in_Array_op" formatted="false">
+    <![CDATA[
+  https://www.sitesbay.com/cpp-program/images/array/insert-element-in-array-output.png<br>
+    ]]>
+    </string>
+    <string name="arrays_Delete_Array_Element" formatted="false">
+    <![CDATA[
+#include&#60;iostream.h&#62;<br>
+#include&#60;conio.h&#62;<br>
+<br>
+void main()<br>
+  {<br>
+   int i,a[5],no,pos;<br>
+   clrscr();<br>
+   cout&#60;&#60;"Enter data in array: ";<br>
+   for(i=0;i&#60;5;i++)<br>
+   {<br>
+    cin&#62;&#62;a[i];<br>
+   }<br>
+   cout&#60;&#60;"\n\nStored Data in array:  ";<br>
+   for(i=0;i&#60;5;i++)<br>
+   {<br>
+    cout&#60;&#60;a[i];<br>
+   }<br>
+   cout&#60;&#60;"\n\nEnter poss. of element to delete: ";<br>
+   cin&#62;&#62;pos;<br>
+   if(pos&#62;5)<br>
+   {<br>
+   cout&#60;&#60;"\n\nThis value is out of range: ";<br>
+   }<br>
+   else<br>
+   {<br>
+   --pos;<br>
+   for(i=pos;i&#60;=4;i++)<br>
+   {<br>
+    a[i]=a[i+1];<br>
+   }<br>
+   cout&#60;&#60;"\n\nNew data in array: ";<br>
+   for(i=0;i&#60;4;i++)<br>
+   {<br>
+    cout&#60;&#60;a[i];<br>
+  }<br>
+  }<br>
+   getch();<br>
+ }<br>
+    ]]>
+    </string>
+    <string name="arrays_Delete_Array_Element_op" formatted="false">
+    <![CDATA[
+Enter data in array: 10 20 30 40 50<br>
+Stored Data in array: 10 20 30 40 50<br>
+Enter poss. of element to delete: 2<br>
+New data in array: 10 20 40 50<br>
+    ]]>
+    </string>
+    <string name="arrays_Even_Odd_Array_Element" formatted="false">
+    <![CDATA[
+#include&#60;iostream.h&#62;<br>
+#include&#60;conio.h&#62;<br>
+<br>
+ void main()<br>
+  {<br>
+   int arr[20],even[20],odd[20],i,j=0,k=0,no;<br>
+   clrscr();<br>
+   cout&#60;&#60;"How Size of Array: ";<br>
+   cin&#62;&#62;no;<br>
+   cout&#60;&#60;"Enter any "&#60;&#60;no&#60;&#60;" elements in Array: ";<br>
+   for(i=0; i&#60;no;i++)<br>
+   {<br>
+   cin&#62;&#62;arr[i];<br>
+   }<br>
+   for(i=0; i&#60;no;i++)<br>
+   {<br>
+   if(arr[i]%2==0)<br>
+   {<br>
+    even[j]=arr[i];<br>
+    j++;<br>
+   }<br>
+   else<br>
+   {<br>
+   odd[k]=arr[i];<br>
+   k++;<br>
+   }<br>
+   }<br>
+  cout&#60;&#60;"\nEven Elements: ";<br>
+  for(i=0; i&#60;j ;i++)<br>
+   {<br>
+    cout&#60;&#60;even[i]&#60;&#60;"  ";<br>
+   }<br>
+  cout&#60;&#60;"\nOdd Elements: ";<br>
+  for(i=0; i&#60;k; i++)<br>
+   {<br>
+    cout&#60;&#60;odd[i]&#60;&#60;"  ";<br>
+   }<br>
+  getch();<br>
+  }<br>
+    ]]>
+    </string>
+    <string name="arrays_Even_Odd_Array_Element_op" formatted="false">
+    <![CDATA[
+Enter Size of Array : 5<br>
+Enter any 5 elements in Array: <br>
+10 4 5 2 7 <br>
+Even Elements: 10 4 2<br>
+Odd Elements: 7 5<br>
+    ]]>
+    </string>
+    <string name="arrays_Reverse_Array_Elements" formatted="false">
+    <![CDATA[
+#include&#60;iostream.h&#62;<br>
+#include&#60;conio.h&#62;<br>
+<br>
+ void main()<br>
+  {<br>
+   int a[20],b[20],i,j,n;<br>
+   clrscr();<br>
+   cout&#60;&#60;"How many elements you want to enter: ";<br>
+   cin&#62;&#62;n;<br>
+   cout&#60;&#60;"Enter any "&#60;&#60;n&#60;&#60;" elements in Array: ";<br>
+   for(i=0; i&#60;n ;i++)<br>
+   {<br>
+   cin&#62;&#62;a[i];<br>
+   }<br>
+   cout&#60;&#60;"Reverse of Array: ";<br>
+<br>
+   for(i=n-1,j=0; i&#62;=0;i--,j++)<br>
+   {<br>
+    b[i]=a[j];<br>
+   }<br>
+   for(i=0; i&#60;n ;i++)<br>
+   {<br>
+   cout&#60;&#60;b[i];<br>
+   }<br>
+  getch();<br>
+  }<br>
+    ]]>
+    </string>
+    <string name="arrays_Reverse_Array_Elements_op" formatted="false">
+    <![CDATA[
+How many elements you want to enter : 5<br>
+Enter any 5 elements in Array: <br>
+1 4 2 7 5<br>
+Reverse of Array: 5 7 2 4 1<br>
+    ]]>
+    </string>
+    <string name="arrays_Sum_of_Array_Elements" formatted="false">
+    <![CDATA[
+#include&#60;iostream.h&#62;<br>
+#include&#60;conio.h&#62;<br>
+<br>
+ void main()<br>
+  {<br>
+   int arr[20],i,n,sum=0;<br>
+   clrscr();<br>
+   cout&#60;&#60;"How many elements you want to enter: ";<br>
+   cin&#62;&#62;n;<br>
+   cout&#60;&#60;"Enter any "&#60;&#60;n&#60;&#60;" elements in Array: ";<br>
+   for(i=0;i&#60;n;i++)<br>
+   {<br>
+   cin&#62;&#62;arr[i];<br>
+   }<br>
+   cout&#60;&#60;"Sum of all Elements are: ";<br>
+<br>
+   for(i=0;i&#60;n;i++)<br>
+   {<br>
+    sum=sum+arr[i];<br>
+   }<br>
+   for(i=0;i&#60;n;i++)<br>
+   {<br>
+   }<br>
+  cout&#60;&#60;sum;<br>
+  getch();<br>
+  }<br>
+    ]]>
+    </string>
+    <string name="arrays_Sum_of_Array_Elements_op" formatted="false">
+    <![CDATA[
+How many elements you want to enter : 5<br>
+Enter any 5 elements in Array: <br>
+1 4 2 7 5<br>
+Sum of all Elements are: 19 <br>
+    ]]>
+    </string>
+    <string name="arrays_Duplicate_Array_Elemen" formatted="false">
+    <![CDATA[
+#include&#60;iostream.h&#62;<br>
+#include&#60;conio.h&#62;<br>
+<br>
+ void main()<br>
+ {<br>
+  int i,arr[20],j,no;<br>
+  clrscr();<br>
+  cout&#60;&#60;"Enter Size of array: ";<br>
+  cin&#62;&#62;no;<br>
+  cout&#60;&#60;"Enter any "&#60;&#60;no&#60;&#60;" num in array: ";<br>
+  for(i=0;i&#60;no;i++)<br>
+  {<br>
+   cin&#62;&#62;arr[i];<br>
+  }<br>
+  cout&#60;&#60;"Dublicate Values are: ";<br>
+  for(i=0; i&#60;no; i++)<br>
+   {<br>
+    for(j=i+1;j&#60;no;j++)<br>
+    {<br>
+    if(arr[i]==arr[j])<br>
+    {<br>
+    cout&#60;&#60;"\n"&#60;&#60;arr[i];<br>
+    }<br>
+   }<br>
+   }<br>
+  getch();<br>
+ }<br>
+    ]]>
+    </string>
+    <string name="arrays_Duplicate_Array_Elemen_op" formatted="false">
+    <![CDATA[
+Enter Size of Array : 5<br>
+Enter any 5 elements in Array: <br>
+5 4 5 2 3 <br>
+Duplicate Elements are: <br>
+5<br>
+    ]]>
+    </string>
+
+    <!--Patterns-->
+    <string name="patterns_Triangle_of_Star" formatted="false">
+    <![CDATA[
+#include&#60;iostream.h&#62;<br>
+#include&#60;conio.h&#62;<br>
+<br>
+void main()<br>
+{<br>
+int i,j,k;<br>
+clrscr();<br>
+for(i=1; i&#60;=5; i++)<br>
+{<br>
+for(j=4; j&#62;=i; j--)<br>
+{<br>
+cout&#60;&#60;" ";<br>
+}<br>
+for(k=1; k&#60;=(2*i-1); k++)<br>
+{<br>
+cout&#60;&#60;"*";<br>
+}<br>
+cout&#60;&#60;"\n";<br>
+}<br>
+getch();<br>
+}<br>
+    ]]>
+    </string>
+    <string name="patterns_Triangle_of_Star_op" formatted="false">
+    <![CDATA[
+         *<br>
+       * * *<br>
+     * * * * *<br>
+   * * * * * * *<br>
+ * * * * * * * * *<br>
+    ]]>
+    </string>
+    <string name="patterns_Print_Number_Pattern" formatted="false">
+    <![CDATA[
+#include&#60;iostream.h&#62;<br>
+#include&#60;conio.h&#62;<br>
+<br>
+void main()<br>
+{<br>
+int i,j, k=1;<br>
+clrscr();<br>
+for(i=1;i&#60;=5;i++)<br>
+{<br>
+for(j=1;j&#60;i;j++)<br>
+{<br>
+cout&#60;&#60;k;<br>
+k++<br>
+}<br>
+cout&#60;&#60;"\n";<br>
+}<br>
+getch();<br>
+}<br>
+    ]]>
+    </string>
+    <string name="patterns_Print_Number_Pattern_op" formatted="false">
+    <![CDATA[
+1<br>
+23<br>
+456<br>
+78910<br>
+    ]]>
+    </string>
+    <string name="patterns_Print_Alphabet_Pattern" formatted="false">
+    <![CDATA[
+#include&#60;conio.h&#62;<br>
+#include&#60;iostream.h&#62;<br>
+void main()<br>
+{<br>
+  int i,j,n;<br>
+  char c;<br>
+  clrscr();<br>
+  cout&#60;&#60;"Eneter the no of lines to be printed: ";<br>
+  cin&#62;&#62;n;<br>
+  c=\'A\';<br>
+  for(i=0;i&#60;n;i++)<br>
+   {<br>
+   for(j=0;j&#60;=i;j++)<br>
+   { <br>
+   if(c==\'Z\')<br>
+   break;<br>
+  cout&#60;&#60;c;<br>
+  c++;<br>
+   }<br>
+  cout&#60;&#60;endl;<br>
+  }<br>
+  getch();<br>
+}<br>
+    ]]>
+    </string>
+    <string name="patterns_Print_Alphabet_Pattern_op" formatted="false">
+    <![CDATA[
+Enter the no of lines to be printed: 5<br>
+  <br>
+A<br>
+BC<br>
+DEF<br>
+GHIJ<br>
+KLMNO<br>
+    ]]>
+    </string>
+    <string name="patterns_Print_Number_Series" formatted="false">
+    <![CDATA[
+#include&#60;iostream.h&#62;<br>
+#include&#60;conio.h&#62;<br>
+<br>
+void main()<br>
+{<br>
+int i,n,sum=0;<br>
+clrscr();<br>
+    n=10;<br>
+    for(i=1;i&#60;=n;i++)<br>
+    {<br>
+        sum+=i;<br>
+    }<br>
+    cout&#60;&#60;"Sum: "&#60;&#60;sum;<br>
+getch();<br>
+}<br>
+    ]]>
+    </string>
+    <string name="patterns_Print_Number_Series_op" formatted="false">
+    <![CDATA[
+Output<br>
+Sum: 55<br>
+    ]]>
+    </string>
+    <string name="patterns_Diamond_of_Star" formatted="false">
+    <![CDATA[
+#include&#60;iostream.h&#62;<br>
+#include&#60;conio.h&#62;<br>
+<br>
+void main()<br>
+{<br>
+ int n, c, k, space = 1;<br>
+ clrscr();<br>
+ cout&#60;&#60;"\n\nEnter number of rows: ";<br>
+ cin&#62;&#62;n;<br>
+ space = n - 1;<br>
+<br>
+  for (k = 1; k&#60;=n; k++)<br>
+  {<br>
+    for (c = 1; c&#60;=space; c++)<br>
+      cout&#60;&#60;" ";<br>
+<br>
+    space--;<br>
+<br>
+    for (c = 1; c&#60;= 2*k-1; c++)<br>
+      cout&#60;&#60;"*";<br>
+<br>
+    cout&#60;&#60;"\n";<br>
+  }<br>
+ <br>
+  space = 1;<br>
+ <br>
+  for (k = 1; k&#60;= n - 1; k++)<br>
+  {<br>
+    for (c = 1; c&#60;= space; c++)<br>
+      cout&#60;&#60;" ";<br>
+ <br>
+    space++;<br>
+ <br>
+    for (c = 1 ; c&#60;= 2*(n-k)-1; c++)<br>
+      cout&#60;&#60;"*";<br>
+ <br>
+    cout&#60;&#60;"\n";<br>
+  }<br>
+getch();<br>
+}<br>
+    ]]>
+    </string>
+    <string name="patterns_Diamond_of_Star_op" formatted="false">
+    <![CDATA[
+https://www.sitesbay.com/cpp-program/images/pattern/diamond-of-star-output.png<br>
+    ]]>
+    </string>
+    <string name="patterns_Pascal_Triangle" formatted="false">
+    <![CDATA[
+#include&#60;iostream.h&#62;<br>
+#include&#60;conio.h&#62;<br>
+<br>
+void main()<br>
+{<br>
+int bin,p,q,r,x;<br>
+clrscr();<br>
+bin=1;<br>
+q=0;<br>
+cout&#60;&#60;"\t\t\tDisplay pascal Triangle";<br>
+cout&#60;&#60;"\n\n\t\t     Created By:- Hitesh Kumar";<br>
+cout&#60;&#60;"\n\n\nHow Many Row Do you want to input:";<br>
+cin&#60;&#60;r;<br>
+<br>
+cout&#60;&#60;"\nPascal\'s Triangle:\n";<br>
+<br>
+while(q&#60;r)<br>
+{<br>
+for(p=40-3*q;p&#62;0;--p)<br>
+cout&#60;&#60;" ";<br>
+for(x=0;x&#60;=q;++x)<br>
+{<br>
+if((x==0)||(q==0))<br>
+bin=1;<br>
+else<br>
+bin=(bin*(q-x+1))/x;<br>
+cout&#60;&#60;"      ";<br>
+cout&#60;&#60;bin;<br>
+}<br>
+<br>
+cout&#60;&#60;"\n\n\n";<br>
+++q;<br>
+}<br>
+getch();<br>
+}	<br>
+    ]]>
+    </string>
+    <string name="patterns_Pascal_Triangle_op" formatted="false">
+    <![CDATA[
+https://www.sitesbay.com/program/images/pattern/pascal-triangle.png<br>
+    ]]>
+    </string>
+    <string name="title_activity_favourites">FavouritesActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="title_activity_setFontSize">Set Font Size</string>
+
+
+</resources>

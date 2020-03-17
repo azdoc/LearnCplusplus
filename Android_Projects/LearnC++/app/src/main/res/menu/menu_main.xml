@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_about_us"
+        android:orderInCategory="100"
+        android:title="About Us"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_contact_us"
+        android:orderInCategory="100"
+        android:title="Contact Us"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_report_bug"
+        android:orderInCategory="100"
+        android:title="Report Bug"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_more_apps"
+        android:orderInCategory="100"
+        android:title="More Apps"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_font_size"
+        android:title="Set Font Size"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_settings_black_24dp"/>
+</menu>

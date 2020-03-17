@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:htext="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/tools">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.akexorcist.roundcornerprogressbar.TextRoundCornerProgressBar
+            android:id="@+id/progress_id"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            app:rcReverse="false"
+            android:layout_margin="10dp"/>
+
+
+        <TextView
+            android:id="@+id/txtCurrentScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Score : 0"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/progress_id"/>
+
+        <TextView
+            android:id="@+id/txtLives"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="3 Lives"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/progress_id"/>
+
+
+        <!--<com.hanks.htextview.HTextView
+            android:id="@+id/txtQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtLives"
+            android:layout_margin="10dp"
+            android:gravity="left|start"
+            android:text="Question"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            htext:animateType="typer"
+            />-->
+        <TextView
+            android:id="@+id/txtQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtLives"
+            android:layout_margin="10dp"
+            android:gravity="left|start"
+            android:text="Question"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/linearLayoutAnswers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtQuestion"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/radioGroupAnswers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <RadioButton
+                    android:id="@+id/optionA"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Radio Button"
+                    android:button="@null"
+                    android:background="@drawable/card"
+                    />
+
+                <RadioButton
+                    android:id="@+id/optionB"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Radio Button"
+                    android:button="@null"
+                    android:background="@drawable/card"/>
+
+                <RadioButton
+                    android:id="@+id/optionC"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Radio Button"
+                    android:button="@null"
+                    android:background="@drawable/card"/>
+
+                <RadioButton
+                    android:id="@+id/optionD"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Radio Button"
+                    android:button="@null"
+                    android:background="@drawable/card"
+                    />
+            </RadioGroup>
+            <TextView
+                android:id="@+id/txtExplanation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:id="@+id/txtCorrectOption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:id="@+id/txtCorrectOrNot"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:text="Correct"
+                android:background="@color/green"
+                android:layout_marginTop="10dp"
+                android:drawableRight="@mipmap/ic_check"
+                />
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/llButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:theme="@style/materialButton" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Submit"
+            android:theme="@style/materialButton" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnCancel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:theme="@style/materialButton" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Next"
+            android:theme="@style/materialButton" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
