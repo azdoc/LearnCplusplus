@@ -1,32 +1,21 @@
 package cplusplus.learn.trinity.learnc.activites;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
-import android.text.Editable;
-import android.text.TextWatcher;
-import android.view.GestureDetector;
-import android.view.MotionEvent;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.EditText;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import cplusplus.learn.trinity.learnc.R;
 import cplusplus.learn.trinity.learnc.adapter.ProgramRecyclerItemsAdapter;
-import cplusplus.learn.trinity.learnc.adapter.QuizRecyclerItemsAdapter;
 import cplusplus.learn.trinity.learnc.model.ProgramModel;
 import cplusplus.learn.trinity.learnc.model.TutorialModel;
 import cplusplus.learn.trinity.learnc.utilities.ClickListener;
@@ -70,6 +59,7 @@ public class ProgramListActivity extends CommonActivity {
                 TutorialModel tutorialModel = new TutorialModel();
                 tutorialModel.setResource(programsList.get(position).getProgram());
                 tutorialModel.setTopic(programsList.get(position).getTitle());
+                tutorialModel.setToolBarTitle("Programs");
                 intent.putExtra("tutorial", tutorialModel);
                 startActivity(intent);
             }

@@ -13,6 +13,7 @@ public class TutorialModel implements Serializable {
     private Boolean isList,testAvailable;
     private List<TutorialModel> options;
     private int resource;
+    private String toolBarTitle;
 
     public TutorialModel(){}
 
@@ -52,13 +53,22 @@ public class TutorialModel implements Serializable {
         return resource;
     }
 
-    public TutorialModel(String id, String topic, Boolean isList, List<TutorialModel> options, int resource,Boolean testAvailable) {
+    public String getToolBarTitle() {
+        return toolBarTitle;
+    }
+
+    public void setToolBarTitle(String toolBarTitle) {
+        this.toolBarTitle = toolBarTitle;
+    }
+
+    public TutorialModel(String id, String topic, Boolean isList, List<TutorialModel> options, int resource, Boolean testAvailable, String toolBarTitle) {
         this.id = id;
         this.topic = topic;
         this.isList = isList;
         this.options = options;
         this.resource = resource;
         this.testAvailable=testAvailable;
+        this.toolBarTitle = toolBarTitle;
     }
 
     public Boolean getTestAvailable() {

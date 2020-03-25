@@ -1,10 +1,7 @@
 package cplusplus.learn.trinity.learnc.fragments.favoutites;
 
-import android.content.DialogInterface;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -17,14 +14,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import cplusplus.learn.trinity.learnc.R;
-import cplusplus.learn.trinity.learnc.activites.TutorialDispalyActivity;
 import cplusplus.learn.trinity.learnc.adapter.FrequentQuestionsRecyclerItemsAdapter;
-import cplusplus.learn.trinity.learnc.adapter.TutorialRecyclerItemsAdapter;
 import cplusplus.learn.trinity.learnc.db.DatabaseAccess;
-import cplusplus.learn.trinity.learnc.model.TutorialModel;
 import cplusplus.learn.trinity.learnc.model.interviewFaqModel;
-import cplusplus.learn.trinity.learnc.utilities.ClickListener;
-import cplusplus.learn.trinity.learnc.utilities.RecyclerTouchListener;
 
 
 public class FavInterviewQuesFragment extends Fragment {

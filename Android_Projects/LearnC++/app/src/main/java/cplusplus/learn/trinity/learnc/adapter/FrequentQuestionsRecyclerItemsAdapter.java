@@ -16,9 +16,7 @@ import net.cachapa.expandablelayout.ExpandableLayout;
 import java.util.List;
 
 import cplusplus.learn.trinity.learnc.R;
-import cplusplus.learn.trinity.learnc.activites.InterviewQuestionsActivity;
 import cplusplus.learn.trinity.learnc.db.DatabaseAccess;
-import cplusplus.learn.trinity.learnc.fragments.favoutites.FavFaqsFragment;
 import cplusplus.learn.trinity.learnc.model.interviewFaqModel;
 
 

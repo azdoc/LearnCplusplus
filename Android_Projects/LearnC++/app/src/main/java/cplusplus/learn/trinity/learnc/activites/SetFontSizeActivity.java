@@ -12,7 +12,6 @@ import android.widget.Toast;
 import org.adw.library.widgets.discreteseekbar.DiscreteSeekBar;
 
 import cplusplus.learn.trinity.learnc.R;
-import cplusplus.learn.trinity.learnc.utilities.CommonActivity;
 
 public class SetFontSizeActivity extends AppCompatActivity {
     DiscreteSeekBar discreteSeekBar;

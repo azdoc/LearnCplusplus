@@ -5,16 +5,11 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
-import android.view.GestureDetector;
-import android.view.MotionEvent;
 import android.view.View;
 
 import java.util.ArrayList;
@@ -22,9 +17,7 @@ import java.util.List;
 
 import cplusplus.learn.trinity.learnc.R;
 import cplusplus.learn.trinity.learnc.adapter.QuizRecyclerItemsAdapter;
-import cplusplus.learn.trinity.learnc.adapter.RecyclerItemsAdapter;
 import cplusplus.learn.trinity.learnc.model.QuizRecyclerItems;
-import cplusplus.learn.trinity.learnc.model.RecyclerItems;
 import cplusplus.learn.trinity.learnc.utilities.ClickListener;
 import cplusplus.learn.trinity.learnc.utilities.CommonActivity;
 import cplusplus.learn.trinity.learnc.utilities.RecyclerTouchListener;

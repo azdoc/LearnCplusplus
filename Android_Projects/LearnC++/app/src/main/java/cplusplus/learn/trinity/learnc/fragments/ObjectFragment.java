@@ -106,47 +106,47 @@ public class ObjectFragment extends Fragment {
 
     public List<TutorialModel> createTutorials(){
 
+        final String toolBarTitle = "Tutorials";
+
         ArrayList<TutorialModel> classesList=new ArrayList<>();
-        classesList.add(new TutorialModel("1","Classes",false,null,R.string.tutorial_object_classes,false));
-        classesList.add(new TutorialModel("2","Objects",false,null,R.string.tutorial_object_objects,false));
-        classesList.add(new TutorialModel("3","Access Controllers",false,null,R.string.tutorial_object_access_control,false));
-        classesList.add(new TutorialModel("4","Defining Class & declaring objects",false,null,R.string.tutorial_object_declaring_class,false));
-        classesList.add(new TutorialModel("5","Accessing data members ",false,null,R.string.tutorial_object_data_members,false));
+        classesList.add(new TutorialModel("1","Classes",false,null,R.string.tutorial_object_classes,false,toolBarTitle));
+        classesList.add(new TutorialModel("2","Objects",false,null,R.string.tutorial_object_objects,false,toolBarTitle));
+        classesList.add(new TutorialModel("3","Access Controllers",false,null,R.string.tutorial_object_access_control,false,toolBarTitle));
+        classesList.add(new TutorialModel("4","Defining Class & declaring objects",false,null,R.string.tutorial_object_declaring_class,false,toolBarTitle));
+        classesList.add(new TutorialModel("5","Accessing data members ",false,null,R.string.tutorial_object_data_members,false,toolBarTitle));
 
         ArrayList<TutorialModel> memberList=new ArrayList<>();
-        memberList.add(new TutorialModel("1","What are member functions?",false,null,R.string.tutorial_object_member_functions,false));
-        memberList.add(new TutorialModel("2","Types of member functions",false,null,R.string.tutorial_object_types_members_function,false));
+        memberList.add(new TutorialModel("1","What are member functions?",false,null,R.string.tutorial_object_member_functions,false,toolBarTitle));
+        memberList.add(new TutorialModel("2","Types of member functions",false,null,R.string.tutorial_object_types_members_function,false,toolBarTitle));
 
         ArrayList<TutorialModel> inlineList=new ArrayList<>();
-        inlineList.add(new TutorialModel("1","Inline functions in c++ and drawbacks of macro",false,null,R.string.tutorial_object_inline_functions,false));
-        inlineList.add(new TutorialModel("2","Limitations of Inline functions",false,null,R.string.tutorial_object_limitation_inline,false));
+        inlineList.add(new TutorialModel("1","Inline functions in c++ and drawbacks of macro",false,null,R.string.tutorial_object_inline_functions,false,toolBarTitle));
+        inlineList.add(new TutorialModel("2","Limitations of Inline functions",false,null,R.string.tutorial_object_limitation_inline,false,toolBarTitle));
 
         ArrayList<TutorialModel> inheritanceList=new ArrayList<>();
-        inheritanceList.add(new TutorialModel("1","Basics of Inheritance",false,null,R.string.tutorial_object_inheritance_basic,false));
-        inheritanceList.add(new TutorialModel("2","Types of Inheritance",false,null,R.string.tutorial_object_types_inheritance,false));
+        inheritanceList.add(new TutorialModel("1","Basics of Inheritance",false,null,R.string.tutorial_object_inheritance_basic,false,toolBarTitle));
+        inheritanceList.add(new TutorialModel("2","Types of Inheritance",false,null,R.string.tutorial_object_types_inheritance,false,toolBarTitle));
 
         ArrayList<TutorialModel> consList=new ArrayList<>();
-        consList.add(new TutorialModel("1","What are Constructors?",false,null,R.string.tutorial_object_constructors,false));
-        consList.add(new TutorialModel("2","Type of Constructors",false,null,R.string.tutorial_object_types_constructors,false));
-        consList.add(new TutorialModel("3","Constructors Overloading",false,null,R.string.tutorial_object_constructors_overloading,false));
-        consList.add(new TutorialModel("4","What are  Destructors?",false,null,R.string.tutorial_object_desctructors,false));
-
+        consList.add(new TutorialModel("1","What are Constructors?",false,null,R.string.tutorial_object_constructors,false,toolBarTitle));
+        consList.add(new TutorialModel("2","Type of Constructors",false,null,R.string.tutorial_object_types_constructors,false,toolBarTitle));
+        consList.add(new TutorialModel("3","Constructors Overloading",false,null,R.string.tutorial_object_constructors_overloading,false,toolBarTitle));
+        consList.add(new TutorialModel("4","What are  Destructors?",false,null,R.string.tutorial_object_desctructors,false,toolBarTitle));
 
         ArrayList<TutorialModel> listTutorials = new ArrayList<TutorialModel>() ;
-        listTutorials.add(new TutorialModel("1","OOPS Concept Basic",false,null,R.string.tutorial_object_concept,false));
-        listTutorials.add(new TutorialModel("2","Classes and objects",true,classesList,0,false));
-        listTutorials.add(new TutorialModel("3","Member functions",true,memberList,0,false));
-        listTutorials.add(new TutorialModel("4","Inline functions",true,inlineList,0,false));
-        listTutorials.add(new TutorialModel("5","Inheritance",true,inheritanceList,0,false));
-        listTutorials.add(new TutorialModel("5","Function Overloading",false,null,R.string.tutorial_object_fun_overloading,false));
-        listTutorials.add(new TutorialModel("5","Function Overriding",false,null,R.string.tutorial_object_fun_overriding,false));
-        listTutorials.add(new TutorialModel("6","Constructors &\n Destructors",true,consList,0,false));
-        listTutorials.add(new TutorialModel("7","Namespace",false,null,R.string.tutorial_object_namespace,false));
-        listTutorials.add(new TutorialModel("8","Static Keyword",false,null,R.string.tutorial_object_static,false));
-        listTutorials.add(new TutorialModel("9","Constant Keyword",false,null,R.string.tutorial_object_conts,false));
-        listTutorials.add(new TutorialModel("10","Mutable Keyword",false,null,R.string.tutorial_object_mutuable,false));
-        listTutorials.add(new TutorialModel("11","Copy Constructor",false,null,R.string.tutorial_object_copy,false));
-
+        listTutorials.add(new TutorialModel("1","OOPS Concept Basic",false,null,R.string.tutorial_object_concept,false,toolBarTitle));
+        listTutorials.add(new TutorialModel("2","Classes and objects",true,classesList,0,false,toolBarTitle));
+        listTutorials.add(new TutorialModel("3","Member functions",true,memberList,0,false,toolBarTitle));
+        listTutorials.add(new TutorialModel("4","Inline functions",true,inlineList,0,false,toolBarTitle));
+        listTutorials.add(new TutorialModel("5","Inheritance",true,inheritanceList,0,false,toolBarTitle));
+        listTutorials.add(new TutorialModel("5","Function Overloading",false,null,R.string.tutorial_object_fun_overloading,false,toolBarTitle));
+        listTutorials.add(new TutorialModel("5","Function Overriding",false,null,R.string.tutorial_object_fun_overriding,false,toolBarTitle));
+        listTutorials.add(new TutorialModel("6","Constructors &\n Destructors",true,consList,0,false,toolBarTitle));
+        listTutorials.add(new TutorialModel("7","Namespace",false,null,R.string.tutorial_object_namespace,false,toolBarTitle));
+        listTutorials.add(new TutorialModel("8","Static Keyword",false,null,R.string.tutorial_object_static,false,toolBarTitle));
+        listTutorials.add(new TutorialModel("9","Constant Keyword",false,null,R.string.tutorial_object_conts,false,toolBarTitle));
+        listTutorials.add(new TutorialModel("10","Mutable Keyword",false,null,R.string.tutorial_object_mutuable,false,toolBarTitle));
+        listTutorials.add(new TutorialModel("11","Copy Constructor",false,null,R.string.tutorial_object_copy,false,toolBarTitle));
 
         return listTutorials;
     }

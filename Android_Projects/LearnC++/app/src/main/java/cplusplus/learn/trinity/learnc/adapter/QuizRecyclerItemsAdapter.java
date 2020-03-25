@@ -12,7 +12,6 @@ import java.util.List;
 
 import cplusplus.learn.trinity.learnc.R;
 import cplusplus.learn.trinity.learnc.model.QuizRecyclerItems;
-import cplusplus.learn.trinity.learnc.model.RecyclerItems;
 
 
 public class QuizRecyclerItemsAdapter extends RecyclerView.Adapter<QuizRecyclerItemsAdapter.MyViewHolder> {

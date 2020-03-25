@@ -103,17 +103,19 @@ public class AdvanceFragment extends Fragment {
 
     public List<TutorialModel> createTutorials(){
 
+        final String toolBarTitle = "Tutorials";
+
         ArrayList<TutorialModel> listTutorials = new ArrayList<TutorialModel>() ;
-        listTutorials.add(new TutorialModel("1","Pointers",false,null,R.string.tutorial_advance_pointers,false));
-        listTutorials.add(new TutorialModel("2","References",false,null,R.string.tutorial_advance_references,false));
-        listTutorials.add(new TutorialModel("3","Exception Handling",false,null,R.string.tutorial_advance_exception,false));
-        listTutorials.add(new TutorialModel("4","File & Stream",false,null,R.string.tutorial_advance_file,false));
-        listTutorials.add(new TutorialModel("5","Virtual Function",false,null,R.string.tutorial_advance_virtual,false));
-        listTutorials.add(new TutorialModel("6","Abstract class",false,null,R.string.tutorial_advance_abstract_class,false));
-        listTutorials.add(new TutorialModel("7","Virtual Destructor",false,null,R.string.tutorial_advance_virtual_desc,false));
-        listTutorials.add(new TutorialModel("8","Upcasting",false,null,R.string.tutorial_advance_upcasting,false));
-        listTutorials.add(new TutorialModel("9","Multithreading",false,null,R.string.tutorial_advance_multithreadding,false));
-        listTutorials.add(new TutorialModel("10","Dynamic Memory",false,null,R.string.tutorial_advance_dynamic_memory,false));
+        listTutorials.add(new TutorialModel("1","Pointers",false,null,R.string.tutorial_advance_pointers,false,toolBarTitle));
+        listTutorials.add(new TutorialModel("2","References",false,null,R.string.tutorial_advance_references,false,toolBarTitle));
+        listTutorials.add(new TutorialModel("3","Exception Handling",false,null,R.string.tutorial_advance_exception,false,toolBarTitle));
+        listTutorials.add(new TutorialModel("4","File & Stream",false,null,R.string.tutorial_advance_file,false,toolBarTitle));
+        listTutorials.add(new TutorialModel("5","Virtual Function",false,null,R.string.tutorial_advance_virtual,false,toolBarTitle));
+        listTutorials.add(new TutorialModel("6","Abstract class",false,null,R.string.tutorial_advance_abstract_class,false,toolBarTitle));
+        listTutorials.add(new TutorialModel("7","Virtual Destructor",false,null,R.string.tutorial_advance_virtual_desc,false,toolBarTitle));
+        listTutorials.add(new TutorialModel("8","Upcasting",false,null,R.string.tutorial_advance_upcasting,false,toolBarTitle));
+        listTutorials.add(new TutorialModel("9","Multithreading",false,null,R.string.tutorial_advance_multithreadding,false,toolBarTitle));
+        listTutorials.add(new TutorialModel("10","Dynamic Memory",false,null,R.string.tutorial_advance_dynamic_memory,false,toolBarTitle));
 
         return listTutorials;
     }

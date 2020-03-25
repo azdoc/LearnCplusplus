@@ -1,28 +1,17 @@
 package cplusplus.learn.trinity.learnc.utilities;
 
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
-import java.util.List;
-
 import cplusplus.learn.trinity.learnc.R;
 import cplusplus.learn.trinity.learnc.activites.FavouritesActivity;
-import cplusplus.learn.trinity.learnc.activites.HomeActivity;
 import cplusplus.learn.trinity.learnc.activites.SetFontSizeActivity;
-import cplusplus.learn.trinity.learnc.activites.TutorialDispalyActivity;
-import cplusplus.learn.trinity.learnc.activites.TutorialsHomeActivity;
-import cplusplus.learn.trinity.learnc.model.TutorialModel;
-
-import static java.security.AccessController.getContext;
 
 public class CommonActivity extends AppCompatActivity {
     private static Context mContext;

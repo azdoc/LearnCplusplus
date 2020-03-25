@@ -21,7 +21,7 @@ import cplusplus.learn.trinity.learnc.utilities.CommonActivity;
 
 public class TutorialDispalyActivity extends CommonActivity {
 
-    WebView webViewDesccription;
+    WebView webViewDescription;
     TextView textViewTitle;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,17 +29,19 @@ public class TutorialDispalyActivity extends CommonActivity {
         setContentView(R.layout.activity_tutorial_dispaly);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         TutorialModel tutorialModel =(TutorialModel) getIntent().getSerializableExtra("tutorial");
-        webViewDesccription=(WebView) findViewById(R.id.webView);
+        webViewDescription=(WebView) findViewById(R.id.webView);
         textViewTitle=(TextView)findViewById(R.id.title) ;
-        webViewDesccription.loadDataWithBaseURL(null, getString(tutorialModel.getResource()), "text/html", "utf-8", null);
-        webViewDesccription.setScrollContainer(false);
+        webViewDescription.loadDataWithBaseURL(null, getString(tutorialModel.getResource()), "text/html", "utf-8", null);
+        webViewDescription.setScrollContainer(false);
         textViewTitle.setText(tutorialModel.getTopic());
+        getSupportActionBar().setTitle(tutorialModel.getToolBarTitle());
 
         SharedPreferences sharedPreferences=getSharedPreferences("SetFontSize", Context.MODE_PRIVATE);
         int fontsize= sharedPreferences.getInt("Fontsize",15);
-        final WebSettings webSettings = webViewDesccription.getSettings();
+        final WebSettings webSettings = webViewDescription.getSettings();
         webSettings.setDefaultFontSize(fontsize);
 
 

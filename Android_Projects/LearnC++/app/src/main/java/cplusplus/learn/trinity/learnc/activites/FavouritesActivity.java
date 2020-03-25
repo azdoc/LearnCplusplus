@@ -1,8 +1,6 @@
 package cplusplus.learn.trinity.learnc.activites;
 
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -20,9 +18,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import cplusplus.learn.trinity.learnc.R;
-import cplusplus.learn.trinity.learnc.fragments.AdvanceFragment;
-import cplusplus.learn.trinity.learnc.fragments.BasicFragment;
-import cplusplus.learn.trinity.learnc.fragments.ObjectFragment;
 import cplusplus.learn.trinity.learnc.fragments.favoutites.FavFaqsFragment;
 import cplusplus.learn.trinity.learnc.fragments.favoutites.FavInterviewQuesFragment;
 import cplusplus.learn.trinity.learnc.utilities.CommonActivity;

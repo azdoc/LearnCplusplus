@@ -22,7 +22,6 @@ import android.widget.Toast;
 
 import com.akexorcist.roundcornerprogressbar.TextRoundCornerProgressBar;
 
-import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Random;
 
