@@ -70,7 +70,7 @@ public class ProgramListActivity extends CommonActivity {
             }
         }));
 
-        EditText inputSearch = (EditText) findViewById(R.id.inputSearch);
+        //EditText inputSearch = (EditText) findViewById(R.id.inputSearch);
 
 
     }
@@ -151,7 +151,7 @@ public class ProgramListActivity extends CommonActivity {
         patternsList.add(new ProgramModel("Diamond of Star", R.string.patterns_Diamond_of_Star, R.string.patterns_Diamond_of_Star_op));
         patternsList.add(new ProgramModel("Pascal Triangle", R.string.patterns_Pascal_Triangle, R.string.patterns_Pascal_Triangle_op));
 
-        Map<String, List> masterMap = new HashMap<String, List>();
+        Map<String, ArrayList<ProgramModel>> masterMap = new HashMap<>();
         masterMap.put("Basics", basicsList);
         masterMap.put("String Operations", stringsList);
         masterMap.put("Conversion", conversionList);
