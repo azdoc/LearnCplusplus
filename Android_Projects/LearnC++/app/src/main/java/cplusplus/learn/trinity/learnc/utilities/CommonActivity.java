@@ -2,6 +2,7 @@ package cplusplus.learn.trinity.learnc.utilities;
 
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
@@ -10,6 +11,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import cplusplus.learn.trinity.learnc.R;
+import cplusplus.learn.trinity.learnc.activites.AboutUs;
 import cplusplus.learn.trinity.learnc.activites.FavouritesActivity;
 import cplusplus.learn.trinity.learnc.activites.SetFontSizeActivity;
 
@@ -36,10 +38,47 @@ public class CommonActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_about_us) {
+        if (id == R.id.action_report_bug) {
+            String emailaddress="triotales.developers@gmail.com";
+            String message="Hi Team,";
+            try {
+                Intent emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.parse("mailto:"));
+                emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{emailaddress});
+                emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Reporting Bug in app");
+                emailIntent.putExtra(Intent.EXTRA_TEXT   , message);
+                emailIntent.setType("text/plain");
+                startActivity(emailIntent);
+            }
+            catch (Exception e)
+            {e.printStackTrace();}
+
             return true;
         }
-        else if(id==R.id.action_font_size){
+        else if (id==R.id.action_contact_us)
+        {
+            String emailaddress="triotales.developers@gmail.com";
+            String message="Hi Team,";
+            try {
+                Intent emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.parse("mailto:"));
+                emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{emailaddress});
+                emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Request/suggestion/feedback");
+                emailIntent.putExtra(Intent.EXTRA_TEXT   , message);
+                emailIntent.setType("text/plain");
+                startActivity(emailIntent);
+            }
+            catch (Exception e)
+            {e.printStackTrace();}
+
+            return true;
+        }
+        else if(id==R.id.action_about_us)
+        {
+            Intent intent = new Intent(getBaseContext(), AboutUs.class);
+            startActivity(intent);
+            return true;
+        }
+        else if(id==R.id.action_font_size)
+        {
             Intent intent = new Intent(getBaseContext(), SetFontSizeActivity.class);
             startActivity(intent);
             return true;
